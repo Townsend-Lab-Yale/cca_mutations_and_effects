@@ -1,0 +1,1 @@
+ICGC_patient_info.tsv.gz contains ICGC patient data downloaded from UCSC Xena (https://xenabrowser.net; as the open-access ICGC/PCAWG site has been decommissioned as of 2024). The data was acquired by selecting the "donor-centric" ICGC data set in Xena and selecting the following features for download: donor_age_at_diagnosis, donor_sex, donor_vital_status, donor_survival_time.

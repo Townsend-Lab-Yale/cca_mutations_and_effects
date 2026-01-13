@@ -1,0 +1,417 @@
+#Patient Identifier	Diagnosis Age	Sex	BMI	Diabetes Status	Chronic viral hepatitis	Hepatitis B	Hepatitis C	Cirrhosis	PSC	Smoking Status	HAIC	Tumor Grade	Treatment Group	ECOG BIN	CA19 High	CA19	DZ Extent	Overall Survival (Months)	Overall Survival Status	Systemic Chemotherapy	Neoadjuvant Chemotherapy	Adjuvant Chemotherapy	Tumor Size	LVI	PNI	Positive Margin	Steatosis	PD INF	Duct Type	Positive Lymoh Node	RFS Months	RFS Status	OS Months from RX
+#Identifier to uniquely specify a patient.	Age at which a condition or disease was first diagnosed.	Sex	Body Mass Index	Diabetes Status	History of chronic viral hepatitis	Hepatitis B	Hepatitis C	Cirrhosis.	History of primary sclerosing cholangitis	Smoking Status	HAIC	Histologic grading criteria of Tumors	Treatment Group	ECOG BIN	CA19 High	CA19	DZ Extent	Overall survival in months since initial diagnosis.	Overall patient survival status.	Systemic Chemotherapy	Neoadjuvant Chemotherapy	Adjuvant Chemotherapy	Tumor Size	LVI	PNI	Positive Margin	Steatosis	PD INF	Duct Type	Positive Lymoh Node	RFS Months	RFS Status	OS Months from RX
+#STRING	NUMBER	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	NUMBER	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	NUMBER
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	AGE	SEX	BMI	DIABETES_STATUS	CHRONIC_HEPATITIS_ANY_TYPE	HEP_B	HEP_C	CIRRHOSIS	CLIN_PSC	SMOKING_STATUS	HAIC	TUMOR_GRADE	TREATMENT_GROUP	ECOG_BIN	CA19_HIGH	CA19	DZ_EXTENT	OS_MONTHS	OS_STATUS	SYSTEMIC_CHEMO	NEOADJ_CHEMO	ADJUVANT_CHEMO	TUMOR_SIZE	LVI	PNI	POSITIVE_MARGIN	STEATOSIS	PD_INF	DUCT_TYPE	POSITIVE_LYMPH_NODE	RFS_MONTHS	RFS_STATUS	OS_MONTHS_FROM_RX
+P-0000114	57.73737816	Female	19.8	0	0	0	0	0	0	Never smoked	1	Poorly differentiated	Resected	1	0	18	Metastatic disease	15.83616252	1:DECEASED	1	1	1	5	No	0	0	1	0	Small bile duct type	1	0.985653269	1:RELAPSED	3.416931333
+P-0000147	40.28310152	Female	23.1	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Resected	0			Solitary liver tumor	72.47837039	1:DECEASED	1	0	1	5	No	1	0	0	0	Small bile duct type	0	24.11564998	1:RELAPSED	71.32844157
+P-0000298	56.36293944	Male	23.4	0	1	1	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	0	40	Solitary liver tumor	60.97908225	1:DECEASED	1	0	1	13.5	Yes	1	0	0	0	Small bile duct type	0	49.67692476	1:RELAPSED	59.96057387
+P-0000328	72.48384624	Male	22.5	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	0	0		Solitary liver tumor	86.37608148	0:LIVING	1	0	1	5	Yes	1	0	0		Large bile duct type	0	9.856532691	1:RELAPSED	85.25900778
+P-0000362	69.26130763	Female	24.5	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Resected	0	1	9686	Metastatic disease	13.63487022	1:DECEASED	1	1	1	12	Yes	0	0	0	0	Small bile duct type	1	3.154090461	1:RELAPSED	9.593691819
+P-0000402	67.21060125	Female	29.7	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Resected	0	1	53902	Metastatic disease	29.60245318	1:DECEASED	1	0	1	13.5	Yes	0	1	0	1	Small bile duct type	1	0.887087942	1:RELAPSED	28.84678568
+P-0000637	36.12966816	Female	28.7	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	0	9	Solitary liver tumor	59.13919615	0:LIVING	1	0	1	8	No	0	0	0	0	Small bile duct type	0	58.05497755	0:NOTRELAPSED	58.05497755
+P-0000643	65.38988063	Female	21.4	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	23	Solitary liver tumor	67.41868361	0:LIVING	1	0	1	8.6	No	0	0	0	0	Small bile duct type	0	65.9402037	0:NOTRELAPSED	65.9402037
+P-0001359	57.71547476	Female	24.7	0	0	0	0	0	0	Never smoked	0	Well differentiated	Resected	0	1	67	Solitary liver tumor	45.27434016	1:DECEASED	0	0	0	5.5	Yes	0	0	1	0	Small bile duct type	0	10.94075129	1:RELAPSED	43.53301938
+P-0001858	44.69116198	Female	31.6	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	1	0	20	Solitary liver tumor	81.80922133	1:DECEASED	0	0	0	4	No	0	0	1	0	Indeterminate	0	31.90231081	1:RELAPSED	79.24652283
+P-0002059	64.9408608	Male	28.1	0	0	0	0	0	1	Current smoker	0	Moderately differentiated	Resected	0	1	8452	Solitary liver tumor	64.75741978	1:DECEASED	0	0	0	9	No	0	0	1	0	Large bile duct type	0	12.8134925	1:RELAPSED	41.16745154
+P-0002143	58.58887307	Female	30	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0			Multifocal liver disease	47.2456467	1:DECEASED	0	0	0	6.9	Yes	1	0	1	0	Small bile duct type	0	0.591391961	1:RELAPSED	46.32570365
+P-0002906	67.92793779	Female	25.7	0	1	0	1	0	0	Current smoker	0	Poorly differentiated	Resected	1	1	44	Solitary liver tumor	13.56916	1:DECEASED	0	0	0	7	Yes	0	0	0	0	Small bile duct type	0	6.012484941	1:RELAPSED	12.18924543
+P-0002937	52.69138101	Male	23	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	0	21	Metastatic disease	13.96342131	1:DECEASED	1	0	1	6.5	Yes	0	0	0	0	Small bile duct type	1	7.3266893	1:RELAPSED	13.07633337
+P-0003160	46.46807579	Female	23.3	0	1	1	0	0	0	Never smoked	0	Poorly differentiated	Resected	0	0	8	Solitary liver tumor	33.87361735	0:LIVING	0	0	0	10.8	Yes	0	0	0	0	Indeterminate	0	7.819515935	1:RELAPSED	31.21235352
+P-0003177	61.90176322	Female	30	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected				Metastatic disease	44.38725222	1:DECEASED	1	1	1	5.6	Yes	1	1	0		Small bile duct type	1	10.44792465	1:RELAPSED	38.63760815
+P-0003187	50.62424707	Male	30.5	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Resected	0	1	32624	Metastatic disease	38.34191217	1:DECEASED	1	1	0	10.5	No	0	0	1	1	Small bile duct type	1	13.37202935	1:RELAPSED	31.40948417
+P-0003590	72.39623261	Male	22.4	0	0	0	0	0	0	Current smoker	0	Moderately differentiated	Resected	0			Solitary liver tumor	65.2173913	1:DECEASED	1	0	1	7.5	Yes	1	0	1	1	Small bile duct type	0	12.97776804	1:RELAPSED	63.80462162
+P-0003795	61.11597853	Female	29.3	1	0	0	0	0	0	Current smoker	0	Poorly differentiated	Resected	0			Multifocal liver disease	26.7440587	1:DECEASED	0	0	0	5.5	Yes	0	0	1	1	Small bile duct type	0	9.429416274	1:RELAPSED	20.00876136
+P-0004080	71.91435768	Male	28.4	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	1	53	Solitary liver tumor	58.58065929	1:DECEASED	0	0	0	7.8	No	0	0	1	0	Small bile duct type	0	9.330850947	1:RELAPSED	56.70791808
+P-0005161	51.39634213	Female	20.2	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1			Solitary liver tumor	33.80790713	1:DECEASED	1	0	1	10.5	Yes	1	1	0	0	Small bile duct type	0	4.074033512	1:RELAPSED	26.57978316
+P-0005561	48.49687876	Female	25	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0			Metastatic disease	41.26601687	1:DECEASED	1	0	1	9.5	Yes		0	0			1	11.46643303	1:RELAPSED	40.11608805
+P-0006244	63.40762239	Female	22.1	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	1			Solitary liver tumor	27.43401599	1:DECEASED	1	0	1	10.8	Yes		0	0		Small bile duct type	0	14.09484175	1:RELAPSED	26.94118935
+P-0006553	77.14927171	Female	25.3	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	1	291	Multifocal liver disease	44.97864418	1:DECEASED	0	0	0	10.8	Yes	1	0	1	0	Large bile duct type	0	26.90833425	1:RELAPSED	43.86157047
+P-0007023	52.59829153	Female	54.7	1	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	1			Multifocal liver disease	29.99671449	1:DECEASED	1	0	1	6.1	Yes	1	0	1		Large bile duct type	0	13.07633337	1:RELAPSED	26.61263827
+P-0007107	46.09845581	Female	29.9	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Resected	1	1	662	Metastatic disease	55.98510568	0:LIVING	1	1	0	6.5	No	0	0	0		Small bile duct type	1	20.46873289	1:RELAPSED	36.00919943
+P-0007213	76.65644508	Female	19.8	0	0	0	0		0	Former smoker	0	Poorly differentiated	Resected	1			Metastatic disease	12.25495565	1:DECEASED	0	0	0	10	Yes	1	0			Large bile duct type	1	2.85839448	1:RELAPSED	10.44792465
+P-0007275	78.37312452	Male	28.2	0	0	0	0		0	Never smoked	0	Moderately differentiated	Resected	0			Solitary liver tumor	54.07950936	1:DECEASED	0	0	0	1.1	No	0	1		0	Large bile duct type	0	2.5626985	1:RELAPSED	48.78983682
+P-0007782	78.98094404	Female	26.8	1	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	1	0	12	Metastatic disease	32.65797832	1:DECEASED	1	0	1	6.1	Yes	0	0	0	0	Small bile duct type	1	8.27948746	1:RELAPSED	27.13832001
+P-0009191	72.53860475	Female	27.7	0	0	0	0		0	Former smoker	0	Moderately differentiated	Resected	1			Solitary liver tumor	17.80746906	1:DECEASED	0	0	0	3.6	Yes	0	1		1	Large bile duct type	0	2.85839448	1:RELAPSED	16.0990034
+P-0009512	54.58876355	Female	21.3	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0			Solitary liver tumor	46.71996495	0:LIVING	0	0	0	6	No	0	0	0	0	Small bile duct type	0	45.73431169	0:NOTRELAPSED	45.73431169
+P-0009513	71.44891031	Male	36.3	0	0	0	0	1	0	Former smoker	0	Moderately differentiated	Resected	0			Solitary liver tumor	84.89760158	1:DECEASED	0	0	0	2.5	Yes	0	0	1	0	Small bile duct type	0	44.91293396	1:RELAPSED	84.6019056
+P-0009596	71.28463476	Female	20.3	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	0	4.4	Metastatic disease	56.11652612	0:LIVING	1	0	1	3.3	Yes	0	0	0	0	Small bile duct type	1	52.04249261	0:NOTRELAPSED	52.04249261
+P-0009961	73.17380353	Female	28.5	0	0	0	0	0	0	Current smoker	0	Poorly differentiated	Resected	1	0	34	Metastatic disease	10.02080824	1:DECEASED	0	0	0	3.8	Yes	1	0	1	0	Small bile duct type	1	3.942613076	1:RELAPSED	9.330850947
+P-0010761	54.75851495	Male	26.9	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	538	Metastatic disease	57.26645493	1:DECEASED	1	1		6.5	Yes	1	0	0	0	Small bile duct type	1	31.31091885	1:RELAPSED	31.31091885
+P-0011104	53.93987515	Female	19.2	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	1			Multifocal liver disease	56.28080166	0:LIVING	1	0	1	6	No	0	0	0	0	Small bile duct type	0	52.40389881	1:RELAPSED	55.85368525
+P-0011240	49.87131749	Male	22.8	0	0	0	0		0	Never smoked	0	Poorly differentiated	Resected	1	1	6017	Metastatic disease	47.14708137	0:LIVING	1	0	1	7.3	Yes	1	0			Large bile duct type	1	3.975468185	1:RELAPSED	46.68710985
+P-0011516	53.1157595	Female	21.6	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	1	0	37	Metastatic disease	46.81853028	1:DECEASED	1	1	1	5.8	No	1	0	0		Small bile duct type	1	3.679772205	1:RELAPSED	38.63760815
+P-0013241	63.62939437	Male	23.6	0	0	0	0		0	Former smoker	0	Moderately differentiated	Resected	1			Solitary liver tumor	73.03690724	0:LIVING	1	0	1	7	Yes	1	0			Indeterminate	0	72.21552951	0:NOTRELAPSED	72.21552951
+P-0014261	76.77965174	Female	25.2	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	1			Metastatic disease	32.46084766	1:DECEASED	0	0	0	8.5	Yes	0	0	0		Small bile duct type	1	17.80746906	1:RELAPSED	29.70101851
+P-0015686	73.31069981	Male	28.1	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0			Solitary liver tumor	37.75052021	0:LIVING	0	0	0	4.5	No	0	0	0	0	Small bile duct type	0	6.866717775	1:RELAPSED	35.68064834
+P-0015942	68.4809988	Male	31.7	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	19	Multifocal liver disease	10.02080824	0:LIVING	0	0	0	8.5	No	0	1	0		Small bile duct type	0	6.505311576	1:RELAPSED	8.180922133
+P-0016599	83.36710108	Female	21.1	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	1	161	Solitary liver tumor	32.85510897	0:LIVING	0	0	0	7.7	Yes	0	0	0	1	Small bile duct type	0	21.78293725	1:RELAPSED	29.93100427
+P-0016712	36.09955098	Female	23.7	0	0	0	0	0	1	Never smoked	0	Moderately differentiated	Resected	1	1	4575	Metastatic disease	37.68480999	0:LIVING	1	1	1	8	Yes		0	0			1	19.74592049	1:RELAPSED	31.27806374
+P-0016805	41.58635418	Female	35.5	0	0	0	0		0	Former smoker	0	Moderately differentiated	Resected	0			Metastatic disease	28.41966926	1:DECEASED	1	1	0	5	Yes	1	0			Small bile duct type	1	3.51549666	1:RELAPSED	15.96758296
+P-0017511	50.22998576	Female	21.4	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected				Solitary liver tumor	29.33961231	1:DECEASED	1	0	1	12.5	Yes	0	0	0	1	Small bile duct type	0	12.02496988	1:RELAPSED	28.97820611
+P-0018664	49.99452415	Male	20.8	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	6.3	Metastatic disease	12.15639032	1:DECEASED	1	0	1	12.4	Yes	0	0	0	0	Small bile duct type	1	9.23228562	1:RELAPSED	11.56499836
+P-0019665	64.51374439	Female	35	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	1			Solitary liver tumor	42.21881503	0:LIVING	0	0	0	1.8	No	0	0	1	0	Small bile duct type	0	40.57605958	0:NOTRELAPSED	40.57605958
+P-0019824	53.62227576	Female	49.6	0	0	0	0	0	0	Never smoked	0	Well differentiated	Resected	0	0	16	Multifocal liver disease	89.53017194	0:LIVING	1	1	0	6.4	No	0	0	0			0	7.063848428	1:RELAPSED	66.95871208
+P-0019995	72.21826744	Female	34	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	69	Solitary liver tumor	32.46084766	0:LIVING	0	0	0	3.4	Yes	0	0	0	0	Small bile duct type	0	30.09527982	0:NOTRELAPSED	30.09527982
+P-0020972	74.4688424	Male	29.3	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	1	326	Solitary liver tumor	30.35812069	0:LIVING	1	0	1	6	No	0	0	0	0	Small bile duct type	0	19.84448582	1:RELAPSED	29.27390209
+P-0021327	66.05519658	Male	29.9	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	1	147	Multifocal liver disease	42.21881503	0:LIVING	1	1	1	6.5	No	1	0	0	1	Small bile duct type	0	7.885226153	1:RELAPSED	29.01106122
+P-0022089	68.07578578	Male	35.9	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	0	12.5	Multifocal liver disease	19.54878984	1:DECEASED	1	1	0	4.6	No	0	0	1	0	Small bile duct type	0	3.975468185	1:RELAPSED	10.74362063
+P-0022544	62.60541014	Male	26.3	0	1	0	1	0	0	Former smoker	0	Moderately differentiated	Resected	0			Solitary liver tumor	58.44923886	1:DECEASED	1	0	1	3.5	No	0	1	0	0	Small bile duct type	0	38.21049173	1:RELAPSED	58.44923886
+P-0023593	43.34136458	Male	34.6	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	15560	Metastatic disease	26.67834848	1:DECEASED	1	1	0	5.4	No	1	0	0	0	Small bile duct type	1	8.772314095	1:RELAPSED	15.24477056
+P-0023681	61.64166028	Female	26.5	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	0	19	Metastatic disease	23.62282335	0:LIVING	1	0	1	2.7	No	0	0	0	0	Small bile duct type	1	22.73573541	0:NOTRELAPSED	22.73573541
+P-0023701	86.67177746	Female	26.3	1	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	1	81	Metastatic disease	6.439601358	0:LIVING	0	0	0	9.8	Yes	0	0	1	1	Small bile duct type	1	4.665425474	0:NOTRELAPSED	4.665425474
+P-0023722	68.99299091	Male	38.8	1	0	0	0	0	0	Former smoker	1	Moderately differentiated	Resected	1	1	52	Metastatic disease	33.93932757	1:DECEASED	1	1	0	10.5	No	0	0	0		Small bile duct type	1	8.969444749	1:RELAPSED	13.83200088
+P-0023976	60.72171723	Female	23.3	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	1	1	134	Multifocal liver disease	27.43401599	1:DECEASED	1	1	1	5.1	No	0	0	0	0	Small bile duct type	0	4.665425474	1:RELAPSED	21.52009637
+P-0024094	76.34979739	Male	28.7	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Resected	1	1	310	Multifocal liver disease	28.35395904	0:LIVING	1	1	0	3.6	No	1	1	0	0	Small bile duct type	0	17.9388895	1:RELAPSED	18.56313657
+P-0024099	58.24937028	Female	34.8	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	0	1	43.1	Multifocal liver disease	100.700909	1:DECEASED	1	1	1	8.5	Yes	1	1	0	0	Small bile duct type	0	19.58164495	1:RELAPSED	96.79115102
+P-0024469	64.50005476	Male	32.2	0	1	0	1	0	0	Former smoker	0	Moderately differentiated	Resected	1			Solitary liver tumor	16.98609134	0:LIVING	1	0	1	4.5	Yes	1	0	0	1	Large bile duct type	0	6.636732012	1:RELAPSED	16.26327894
+P-0024693	71.24082795	Male	29.6	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	0			Solitary liver tumor	25.69269521	0:LIVING	1	0	1	2.7	Yes	0	0	1	0	Small bile duct type	0	24.41134596	0:NOTRELAPSED	24.41134596
+P-0025807	64.32756544	Female	31.4	0	0	0	0	0	0	Never smoked	1	Poorly differentiated	Resected	1			Solitary liver tumor	28.51823459	0:LIVING	1	0	1	6	No	1	0	0	0	Small bile duct type	0	11.99211477	1:RELAPSED	24.87131749
+P-0026213	51.18552185	Female	17.6	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	1	244	Metastatic disease	25.59412989	1:DECEASED	1	0	1	6.5	Yes	1	0	0	0	Small bile duct type	1	13.40488446	1:RELAPSED	25.49556456
+P-0027200	60.14127697	Male	30.7	0	0	0	0	0	0	Current smoker	0	Moderately differentiated	Resected	1			Solitary liver tumor	39.75468185	0:LIVING	1	0	1	3.4	Yes	0	0	1		Small bile duct type	0	36.73201183	0:NOTRELAPSED	36.73201183
+P-0027218	65.69105246	Male	30.9	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	2.4	Solitary liver tumor	31.40948417	0:LIVING	0	0	0	5	No	0	0	0	0	Small bile duct type	0	7.392399518	1:RELAPSED	29.63530829
+P-0028209	60.95991677	Male	21.8	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected				Solitary liver tumor	33.11794984	1:DECEASED	0	0	0	1.3	Yes	1	0	1		Large bile duct type	0	11.89354945	1:RELAPSED	31.83660059
+P-0028442	71.42974483	Male	33.6	1	0	0	0	1	0	Never smoked	0	Poorly differentiated	Resected	1			Multifocal liver disease	22.96572117	0:LIVING	0	0	0	3	No	0	0	0	0	Small bile duct type	0	13.04347826	1:RELAPSED	21.48724127
+P-0028619	54.69828058	Female	59.8	1	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	1			Solitary liver tumor	19.81163071	0:LIVING	1	0	1	3.1	Yes	1	0	0	0	Small bile duct type	0	18.46457124	0:NOTRELAPSED	18.46457124
+P-0029340	64.44803417	Male	24.8	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	0	12.4	Solitary liver tumor	59.56631256	0:LIVING	1	0	1	15.5	Yes	1	1	0		Small bile duct type	0	52.7324499	1:RELAPSED	59.40203702
+P-0029892	33.0495017	Female	41.6	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected				Metastatic disease	44.22297667	1:DECEASED	1	0	1	7.2	Yes	0	0	0	0	Small bile duct type	1	5.289672544	1:RELAPSED	40.6417698
+P-0030772	48.47223743	Male	29.7	0	1	1	0	0	0	Former smoker	0	Poorly differentiated	Resected	1			Solitary liver tumor	42.94162742	0:LIVING	0	0	0	1.3	Yes	0	0	0	0	Small bile duct type	0	41.29887197	0:NOTRELAPSED	41.29887197
+P-0030895	22.88905925	Female	33.5	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	0			Solitary liver tumor	12.91205782	0:LIVING	1	0	1	6.5	Yes	1	0	0	0	Indeterminate	0	5.059686781	1:RELAPSED	11.86069434
+P-0032208	69.58985872	Male	26.6	1	0	0	0	0	0	Former smoker	1	Poorly differentiated	Resected	0	0	20	Solitary liver tumor	43.50016428	0:LIVING	1	0	1	3	No	0	0	1		Small bile duct type	0	20.30445734	1:RELAPSED	39.9189574
+P-0032273	57.02825539	Male	24.4	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected				Multifocal liver disease	60.88051692	1:DECEASED	0	0	0	5.9	Yes	0	0	1		Small bile duct type	0	43.2373234	1:RELAPSED	53.4881174
+P-0033745	68.59325375	Male	37.7	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0			Solitary liver tumor	23.03143139	0:LIVING	1	0	1	5	No	0	0	1	0	Small bile duct type	0	14.48910306	0:NOTRELAPSED	14.48910306
+P-0034399	59.93045669	Female	18.3	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	0	9	Multifocal liver disease	17.47891797	0:LIVING	1	1	1	7.3	No	0	0	0			0	11.95925966	0:NOTRELAPSED	11.95925966
+P-0034901	80.51965831	Female	24.7	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	2-3	1	181	Metastatic disease	24.96988282	0:LIVING	1	1	0	3.3	Yes	0	0	0	1	Small bile duct type	1	5.09254189	1:RELAPSED	16.55897492
+P-0035318	46.81579236	Male	28.8	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	0	14.6	Solitary liver tumor	61.37334355	0:LIVING	0	0	0	8.5	No	0	0	1		Small bile duct type	0	41.72598839	0:NOTRELAPSED	41.72598839
+P-0035574	84.64023656	Male	27	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	2-3	1	139.1	Solitary liver tumor	12.22210054	0:LIVING	1	0	1	7.8	No	0	0	0	0	Small bile duct type	0	11.07217172	0:NOTRELAPSED	11.07217172
+P-0036358	62.24400394	Male	24.5	1	0	0	0		0	Current smoker	0	Moderately differentiated	Resected	0			Metastatic disease	22.60431497	1:DECEASED	1	0	1	13.7	No		0		0	Small bile duct type	1	5.881064506	1:RELAPSED	20.30445734
+P-0036559	61.909977	Male	40.6	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	0	15	Solitary liver tumor	15.0147848	0:LIVING	1	0	1	2.7	Yes	0	0	1	0	Small bile duct type	0	13.14204359	0:NOTRELAPSED	13.14204359
+P-0036980	52.90493922	Female	29.4	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	0	1	62	Solitary liver tumor	12.51779652	0:LIVING	1	0	1	5	Yes	0	0	1	0	Small bile duct type	0	8.640893659	1:RELAPSED	10.250794
+P-0037102	75.50104041	Female	26.1	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0			Solitary liver tumor	10.08651845	0:LIVING	1	0	1	1.6	No		0	0	0	Small bile duct type	0	8.476618114	0:NOTRELAPSED	8.476618114
+P-0038153	69.19012156	Male	33.4	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	0	0	13.1	Solitary liver tumor	109.6046435	1:DECEASED	0	0	0	3.2	No	1	0	1	0	Small bile duct type	0	18.43171613	1:RELAPSED	106.417698
+P-0039370	54.5942394	Female	19.3	0	0	0	0		0	Never smoked	0	Poorly differentiated	Resected	0	1	909	Multifocal liver disease	11.76212901	1:DECEASED	0	0	0	15	Yes		0			Small bile duct type	0	1.90559632	1:RELAPSED	9.987953127
+p_C_04RTFT	54.29025998	Female	27.7		0	0	0	0	0	Current smoker	0	Moderately differentiated	Resected		1	49	Solitary liver tumor	48.62556127	1:DECEASED	0	0	0	1.9	Yes	1	0	0	1	Large bile duct type	0	45.17577483	1:RELAPSED	45.17577483
+p_C_0FN8V5	61.19811509	Male	31.1	0	0	0	0	0	0	Current smoker	0	Poorly differentiated	Resected	0			Solitary liver tumor	62.72040302	0:LIVING	0	0	0	16	Yes	0	0	0		Large bile duct type	0	58.87635527	1:RELAPSED	58.87635527
+p_C_34WM96	60.52343391	Male	27.8	1	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	1	0	22	Metastatic disease	39.29471033	1:DECEASED	0	0	0	8.5	Yes		0	0		Large bile duct type	1	35.71350345	1:RELAPSED	35.71350345
+p_C_4EF0F6	47.20890739	Female	25.4	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	0	2	Multifocal liver disease	49.15124302	0:LIVING	0	0	0	9.3	Yes		0	0		Small bile duct type	0	45.0443544	1:RELAPSED	45.0443544
+p_C_62YLL6	63.25582265	Female	18.2	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0			Multifocal liver disease	22.3414741	1:DECEASED	0	0	0	7.8	Yes		1	0		Small bile duct type	0	20.27160223	1:RELAPSED	20.27160223
+p_C_7WJ17T	61.13414649	Male	25.1	0	0	0	0	1	0	Never smoked	0	Well differentiated	Resected	1			Solitary liver tumor	57.52929581	0:LIVING	0	0	0	3.5	No	0	0	0		Small bile duct type	0	53.61953784	1:RELAPSED	53.61953784
+p_C_8RMVW9	74.05929404	Female	25.3	0	0	0	0	0	0	Never smoked	0	Well differentiated	Resected	2-3	1	53	Solitary liver tumor	35.61493812	1:DECEASED	0	0	0	1.5	Yes	1	0	0	1	Large bile duct type	0	29.53674296	1:RELAPSED	29.53674296
+p_C_AF4LDR	55.3297068	Female	24.6	1	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	0			Solitary liver tumor	48.88840215	1:DECEASED	0	0	0	5	No	0	0	0		Small bile duct type	0	45.89858723	1:RELAPSED	45.89858723
+p_C_AWA446	71.10776354	Female	22.8	0	0	0	0	0	1	Current smoker	0	Moderately differentiated	Resected	1	1	69	Multifocal liver disease	7.425254627	1:DECEASED	0	0	0	9.4	Yes		0	0		Large bile duct type	0	4.665425474	1:RELAPSED	4.665425474
+p_C_D6R9UW	60.88890501	Male	31.6	0	0	0	0	0	0	Current smoker	0	Well differentiated	Resected	0			Solitary liver tumor	95.44409156	0:LIVING	0	0	0	14	Yes		0	0		Small bile duct type	0	90.87723141	0:NOTRELAPSED	90.87723141
+p_C_FKEEFP	64.72574532	Female	29.1	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	0	27	Solitary liver tumor	39.85324718	0:LIVING	0	0	0	9.5	No	0	0	1		Small bile duct type	0	38.17763662	1:RELAPSED	38.17763662
+p_C_FPCVVU	61.85910665	Male	32.4	1	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected				Solitary liver tumor	20.23874713	1:DECEASED	0	0	0	4	No	0	0	1		Small bile duct type	0	16.29613405	1:RELAPSED	16.29613405
+p_C_LRJXH7	52.41453504	Male	26.6	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	1	0	21	Multifocal liver disease	23.49140292	1:DECEASED	1	1	0	12	Yes		1	0		Small bile duct type	0	10.28364911	1:RELAPSED	10.28364911
+p_C_M3D7NU	64.84706707	Female	24.2	0	0	0	0	0	0	Current smoker	0	Poorly differentiated	Resected	1			Solitary liver tumor	47.86989377	0:LIVING	0	0	0	12	Yes		0	0		Small bile duct type	0	40.87175556	1:RELAPSED	40.87175556
+p_C_MNR49F	70.00276591	Male	26.4	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	0			Solitary liver tumor	36.6334465	1:DECEASED	0	0	0	6.3	Yes	0	0	0		Small bile duct type	0	34.33358887	1:RELAPSED	34.33358887
+p_C_NJT27K	47.33547773	Female	22.8	0	0	0	0	0	0	Never smoked	0	Well differentiated	Resected	0	0	35	Solitary liver tumor	100.7994743	0:LIVING	0	0	0	3.9	No	0	1	0		Small bile duct type	0	93.4070748	1:RELAPSED	93.4070748
+p_C_RTLT9U	66.26189629	Male	29.6	0	0	0	0	0	0	Current smoker	0	Poorly differentiated	Resected	0	1	9559	Solitary liver tumor	21.38867594	1:DECEASED	0	0	0	7.8	No	1	0	0	1	Large bile duct type	0	19.74592049	1:RELAPSED	19.74592049
+p_C_RU6NNY	47.99081791	Female	25.1	0	0	0	0	0	0	Current smoker	0	Moderately differentiated	Resected	0	0	32	Solitary liver tumor	52.7324499	0:LIVING	0	0	0	3.9	No	0	0	0		Small bile duct type	0	49.74263498	0:NOTRELAPSED	49.74263498
+p_C_RVJRMV	66.89082216	Female	31.2	0	0	0	0	0	0	Current smoker	0	Well differentiated	Resected	0	0	4	Solitary liver tumor	56.11652612	1:DECEASED	0	0	0	6.5			0	0		Small bile duct type	0	46.25999343	1:RELAPSED	46.25999343
+p_C_RXFEX7	58.27884192	Female	22.2	0	0	0	0	0	0	Current smoker	0	Moderately differentiated	Resected	2-3			Solitary liver tumor	63.50892564	0:LIVING	0	0	0	10.5	Yes		0	0		Small bile duct type	0	62.09615595	1:RELAPSED	62.09615595
+p_C_TKX8RH	51.49863317	Male	38.9	1	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected				Solitary liver tumor	41.16745154	0:LIVING	0	0	0	2.9	No	0	0	1		Small bile duct type	0	37.75052021	1:RELAPSED	37.75052021
+p_C_U4950H	42.53499525	Female	22.6	0	0	0	0	0	0		0	Moderately differentiated	Resected	0			Solitary liver tumor	46.78567517	1:DECEASED	0	0	0	7	No		0	0		Small bile duct type	0	45.86573212	1:RELAPSED	45.86573212
+p_SL_chc_009	61.21454386	Male	39.4	1	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	0	12	Solitary liver tumor	52.43675392	0:LIVING	0	0	0	5.5	No	0	0	1		Small bile duct type	0	51.41824554	0:NOTRELAPSED	51.41824554
+p_SL_chc_016	74.6276421	Female	25.5	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	1	1	118	Solitary liver tumor	11.63070858	1:DECEASED	0	0	0	4.5	Yes	1	0	0		Small bile duct type	0	2.825539371	1:RELAPSED	2.825539371
+p_SL_chc_022	71.77472347	Female	26.4	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	28	Solitary liver tumor	39.32756544	0:LIVING	0	0	0	8.4	No	0	0	0		Small bile duct type	0	37.78337531	0:NOTRELAPSED	37.78337531
+p_WJ_chol_001	53.95356478	Female	29.3	1	1	0	1	0	0	Current smoker	0	Poorly differentiated	Resected	1	1	103	Multifocal liver disease	23.91851933	1:DECEASED	1	0	1	9	Yes	0	0	1	0	Small bile duct type	0	5.782499179	1:RELAPSED	18.20173037
+p_WJ_chol_002	67.62402804	Female	23.3	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	46	Solitary liver tumor	48.26415508	1:DECEASED	1	0	1	7	No	0	0	1	0	Small bile duct type	0	19.25309386	1:RELAPSED	47.14708137
+p_WJ_chol_003	63.42678787	Male	30.4	0	0	0	0	1	0	Former smoker	0	Moderately differentiated	Resected	0	1	851	Solitary liver tumor	121.4324828	0:LIVING	0	0	0	8.2	Yes	1	0	1	0	Small bile duct type	0	59.89486365	1:RELAPSED	120.0854233
+p_WJ_chol_004	54.53400504	Male	36	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	23	Solitary liver tumor	11.40072281	0:LIVING	1	0	1	6.2	Yes	0	0	1	0	Small bile duct type	0	8.049501698	0:NOTRELAPSED	8.049501698
+p_WJ_chol_005	84.10907896	Female	32	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	1	42	Solitary liver tumor	27.23688534	1:DECEASED	0	0	0	5.7	No	0	0	1	0	Small bile duct type	0	1.938451429	1:RELAPSED	24.37849086
+p_WJ_chol_006	68.68086737	Female	37.9	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	1	746	Solitary liver tumor	55.85368525	1:DECEASED	0	0	0	7.5	Yes	1	0	1	0	Small bile duct type	0	7.885226153	1:RELAPSED	46.39141386
+p_WJ_chol_007	65.09692257	Female	40.4	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	16	Solitary liver tumor	12.12353521	1:DECEASED	0	0	0	3.5	Yes	1	0	0	1	Small bile duct type	0	7.556675063	1:RELAPSED	7.556675063
+p_WJ_chol_008	55.2951484	Female	23.6	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	1	56	Metastatic disease	82.36775819	1:DECEASED	1	0	1	4.5	Yes	1	0	0	0	Small bile duct type	1	24.24707042	1:RELAPSED	73.46402366
+p_WJ_chol_009	48.32986529	Female	23.3	0	0	0	0	0	1	Never smoked	0	Moderately differentiated	Resected	1	0	3.7	Solitary liver tumor	52.99529077	1:DECEASED	0	0	0	5	Yes	1	0	0	1	Large bile duct type	0	16.39469938	1:RELAPSED	52.63388457
+p_WJ_chol_010	78.33479356	Female	41.1	1	1	1	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	1	76	Solitary liver tumor	46.5228343	1:DECEASED	0	0	0	5	Yes	0	1	1	0	Small bile duct type	0	6.078195159	1:RELAPSED	43.00733764
+p_WJ_chol_011	77.32176103	Female	23.3	0	1	0	1	1	0	Never smoked	0	Moderately differentiated	Resected	0	1	189	Solitary liver tumor	54.572336	1:DECEASED	0	0	0	6	No	0	0		0	Small bile duct type	0	13.73343555	1:RELAPSED	53.38955208
+p_WJ_chol_012	65.20096375	Female	27	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	1	302	Solitary liver tumor	76.12528748	1:DECEASED	1	0	1	7.5	Yes	1	0	1	0	Small bile duct type	0	32.39513744	1:RELAPSED	74.21969116
+p_WJ_chol_013	67.19691162	Female	32.5	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	1	0	7	Solitary liver tumor	112.8901544	0:LIVING	1	0	1	3.7	Yes	1	0	0	0	Small bile duct type	0	66.43303034	1:RELAPSED	111.5102398
+p_WJ_chol_014	83.05771547	Male	29.7	1	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	1	1	79	Solitary liver tumor	51.25396999	1:DECEASED	0	0	0	10.4	Yes	0	0	1	0	Small bile duct type	0	10.15222867	1:RELAPSED	49.70977987
+p_WJ_chol_015	69.26952141	Female	26.8	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	1			Metastatic disease	7.3266893	1:DECEASED	0	0	0	8.7	Yes	1	0	0	0	Small bile duct type	1	5.256817435	1:RELAPSED	5.256817435
+p_WJ_chol_016	77.63662249	Male	24.2	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	1	0	11	Solitary liver tumor	90.35154967	0:LIVING	0	0	0	4	No	1	0	0	0	Small bile duct type	0	28.2225386	1:RELAPSED	89.03734531
+p_WJ_chol_017	78.55930347	Male	26.4	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	53	Solitary liver tumor	22.07863323	0:LIVING	1	1	0	11.3	No	0	0	1	0	Small bile duct type	0	13.63487022	0:NOTRELAPSED	13.63487022
+p_WJ_chol_019	63.73069762	Male	25.8	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	0	25	Solitary liver tumor	79.31223305	0:LIVING	0	0	0	2.5	No	0	0	1	0	Small bile duct type	0	76.97952032	0:NOTRELAPSED	76.97952032
+p_WJ_chol_020	63.33369839	Female	26.5	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	16	Solitary liver tumor	81.80922133	0:LIVING	1	0	1	4	Yes	0	1	0	0	Small bile duct type	0	79.93648012	0:NOTRELAPSED	79.93648012
+p_WJ_chol_021	47.03756434	Female	22.3	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	0	1	138	Metastatic disease	10.54648998	1:DECEASED	1	0	1	10	Yes		0	0	0	Small bile duct type	1	1.774175884	1:RELAPSED	9.363706056
+p_WJ_chol_022	72.69466652	Male	41.5	1	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	1	1	56	Solitary liver tumor	91.63289892	0:LIVING	0	0	0	6.5	No	0	1	1	0	Small bile duct type	0	80.65929252	0:NOTRELAPSED	80.65929252
+p_WJ_chol_023	65.91008652	Male	26.1	1	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0			Metastatic disease	9.297995838	1:DECEASED	1	0	1	6	Yes	1	1	0	1	Small bile duct type	1	8.148067024	1:RELAPSED	8.148067024
+p_WJ_chol_024	28.6688205	Male	19.9	0	0	0	0	0	1	Never smoked	0	Poorly differentiated	Resected	1			Multifocal liver disease	30.71952689	1:DECEASED	1	0	1	4.5	Yes	0	0	0	0	Small bile duct type	0	14.91621947	1:RELAPSED	28.64965502
+p_WJ_chol_025	78.73726865	Female	28.5	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	0	0	17	Solitary liver tumor	107.6004819	0:LIVING	0	0	0	2.2	No	0	0	1	0	Small bile duct type	0	102.212244	0:NOTRELAPSED	102.212244
+p_WJ_chol_026	61.54035703	Female	28.4	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0			Solitary liver tumor	55.13087285	1:DECEASED	1	0	1	5.3	No	0	0	1	0	Small bile duct type	0	9.987953127	1:RELAPSED	52.27247837
+p_WJ_chol_027	74.29361516	Male	22.8	1	1	0	1	1	0	Never smoked	0	Poorly differentiated	Resected	0	1	101	Solitary liver tumor	147.4208739	1:DECEASED	1	1	0	3.6	Yes	0	0	0	0	Small bile duct type	0	123.7980506	1:RELAPSED	123.7980506
+p_WJ_chol_028	63.24882269	Female	25.3	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	17	Solitary liver tumor	54.70375643	1:DECEASED	0	0	0	8	No	1	0	1	0	Small bile duct type	0	6.866717775	1:RELAPSED	40.90461067
+p_WJ_chol_029	78.88785456	Female	30	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	0	4	Solitary liver tumor	88.08454715	1:DECEASED	0	0	0	6.5	No	0	0	1	0	Small bile duct type	0	37.32340379	1:RELAPSED	85.62041397
+p_WJ_chol_030	82.83046764	Female	26	1	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	1	0	38	Solitary liver tumor	91.89573979	1:DECEASED	0	0	0	5.3	No	0	0	0	0	Small bile duct type	0	89.26733107	1:RELAPSED	89.26733107
+p_WJ_chol_031	59.9742635	Female	20	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	1940	Metastatic disease	46.22713832	1:DECEASED	1	1	1	4	Yes	1	0	1	0	Large bile duct type	1	4.862556127	1:RELAPSED	38.17763662
+p_WJ_chol_032	64.98466762	Male	27.2	1	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	1	135	Multifocal liver disease	24.41134596	1:DECEASED	0	0	0	5.5	Yes	0	0	0	1	Small bile duct type	0	5.552513416	1:RELAPSED	18.26744059
+p_WJ_chol_033	64.20435878	Male	25.8	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	0	Solitary liver tumor	69.35713503	1:DECEASED	0	0	0	11	Yes	0	0	1	0	Small bile duct type	0	34.72785018	1:RELAPSED	67.97722046
+p_WJ_chol_034	78.31836601	Male	29	0	0	0	0	1	0	Former smoker	0	Moderately differentiated	Resected	1			Multifocal liver disease	91.10721717	1:DECEASED	0	0	0	5	No	0	0	0	0	Small bile duct type	0	88.87306976	1:RELAPSED	88.87306976
+p_WJ_chol_035	75.85423283	Female	23.2	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1			Solitary liver tumor	80.2321761	1:DECEASED	0	0	0	2.8	No	0	0	0	0	Small bile duct type	0	75.86244661	1:RELAPSED	75.86244661
+p_WJ_chol_036	85.46161428	Female	23.9	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	1	0	0	Solitary liver tumor	144.2339284	0:LIVING	0	0	0	5	No	0	0	1	0	Small bile duct type	0	143.2482751	0:NOTRELAPSED	143.2482751
+p_WJ_chol_037	45.60289125	Female	32	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	0.9	Solitary liver tumor	62.78611324	1:DECEASED	0	0	0	15	No	0	0	0	0	Small bile duct type	0	9.593691819	1:RELAPSED	61.27477823
+p_WJ_chol_038	41.60004381	Female	21.7	0	0	0	0	0	0	Never smoked	1	Poorly differentiated	Resected	0	1	9804	Metastatic disease	34.13645822	1:DECEASED	1	1	1	9.7	Yes	0	0	0	1	Small bile duct type	0	4.46829482	1:RELAPSED	15.31048078
+p_WJ_chol_039	56.7736283	Female	31.8	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	0	14	Solitary liver tumor	90.02299858	0:LIVING	0	0	0	6.2	Yes	1	0	0	0	Small bile duct type	0	59.30347169	1:RELAPSED	63.90318695
+p_WJ_chol_040	75.17248932	Female	28	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0			Solitary liver tumor	58.81064506	0:LIVING	0	0	0	5.6	Yes	0	0	0	0	Small bile duct type	0	56.31365677	0:NOTRELAPSED	56.31365677
+p_WJ_chol_041	59.47048516	Male	32	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	17795	Metastatic disease	7.425254627	0:LIVING	1	0	1	24	Yes	1	1	0	0	Small bile duct type	0	5.059686781	1:RELAPSED	5.059686781
+p_WJ_chol_042	56.76541452	Female	34.6	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	1	2043	Solitary liver tumor	99.68240061	0:LIVING	1	0	1	9	No	0	0	0	0	Small bile duct type	0	97.84251451	0:NOTRELAPSED	97.84251451
+p_WJ_chol_043	56.17128463	Female	26.4	0	1	1	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	17	Metastatic disease	63.57463586	0:LIVING	1	1	0	4.1	No	0	0	0	0	Small bile duct type	1	2.825539371	1:RELAPSED	52.43675392
+p_WJ_chol_044	70.25243675	Female	26.8	0	0	0	0	0	0	Current smoker	0	Moderately differentiated	Resected	1	1	178	Solitary liver tumor	61.5376191	1:DECEASED	0	0	0	4	No	0	0	0	0	Small bile duct type	0	10.21793889	1:RELAPSED	59.86200854
+p_WJ_chol_045	75.85423283	Male	24.3	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	1	1	496	Metastatic disease	12.58350674	1:DECEASED	1	0	1	4.5	Yes	1	0	0	0	Large bile duct type	1	11.92640456	1:RELAPSED	12.0906801
+p_WJ_chol_046	48.29153433	Female	21.4	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	0			Metastatic disease	17.67604863	1:DECEASED	1	0	1	7.7	Yes	0	0	0	0	Small bile duct type	1	5.651078743	1:RELAPSED	17.15036688
+p_WJ_chol_047	77.20403023	Male	23.5	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	1	0	8	Multifocal liver disease	43.73015004	0:LIVING	0	0	0	2.3	Yes	0	0	0	0	Small bile duct type	0	32.82225386	0:NOTRELAPSED	32.82225386
+p_WJ_chol_048	68.4070748	Male	38.3	1	0	0	0	1	0	Former smoker	0	Moderately differentiated	Resected	0	1	79	Solitary liver tumor	97.0539919	1:DECEASED	0	0	0	4	No	1	0	1	0	Small bile duct type	0	66.95871208	1:RELAPSED	66.95871208
+p_WJ_chol_049	86.90176322	Male	25.7	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	1	1	11153	Metastatic disease	13.30631913	1:DECEASED	1	0	1	7.5	Yes	1	1	0	0	Small bile duct type	1	1.314204359	1:RELAPSED	4.271164166
+p_WJ_chol_050	63.87033184	Male	26.1	0	0	0	0	0	0	Current smoker	0	Moderately differentiated	Resected	1			Solitary liver tumor	30.752382	1:DECEASED	0	0	0	3.8	No	0	0	0	1	Small bile duct type	0	27.33545066	1:RELAPSED	27.33545066
+p_WJ_chol_051	58.06319133	Male	47.6	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1			Solitary liver tumor	23.12999671	1:DECEASED	1	0	1	7.5	No	0	0	1	0	Small bile duct type	0	10.34935933	1:RELAPSED	20.43587778
+p_WJ_chol_052	82.05563465	Female	30.4	1	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	1	1	189	Solitary liver tumor	85.68612419	1:DECEASED	0	0	0	7.2	Yes	0	0	1	0	Small bile duct type	0	23.72138868	1:RELAPSED	67.15584273
+p_WJ_chol_053	77.9460081	Male	23.4	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	1	1	55	Multifocal liver disease	21.55295148	1:DECEASED	0	0	0	3.2	No	0	0	0	0	Small bile duct type	0	15.54046654	1:RELAPSED	15.54046654
+p_WJ_chol_057	76.42372139	Female	31	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	1			Solitary liver tumor	86.96747344	0:LIVING	0	0	0	9.5	Yes	0	0	0	0	Small bile duct type	0	85.12758734	0:NOTRELAPSED	85.12758734
+p_WJ_chol_058	86.8251013	Male	23.5	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	137	Solitary liver tumor	35.45066258	1:DECEASED	0	0	0	5.5	No	1	0	0	0	Small bile duct type	0	6.242470704	1:RELAPSED	32.65797832
+p_WJ_chol_059	66.11543095	Female	23.9	0	1	1	0	1	0	Never smoked	0	Moderately differentiated	Resected	1			Multifocal liver disease	46.42426897	1:DECEASED	0	0	0	2.2	No	0	0	1	0	Small bile duct type	0	44.94578907	1:RELAPSED	44.94578907
+p_WJ_chol_060	60.1659183	Male	25.8	0	0	0	0	0	0	Current smoker	0	Poorly differentiated	Resected	0			Multifocal liver disease	81.34924981	1:DECEASED	0	0	0	3.7	No	0	0	0	0	Small bile duct type	0	11.59785347	1:RELAPSED	77.30807141
+p_WJ_chol_061	78.29372467	Female	20.8	0	0	0	0	0	0	Current smoker	0	Moderately differentiated	Resected	0			Solitary liver tumor	85.91610996	0:LIVING	0	0	0	4.3	No	0	0	0	0	Small bile duct type	0	85.29186288	0:NOTRELAPSED	85.29186288
+p_WJ_chol_062	54.61614281	Female	30.9	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0			Solitary liver tumor	96.59402037	1:DECEASED	0	0	0	18.5	No	0	0	1	0	Small bile duct type	0	8.378052787	1:RELAPSED	95.11554047
+p_WJ_chol_063	63.65129778	Male	30.1	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0			Multifocal liver disease	32.00087614	1:DECEASED	0	0	0	12.2	No	0	0	0	0	Small bile duct type	0	4.106888621	1:RELAPSED	29.73387362
+p_WJ_chol_064	68.59599168	Female	36.8	1	0	0	0	1	0	Former smoker	0	Moderately differentiated	Resected	1	1	43	Solitary liver tumor	172.6535976	1:DECEASED	0	0	0	3.1	No	0	0	1	0	Small bile duct type	0	164.5712408	1:RELAPSED	164.5712408
+p_WJ_chol_065	69.99507173	Female	39	1	0	0	0	0	0	Current smoker	0	Well differentiated	Resected	0			Solitary liver tumor	87.85456138	1:DECEASED	0	0	0	6	No	0	0	0	0	Small bile duct type	0	85.75183441	1:RELAPSED	85.75183441
+p_WJ_chol_066	57.95093637	Male	27.7	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	0	1	553	Metastatic disease	39.32756544	1:DECEASED	0	0	0	9	No	0	0	0	0	Small bile duct type	1	15.47475632	1:RELAPSED	38.14478151
+p_WJ_chol_067	68.82597744	Female	24.5	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0			Metastatic disease	27.1054649	1:DECEASED	1	0	1	4.7	Yes	1	0	1	0	Large bile duct type	1	23.95137444	1:RELAPSED	25.79126054
+p_WJ_chol_068	47.39349469	Male	41.7	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	4.8	Solitary liver tumor	23.68853357	1:DECEASED	1	1	0	6.6	No	0	0	0	0	Large bile duct type	0	6.143905377	1:RELAPSED	16.32898916
+p_WJ_chol_069	53.82762019	Female	23.7	0	1	1	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	190	Solitary liver tumor	10.6122002	0:LIVING	0	0	0	3.1	No	0	0	1	0	Small bile duct type	0	9.987953127	0:NOTRELAPSED	9.987953127
+p_WJ_chol_070	76.61537619	Female	31.7	0	1	1	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	1699	Solitary liver tumor	40.05037783	1:DECEASED	1	0	1	7.5	No		1	1	0	Small bile duct type	0	8.838024313	1:RELAPSED	37.02770781
+p_WJ_chol_071	57.45537181	Female	20.9	0	1	1	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	18	Solitary liver tumor	36.37060563	1:DECEASED	0	0	0	3	Yes	0	1	0	0	Small bile duct type	0	10.38221443	1:RELAPSED	32.9536743
+p_WJ_chol_072	74.22790494	Male	27	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	1	43	Solitary liver tumor	19.12167342	1:DECEASED	0	0	0	7.5	Yes	0	0	0	0	Small bile duct type	0	5.946774723	1:RELAPSED	18.26744059
+p_WJ_chol_074	73.78709889	Female	26.6	0	0	0	0	0	0	Current smoker	0	Moderately differentiated	Resected	1	0	14	Solitary liver tumor	73.79257475	1:DECEASED	0	0	0	4.8	No	0	0	1	1	Small bile duct type	0	43.40159895	1:RELAPSED	71.72270288
+p_WJ_chol_075	64.22352426	Female	19.6	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	1977	Solitary liver tumor	11.20359216	1:DECEASED	1	0	1	4.5	Yes	1	0	0	0	Large bile duct type	0	4.763990801	1:RELAPSED	10.6122002
+p_WJ_chol_076	72.29219144	Female	24	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	1	0	19	Solitary liver tumor	103.0664768	0:LIVING	0	0	0	3	No	0	0	0	0	Small bile duct type	0	86.60606724	0:NOTRELAPSED	86.60606724
+p_WJ_chol_077	70.73431169	Female	23	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	0			Metastatic disease	3.154090461	1:DECEASED		0		7.1	Yes	0	0	0	1	Small bile duct type	1	2.85839448	1:RELAPSED	2.85839448
+p_WJ_chol_078	81.10831234	Female	29.8	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	0	0	9	Solitary liver tumor	19.0559632	1:DECEASED	0	0	0	12	Yes	0	0	1	0	Small bile duct type	0	7.063848428	1:RELAPSED	17.44606286
+p_WJ_chol_082	70.06078195	Male	29.4	0	1	1	0	0	0	Former smoker	0	Poorly differentiated	Resected	1	0	16	Solitary liver tumor	174.3292082	1:DECEASED	0	0	0	7.5	No	0	0	1	0	Small bile duct type	0	171.0108422	1:RELAPSED	171.0108422
+p_WJ_chol_083	76.62906582	Female	29.8	1	1	0	1	1	0	Never smoked	0	Moderately differentiated	Resected	1			Solitary liver tumor	30.06242471	1:DECEASED	0	0	0	5	No		0	0	0	Small bile duct type	0	26.18552185	1:RELAPSED	26.18552185
+p_WJ_chol_084	66.32351331	Female	36.7	0	0	0	0		0	Former smoker	0	Poorly differentiated	Resected	0	0	14	Solitary liver tumor	42.08739459	1:DECEASED	0	0	0	13	No		0		0	Small bile duct type	0	20.17303691	1:RELAPSED	41.23316176
+p_WJ_chol_085	63.93604205	Male	25.2	1	0	0	0	1	0	Never smoked	0	Moderately differentiated	Resected	1			Solitary liver tumor	10.48077976	1:DECEASED	1	0	1	13	Yes	0	1	0	0	Small bile duct type	0	2.694118935	1:RELAPSED	7.98379148
+p_WJ_chol_086	71.79388895	Female	39.8	1	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	0			Solitary liver tumor	122.1552951	1:DECEASED	0	0	0	6	Yes	0	0	0	0	Small bile duct type	0	64.75741978	1:RELAPSED	118.8697843
+p_WJ_chol_087	58.46019056	Female	25.4	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	1	494	Multifocal liver disease	110.4588764	0:LIVING	0	0	0	4	No	0	0	0	0	Small bile duct type	0	109.2103822	0:NOTRELAPSED	109.2103822
+p_WJ_chol_089	18.93549447	Female	37.4	1	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	0	1	6142	Solitary liver tumor	95.34552623	0:LIVING	1	0	1	12	No	0	0	0	0	Indeterminate	0	94.58985872	0:NOTRELAPSED	94.58985872
+p_WJ_chol_090	71.51735845	Female	31.5	0	1	0	1	1	0	Former smoker	0	Well differentiated	Resected	1	1	104	Metastatic disease	8.640893659	1:DECEASED	1	0	1	6	Yes	1	0	1	0	Indeterminate	1	3.909757967	1:RELAPSED	6.04534005
+p_WJ_chol_091	68.61241923	Male	23.6	1	0	0	0	0	0	Current smoker	0	Poorly differentiated	Resected	1			Solitary liver tumor	12.28781075	1:DECEASED	1	0	1	3.1	Yes	1	0	0	1	Small bile duct type	0	10.11937356	1:RELAPSED	10.87504107
+p_WJ_chol_092	73.33534115	Male	28.7	0	0	0	0	0	0	Former smoker	0	Well differentiated	Resected	0			Solitary liver tumor	111.1159785	0:LIVING	0	0	0	4.5	No	0	0	0	0	Small bile duct type	0	109.2432373	0:NOTRELAPSED	109.2432373
+p_WJ_chol_093	88.50892564	Male	25.7	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1	1	106	Solitary liver tumor	39.62326142	1:DECEASED	1	0	1	5.3	No	1	1	0	0	Small bile duct type	0	37.94765086	1:RELAPSED	37.94765086
+p_WJ_chol_094	79.7639908	Male	39.8	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	1	98	Solitary liver tumor	87.13174899	1:DECEASED	0	0	0	4.4	No	0	0	0	0	Small bile duct type	0	12.18924543	1:RELAPSED	84.27335451
+p_WJ_chol_095	60.21520096	Female	32.9	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Resected	0	0	8	Multifocal liver disease	6.472456467	1:DECEASED	0	0	0	14	No	0	0	0	0	Large bile duct type	0	4.008323294	1:RELAPSED	4.862556127
+p_WJ_chol_096	79.35056401	Female	25.1	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	1			Solitary liver tumor	132.3403789	1:DECEASED	0	0	0	3.2	No		0	0	0	Small bile duct type	0	129.941956	1:RELAPSED	129.941956
+p_WJ_chol_098	67.2270288	Female	23.1	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	40	Solitary liver tumor	119.8225824	1:DECEASED	1	1	0	6	Yes	0	0	1	0	Small bile duct type	0	113.6129668	1:RELAPSED	113.6129668
+p_WJ_chol_103	51.39634213	Male	27.5	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	0	0	32.3	Solitary liver tumor	32.13229657	1:DECEASED	0	0	0	4.2	Yes	0	0	0	0	Small bile duct type	0	18.23458548	1:RELAPSED	30.35812069
+p_WJ_chol_105	44.35165918	Male	21.5	0	0	0	0	0	0	Current smoker	0	Moderately differentiated	Resected	0	0	7.9	Solitary liver tumor	85.75183441	0:LIVING	1	1	0	4	No	0	0	1	0	Small bile duct type	0	74.7125178	0:NOTRELAPSED	74.7125178
+p_WJ_chol_106	71.23261417	Female	21.8	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0			Solitary liver tumor	74.81108312	1:DECEASED	1	1		11	No	1	1	0	0	Small bile duct type	0	32.42799255	1:RELAPSED	32.42799255
+p_WJ_chol_108	56.46424269	Male	27.1	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Resected	1	0	7.9	Metastatic disease	9.8893878	1:DECEASED	1	0	1	10.5	Yes	0	0	0	0	Small bile duct type	1	7.228123973	1:RELAPSED	9.429416274
+p_WJ_chol_109	67.97448253	Female	25	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Resected	0			Solitary liver tumor	28.25539371	1:DECEASED	0	0	0	11.4	Yes	1	0	0	0	Small bile duct type	0	12.74778228	1:RELAPSED	27.56543643
+p_WJ_chol_111	70.18398861	Male	30.9	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0	0	0	Solitary liver tumor	154.057606	0:LIVING	0	0	0	6	No		0	1	0	Small bile duct type	0	152.9733874	0:NOTRELAPSED	152.9733874
+p_WJ_chol_113	53.95630271	Female	19.4	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected				Multifocal liver disease	16.39469938	1:DECEASED	1	0	1	2	Yes	0	1	0	0	Small bile duct type	0	1.741320775	1:RELAPSED	14.78479904
+p_WJ_chol_114	62.88467857	Female	25	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Resected	0			Solitary liver tumor	151.3306319	0:LIVING	0	0	0	6	No	0	0	1	0	Small bile duct type	0	150.443544	0:NOTRELAPSED	150.443544
+p_WJ_chol_116	64.92443325	Male		0	0	0	0	0	0		0	Moderately differentiated	Resected				Multifocal liver disease	33.57792137	1:DECEASED		0		8	No		0	1	0	Small bile duct type	0	32.42799255	1:RELAPSED	32.42799255
+P-0000154	76.52502464	Male	27.7	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	0	0	37	Multifocal liver disease	24.47705618	1:DECEASED														
+P-0000189	51.03493593	Male	26.2	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	0	0	37	Multifocal liver disease	44.38725222	1:DECEASED														
+P-0000192	69.2147629	Male	28.5	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	1132	Metastatic disease	24.08279487	1:DECEASED														
+P-0000303	59.60464352	Female	24.7	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	0	18	Metastatic disease	15.60617676	1:DECEASED														
+P-0000327	70.6822911	Male	25.3	0	0	0	0	0	0	Current smoker	1	Poorly differentiated	Unresected	0	0	15	Multifocal liver disease	16.78896068	1:DECEASED														
+P-0000419	55.06790056	Male	29	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	1	104	Metastatic disease	24.04993977	1:DECEASED														
+P-0000644	69.1408389	Female	31.6	0	0	0	0	0	0	Former smoker	0		Unresected	1	1	2978	Metastatic disease	24.70704195	1:DECEASED														
+P-0000713	79.79958384	Female	26.6	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	0	28	Metastatic disease	47.54134268	1:DECEASED														
+P-0000766	67.02168437	Male	29.9	1	1	1	1	0	0	Former smoker	0	Moderately differentiated	Unresected	1	0	39	Metastatic disease	6.406746249	1:DECEASED														
+P-0000932	84.00229986	Male	25.8	1	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	0	26	Solitary liver tumor	55.59084438	1:DECEASED														
+P-0001001	75.39699923	Male	31.6	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	0	0.9	Metastatic disease	13.07633337	1:DECEASED														
+P-0001185	50.29843391	Male	27.7	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	1	893	Metastatic disease	11.69641879	1:DECEASED														
+P-0001292	62.25495565	Male	27.6	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	2480	Metastatic disease	18.16887526	1:DECEASED														
+P-0001403	47.77954222	Female	25	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	0	0	23	Metastatic disease	75.59960574	0:LIVING														
+P-0001496	32.17062753	Male	21.1	0	0	0	0	0	0	Never smoked	1	Poorly differentiated	Unresected	0	0	4	Metastatic disease	36.10776476	1:DECEASED														
+P-0001539	68.71372248	Female	26.6	0	0	0	0	0	0	Former smoker	1	Poorly differentiated	Unresected	0	1	1931	Solitary liver tumor	15.0147848	1:DECEASED														
+P-0001638	58.94754134	Female	22.2	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	1	286	Metastatic disease	12.22210054	1:DECEASED														
+P-0001933	71.96364035	Female	30.3	1	0	0	0	0	0	Never smoked	1	Poorly differentiated	Unresected	1	1	209	Multifocal liver disease	32.78939875	1:DECEASED														
+P-0002039	36.96473552	Female	19.6	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0			Multifocal liver disease	49.0855328	1:DECEASED														
+P-0002064	65.62260431	Female	36.2	0	0	0	0	0	0	Former smoker	1	Poorly differentiated	Unresected	0	1	44	Multifocal liver disease	101.8179827	0:LIVING														
+P-0002119	61.77855657	Female	29.9	0	0	0	0	0	0	Never smoked	1	Poorly differentiated	Unresected	0	1	1012	Metastatic disease	15.47475632	1:DECEASED														
+P-0002135	66.69587121	Female	28.6	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	0	0	6	Multifocal liver disease	40.57605958	1:DECEASED														
+P-0002213	76.31694228	Female	23.1	0	0	0	0	0	0	Never smoked	1	Poorly differentiated	Unresected	1	1	59987	Metastatic disease	11.10502683	1:DECEASED														
+P-0002286	76.32515606	Female	29.4	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	0	31	Metastatic disease	18.72741211	1:DECEASED														
+P-0002675	59.53071953	Male	30.3	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	0	1	877	Metastatic disease	18.89168766	1:DECEASED														
+P-0003478	79.45734312	Female		0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected				Metastatic disease	2.956959807	1:DECEASED														
+P-0003701	61.11050268	Male	28.3	1	0	0	0	0	0	Current smoker	0	Moderately differentiated	Unresected	1	1	323	Metastatic disease	14.16055197	1:DECEASED														
+P-0003812	43.3112474	Female	40	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	0	1	60.9	Multifocal liver disease	26.64549337	1:DECEASED														
+P-0003946	73.57080276	Female	36.5	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	1	1	304	Solitary liver tumor	63.60749096	1:DECEASED														
+P-0004252	52.83375315	Male	28.6	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	15525	Metastatic disease	9.297995838	1:DECEASED														
+P-0005000	76.32515606	Male	27.8	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	0	32	Multifocal liver disease	11.23644727	1:DECEASED														
+P-0005112	61.25287482	Female	36.7	0	0	0	0	0	0	Former smoker	1	Poorly differentiated	Unresected	0	0	0.9	Multifocal liver disease	51.54966597	1:DECEASED														
+P-0005140	59.21312014	Male	21.6	0	0	0	0	0	0	Never smoked	0	Well differentiated	Unresected	0	0	0.9	Metastatic disease	26.0212463	1:DECEASED														
+P-0005255	70.51801555	Female	35.6	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	1		Multifocal liver disease	40.60891469	1:DECEASED														
+P-0005835	58.8790932	Female	21.4	0	0	0	0	0	0	Never smoked	1		Unresected	1	1	1512	Multifocal liver disease	21.75008214	1:DECEASED														
+P-0006083	65.72938342	Male	29.3	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1			Metastatic disease	17.28178732	1:DECEASED														
+P-0006176	67.109298	Female	29.4	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	0	30	Metastatic disease	15.80330741	1:DECEASED														
+P-0006242	66.33172708	Female	27.1	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	1	0	0.9	Multifocal liver disease	42.51451101	1:DECEASED														
+P-0006353	69.11345964	Female	22.3	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0	1	196	Metastatic disease	5.09254189	1:DECEASED														
+P-0006583	65.91008652	Female	20.5	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	50982	Metastatic disease	3.121235352	1:DECEASED														
+P-0006871	74.36480123	Male	37.8	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	0	0.9	Metastatic disease	6.965283102	1:DECEASED														
+P-0006885	62.5479137	Male	27.7	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	0	1	77	Solitary liver tumor	21.42153105	1:DECEASED														
+P-0007016	51.02946008	Female	37.6	0	0	0	0	0	0	Former smoker	1		Unresected	1	1	494	Solitary liver tumor	47.63990801	1:DECEASED														
+P-0007205	54.19450225	Male	21.7	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	243	Metastatic disease	8.838024313	1:DECEASED														
+P-0007417	72.12791589	Male	28.6	1	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	0	1	59	Metastatic disease	18.62884679	1:DECEASED														
+P-0007510	51.22385281	Female	28.6	0	0	0	0	0	0	Never smoked	1	Poorly differentiated	Unresected	1	1	143	Metastatic disease	56.0508159	0:LIVING														
+P-0007520	58.85445187	Female	35.4	0	0	0	0	0	0	Former smoker	1	Poorly differentiated	Unresected	1	0	21	Solitary liver tumor	32.26371701	1:DECEASED														
+P-0007599	41.53159566	Male	31.2	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	0	32	Metastatic disease	6.406746249	1:DECEASED														
+P-0008020	57.27193079	Male	24.6	0	0	0	0	1	0	Never smoked	0	Poorly differentiated	Unresected	1	1	51	Metastatic disease	8.27948746	1:DECEASED														
+P-0008146	72.88632132	Female	20.5	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	0			Metastatic disease	11.46643303	1:DECEASED														
+P-0008182	52.44770562	Male	29.8	0	0	0	0	0	0	Never smoked	1	Poorly differentiated	Unresected	0	0	23	Metastatic disease	5.815354288	1:DECEASED														
+P-0008237	52.60924324	Female	24.6	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0	0	22	Metastatic disease	15.67188698	1:DECEASED														
+P-0008286	65.08597087	Female	17.6	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	314	Multifocal liver disease	17.70890373	1:DECEASED														
+P-0008287	66.76431935	Female	38.8	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	0	34	Metastatic disease	14.19340707	1:DECEASED														
+P-0008648	53.77012375	Male	30	1	0	0	0	1	0	Current smoker	0		Unresected	1	1	160	Metastatic disease	5.585368525	1:DECEASED														
+P-0008658	41.30434783	Male	34.9	1	0	0	0	0	0	Former smoker	0		Unresected	1	1	122	Multifocal liver disease	23.52425802	1:DECEASED														
+P-0009306	56.8694557	Male	33.1	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	0	0	1	Metastatic disease	23.91851933	1:DECEASED														
+P-0009611	48.36545833	Male	24.9	1	1	1	0	0	0	Never smoked	1	Poorly differentiated	Unresected	1	1	51	Metastatic disease	10.74362063	1:DECEASED														
+P-0009825	67.58295915	Male	29.6	1	0	0	0	1	0	Former smoker	0	Moderately differentiated	Unresected	1	1	136	Multifocal liver disease	34.20216844	0:LIVING														
+P-0009916	55.89201621	Female	27.7	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	1			Multifocal liver disease	53.35669697	1:DECEASED														
+P-0010070	70.66312562	Male	31.4	0	0	0	0	1	0	Current smoker	0	Poorly differentiated	Unresected	1	1	180	Multifocal liver disease	11.23644727	1:DECEASED														
+P-0010299	64.32208958	Male	26.2	1	1	0	1	1	0	Current smoker	1	Poorly differentiated	Unresected	1	1	62	Solitary liver tumor	10.38221443	1:DECEASED														
+P-0010331	43.63706056	Female	34.6	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	81	Metastatic disease	47.11422626	0:LIVING														
+P-0010533	64.38232395	Male	24.4	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	1	1	54	Metastatic disease	40.01752272	1:DECEASED														
+P-0010574	69.03679772	Male	26.6	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0	1	464	Metastatic disease	11.59785347	1:DECEASED														
+P-0010577	72.66454934	Female	24.4	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	1	1	63	Multifocal liver disease	25.39699923	1:DECEASED														
+P-0010615	38.57463586	Male	32.7	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	0	0.9	Metastatic disease	7.720950608	1:DECEASED														
+P-0010701	66.83550542	Male	31.7	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	1	1	48	Metastatic disease	12.35352097	1:DECEASED														
+P-0010723	72.15255722	Male	31.6	1	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected				Metastatic disease	9.068010076	0:LIVING														
+P-0010733	62.90110612	Female	37.8	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0	1	70	Metastatic disease	13.56916	0:LIVING														
+P-0010851	48.74603001	Female	31.1	0	0	0	0	0	0	Current smoker	0	Moderately differentiated	Unresected	1	1	59	Metastatic disease	28.02540795	1:DECEASED														
+P-0011032	64.28375862	Male	31.6	1	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	1	105	Metastatic disease	6.538166685	1:DECEASED														
+P-0011050	56.65589749	Female	34	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	1	1	3524	Multifocal liver disease	26.80976892	1:DECEASED														
+P-0011076	66.45219582	Female	29.8	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	41	Metastatic disease	39.13043478	1:DECEASED														
+P-0011215	59.6128573	Male	44.8	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	1	87	Metastatic disease	3.679772205	1:DECEASED														
+P-0011223	63.24060891	Female	46.4	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	1	79	Metastatic disease	3.18694557	1:DECEASED														
+P-0011270	65.42547366	Female	31.4	0	0	0	0	0	0	Never smoked	0	Well differentiated	Unresected	0	1	43	Multifocal liver disease	26.08695652	1:DECEASED														
+P-0011394	42.76092432	Male	27.8	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	0	27	Multifocal liver disease	2.365567846	0:LIVING														
+P-0011416	58.12068777	Male	33.2	0	0	0	0	0	0	Never smoked	1		Unresected	0	1	226	Multifocal liver disease	131.3218706	0:LIVING														
+P-0011556	65.42821159	Female	25.6	1	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	1	1	130	Solitary liver tumor	26.51407294	1:DECEASED														
+P-0011566	44.70211368	Female	26.2	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	1	270	Metastatic disease	17.70890373	1:DECEASED														
+P-0012003	55.62917534	Male	31.5	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1			Solitary liver tumor	38.30905706	1:DECEASED														
+P-0012155	57.4964407	Male		0	0	0	0	0	1	Never smoked	0		Unresected	0	1	166	Metastatic disease	11.79498412	1:DECEASED														
+P-0012369	42.98817216	Female	17.9	0	0	0	0	0	0	Never smoked	1		Unresected	1	1	144	Multifocal liver disease	67.74723469	1:DECEASED														
+P-0012376	54.36425364	Female	34.3	0	0	0	0	0	0	Former smoker	1		Unresected	1	1	68	Solitary liver tumor	48.19844486	1:DECEASED														
+P-0012538	47.27302596	Female	28	1	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	1	0	1.9	Multifocal liver disease	7.129558646	0:LIVING														
+P-0012547	61.94283211	Female	34.1	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	0	0	0.9	Multifocal liver disease	2.924104698	0:LIVING														
+P-0012626	76.90285839	Female	25.8	0	1	1	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	1	224	Metastatic disease	32.9536743	1:DECEASED														
+P-0012639	59.01598949	Female	32.9	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	1	90	Metastatic disease	8.213777242	1:DECEASED														
+P-0012644	61.48286058	Male	28.2	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0	1	98146	Metastatic disease	24.47705618	1:DECEASED														
+P-0012666	31.19318804	Female	26	0	0	0	0	0	0	Never smoked	0		Unresected	1	1	5378	Metastatic disease	2.891249589	1:DECEASED														
+P-0013405	59.30073376	Male	28.6	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	0	1	53	Metastatic disease	13.40488446	0:LIVING														
+P-0013971	59.87022232	Female	34.7	1	0	0	0	0	0	Current smoker	0		Unresected	1	1	42	Metastatic disease	26.08695652	1:DECEASED														
+P-0014155	73.893878	Male	31.1	1	0	0	0	1	0	Never smoked	0	Poorly differentiated	Unresected	1	1	327	Metastatic disease	6.04534005	1:DECEASED														
+P-0014432	78.87690286	Female	22.9	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	1	147	Metastatic disease	1.577045231	1:DECEASED														
+P-0014762	61.91271493	Female	23.6	0	0	0	0	0	0	Former smoker	0	Well differentiated	Unresected	0	0	31	Metastatic disease	23.09714161	1:DECEASED														
+P-0014846	66.56992662	Male	30.2	1	1	0	1	1	0	Former smoker	0	Moderately differentiated	Unresected	1	1	1469	Metastatic disease	13.70058044	1:DECEASED														
+P-0015327	65.57605958	Male	26.4	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	1	0	0.9	Metastatic disease	18.16887526	1:DECEASED														
+P-0015738	61.29668163	Male	23.1	0	1	0	1	1	0	Current smoker	0	Poorly differentiated	Unresected	1	1	1288	Metastatic disease	9.955098018	1:DECEASED														
+P-0016006	46.78567517	Male	32.9	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	1	1	291	Metastatic disease	21.42153105	1:DECEASED														
+P-0016167	59.9961669	Female	25.3	1	0	0	0	0	0	Never smoked	0		Unresected	1			Metastatic disease	18.95739788	1:DECEASED														
+P-0016195	38.66224948	Female	26.3	0	0	0	0	0	0	Never smoked	1	Poorly differentiated	Unresected	1	1	234	Multifocal liver disease	47.57419779	0:LIVING														
+P-0016436	75.68995729	Female	22.7	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	1	155	Metastatic disease	15.83616252	1:DECEASED														
+P-0016621	53.8385719	Female	29.3	0	0	0	0	0	0	Current smoker	0	Poorly differentiated	Unresected	2-3	1	181	Metastatic disease	2.628408718	1:DECEASED														
+P-0016737	73.55985106	Male	29.1	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1			Metastatic disease	5.355382762	1:DECEASED														
+P-0016954	74.83846238	Male	27.4	1	0	0	0	1	0	Former smoker	0	Poorly differentiated	Unresected	1	1	74	Multifocal liver disease	11.17073705	1:DECEASED														
+P-0016988	72.29219144	Male	32.8	1	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	2-3	1	63	Metastatic disease	13.73343555	1:DECEASED														
+P-0017120	63.82104917	Male	30.8	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	1	55	Metastatic disease	9.429416274	1:DECEASED														
+P-0017265	71.27642098	Female	34	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	1	557	Multifocal liver disease	29.93100427	1:DECEASED														
+P-0017268	47.1717227	Female	23.5	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	99	Metastatic disease	5.848209397	1:DECEASED														
+P-0017696	65.2803636	Male	21.9	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0	1	6433	Metastatic disease	6.965283102	1:DECEASED														
+P-0017928	50.51473004	Male	27.3	1	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	1	78	Metastatic disease	9.692257146	1:DECEASED														
+P-0017971	60.68886212	Female	36.1	1	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	0	1	75.5	Metastatic disease	24.14850509	1:DECEASED														
+P-0018110	67.03811193	Male	30	0	1	0	1	0	0	Current smoker	1	Moderately differentiated	Unresected	1			Multifocal liver disease	23.819954	1:DECEASED														
+P-0018115	73.87471252	Male	20.3	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	0	32	Metastatic disease	46.45712408	0:LIVING														
+P-0018307	68.79586026	Female	21.9	0	0	0	0	0	0	Former smoker	1	Poorly differentiated	Unresected	1	1	157	Metastatic disease	29.76672873	1:DECEASED														
+P-0018902	71.89793013	Male	25.8	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	1	2501	Metastatic disease	9.659402037	1:DECEASED														
+P-0019285	51.76322418	Male	38.6	1	1	1	1	1	0	Former smoker	0	Poorly differentiated	Unresected	2-3	1	198.5	Metastatic disease	9.297995838	1:DECEASED														
+P-0019382	75.06023437	Male	26	0	0	0	0	0	0	Former smoker	1	Well differentiated	Unresected	1	1	99	Multifocal liver disease	36.37060563	0:LIVING														
+P-0020186	51.1170737	Female	20.9	0	0	0	0	0	0	Current smoker	0	Moderately differentiated	Unresected	1			Metastatic disease	9.002299858	1:DECEASED														
+P-0020345	62.60267222	Female	26.7	0	1	1	0	0	0	Current smoker	0	Poorly differentiated	Unresected	0	1	275	Metastatic disease	10.08651845	1:DECEASED														
+P-0020410	50.72007447	Female	23.7	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	1	0	0.9	Multifocal liver disease	30.52239623	0:LIVING														
+P-0020671	68.59051583	Female	25.2	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	1	1	525	Multifocal liver disease	9.002299858	1:DECEASED														
+P-0020719	61.00919943	Female	38	0	0	0	0	0	0	Current smoker	0	Poorly differentiated	Unresected	0	0	21	Metastatic disease	67.97722046	0:LIVING														
+P-0020746	64.73551637	Male	29.8	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	0	0	10	Metastatic disease	33.84076224	1:DECEASED														
+P-0020961	59.58274012	Female	31.4	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0	1	85314	Metastatic disease	2.365567846	1:DECEASED														
+P-0020976	32.6771438	Female	20.1	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	8024	Metastatic disease	9.856532691	0:LIVING														
+P-0021071	85.6970759	Male	26.1	0	0	0	0	0	0	Former smoker	0		Unresected	1	1	3336	Solitary liver tumor	7.688095499	1:DECEASED														
+P-0021672	59.65392619	Male	23.6	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0	1	101	Metastatic disease	29.63530829	0:LIVING														
+P-0021676	79.43817764	Male	27.1	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	0	28	Solitary liver tumor	2.989814916	1:DECEASED														
+P-0021923	62.22210054	Male	29.3	0	0	0	0	0	0	Former smoker	0		Unresected	1	1	2218.2	Metastatic disease	6.70244223	1:DECEASED														
+P-0022253	55.07611434	Female	31.7	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	0	34	Metastatic disease	35.5492279	1:DECEASED														
+P-0022369	58.63815573	Male	23	0	0	0	0	1	0	Former smoker	0	Poorly differentiated	Unresected	1	0	0.9	Metastatic disease	28.97820611	0:LIVING														
+P-0022478	62.11258351	Male	26.8	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	1	23519	Metastatic disease	5.355382762	1:DECEASED														
+P-0022663	75.85423283	Female	22.4	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1			Metastatic disease	5.848209397	1:DECEASED														
+P-0023103	84.1556237	Female	24.6	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	0	0.9	Metastatic disease	23.88566422	1:DECEASED														
+P-0023266	59.18300296	Male	26.7	1	0	0	0	0	0	Current smoker	0	Moderately differentiated	Unresected	1	1	22789	Multifocal liver disease	6.571021794	1:DECEASED														
+P-0023297	64.98740554	Female	26.8	1	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	346264	Multifocal liver disease	11.30215749	1:DECEASED														
+P-0023349	34.59642974	Male	36.2	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	1	103	Metastatic disease	12.78063739	1:DECEASED														
+P-0023374	71.02726974	Male	30.5	1	1	1	0	1	0	Former smoker	0	Moderately differentiated	Unresected	2-3	1	233.7	Metastatic disease	10.80933085	1:DECEASED														
+P-0023672	49.06089147	Male	29	0	1	1	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	0		Metastatic disease	11.86069434	1:DECEASED														
+P-0023703	70.67133939	Female	25.5	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	82	Metastatic disease	26.21837696	1:DECEASED														
+P-0024085	47.40444639	Male	30.9	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	0	14	Metastatic disease	15.80330741	1:DECEASED														
+P-0024187	60.7080276	Female	39.5	1	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	2-3	1	743	Metastatic disease	27.86113241	0:LIVING														
+P-0024466	72.94929362	Male	34.3	1	0	0	0	1	0	Never smoked	0	Moderately differentiated	Unresected	2-3	0	12	Metastatic disease	15.44190122	1:DECEASED														
+P-0024484	59.12276859	Male	27	0	1	1	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	1	347	Metastatic disease	12.48494141	1:DECEASED														
+P-0024645	70.40028474	Female	35.6	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	1	0	17	Multifocal liver disease	29.07677144	0:LIVING														
+P-0024678	56.93516592	Male	29.5	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	0	4	Metastatic disease	26.54692805	0:LIVING														
+P-0025197	72.15529515	Male	29.8	1	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	1	1	171	Multifocal liver disease	17.41320775	1:DECEASED														
+P-0025289	67.06822911	Female	17.9	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0	1	93	Metastatic disease	13.04347826	1:DECEASED														
+P-0025511	79.04939218	Female	25.3	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	0	1	80	Metastatic disease	13.10918848	1:DECEASED														
+P-0025678	38.13656774	Male	23.5	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	0	1	68	Metastatic disease	25.65984011	0:LIVING														
+P-0025771	70.50706385	Female	34.8	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	0	1	91	Metastatic disease	22.30861899	1:DECEASED														
+P-0025835	81.86397985	Female	25.4	0	0	0	0	0	0	Never smoked	1	Poorly differentiated	Unresected	0	1	47	Metastatic disease	24.24707042	0:LIVING														
+P-0025873	55.01587997	Male	21.6	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	0	0	0.9	Multifocal liver disease	20.04161647	1:DECEASED														
+P-0026007	71.00536633	Male	32.9	1	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	0	31	Metastatic disease	27.23688534	1:DECEASED														
+P-0026075	50.10951703	Male	26.5	0	0	0	0	1	0	Never smoked	0		Unresected	0	0	9	Metastatic disease	10.08651845	1:DECEASED														
+P-0026424	51.16088052	Male	27	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	0	1	24944.9	Multifocal liver disease	17.87317928	1:DECEASED														
+P-0027028	78.13218706	Female	27.3	1	1	0	1	1	0	Never smoked	0		Unresected	0			Multifocal liver disease	23.26141715	0:LIVING														
+P-0027544	47.5331289	Male	52.1	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	2-3	1	2710	Metastatic disease	0.821377724	1:DECEASED														
+P-0027623	67.90329646	Female	24.2	1	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	1	0	2	Metastatic disease	23.91851933	0:LIVING														
+P-0027646	60.25353192	Female		0	0	0	0	0	0		0	Poorly differentiated	Unresected				Solitary liver tumor	7.293834191	0:LIVING														
+P-0027691	63.5582083	Male	31.6	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	0	1	287	Metastatic disease	23.88566422	0:LIVING														
+P-0027847	61.78403242	Female	31.4	1	0	0	0	0	0	Former smoker	1	Well differentiated	Unresected	0	1	1887	Multifocal liver disease	21.48724127	0:LIVING														
+P-0027866	58.43554923	Male	35.3	1	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	0	1	129	Metastatic disease	9.265140729	1:DECEASED														
+P-0028624	31.9652831	Female	27.5	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0			Metastatic disease	11.82783923	1:DECEASED														
+P-0029067	52.57091228	Male	27.1	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1			Metastatic disease	5.618223634	1:DECEASED														
+P-0029363	72.08137115	Female	20.7	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	0	1	62	Multifocal liver disease	21.84864746	0:LIVING														
+P-0029803	55.35264484	Female	25.8	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1		164	Multifocal liver disease	7.523819954	1:DECEASED														
+P-0029964	55.3909758	Female	31	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	0	1	278	Metastatic disease	6.078195159	1:DECEASED														
+P-0030232	76.76048626	Male	22.6	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	0	22	Multifocal liver disease	10.67791042	1:DECEASED														
+P-0030835	61.05300624	Female	23	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	0	1	7304	Metastatic disease	18.99025298	1:DECEASED														
+P-0031039	70.00602344	Male	20.6	0	0	0	0	0	0	Never smoked	0		Unresected		1	67	Metastatic disease	2.694118935	1:DECEASED														
+P-0031204	70.68502902	Male	24.9	0	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	0			Multifocal liver disease	12.97776804	1:DECEASED														
+P-0031309	47.84799036	Female	30.9	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	1	117	Metastatic disease	12.0906801	1:DECEASED														
+P-0032033	69.4912934	Female	27.6	1	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	1	0	37	Multifocal liver disease	20.8629942	0:LIVING														
+P-0032234	76.7440587	Male	26	0	0	0	0	0	0	Former smoker	0		Unresected	2-3	1	2998	Metastatic disease	5.946774723	1:DECEASED														
+P-0032507	61.43084	Male	34.7	0	0	0	0	0	0	Never smoked	1	Poorly differentiated	Unresected	1			Multifocal liver disease	22.44003943	0:LIVING														
+P-0032563	40.23381886	Male	22	0	1	1	0	0	0	Never smoked	0	Poorly differentiated	Unresected	0	0	0.9	Metastatic disease	20.23874713	1:DECEASED														
+P-0032872	75.64341255	Male	33.3	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	1	171	Metastatic disease	20.60015332	1:DECEASED														
+P-0033136	42.662359	Female	37.2	1	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	1			Multifocal liver disease	21.29011061	0:LIVING														
+P-0033605	78.05278721	Male	24.1	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	1	213	Metastatic disease	15.57332165	0:LIVING														
+P-0033769	73.41200307	Male	29.5	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected		0	37	Multifocal liver disease	16.98609134	0:LIVING														
+P-0035035	70.31814697	Female	23.7	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	2-3	0	0.9	Metastatic disease	1.511335013	1:DECEASED														
+P-0035071	49.51812507	Male	29.8	1	0	0	0	0	0	Never smoked	0		Unresected	1			Metastatic disease	9.133720294	1:DECEASED														
+P-0035496	72.86441792	Male	40.2	1	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	1	828	Metastatic disease	13.10918848	0:LIVING														
+P-0035868	39.69718541	Male	23.5	0	0	0	0	0	0	Current smoker	1	Moderately differentiated	Unresected	1	1	8083	Metastatic disease	17.51177308	1:DECEASED														
+P-0036277	69.43379696	Female	18.7	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0	1	41	Metastatic disease	19.74592049	0:LIVING														
+P-0036445	79.52305333	Female	23.5	0	0	0	0	0	0	Never smoked	0		Unresected	2-3	0	36	Solitary liver tumor	7.819515935	1:DECEASED														
+P-0036910	39.94359873	Female	33.1	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	1	225	Metastatic disease	11.89354945	0:LIVING														
+P-0036922	75.72828825	Female	21.8	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	0	14	Metastatic disease	3.614061987	1:DECEASED														
+P-0037237	64.52195816	Male	34.9	0	0	0	0	0	0	Former smoker	0	Poorly differentiated	Unresected	1	1	105	Metastatic disease	12.41923119	1:DECEASED														
+P-0037602	58.4109079	Male	32.9	0	0	0	0	1	0	Former smoker	0	Moderately differentiated	Unresected	1			Multifocal liver disease	10.34935933	1:DECEASED														
+P-0037617	57.07206221	Female	19.1	0	1	0	1	0	0	Former smoker	0	Poorly differentiated	Unresected	0	0	0.9	Metastatic disease	5.815354288	1:DECEASED														
+P-0037787	67.92519987	Female	30.7	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	0	19	Solitary liver tumor	10.250794	0:LIVING														
+P-0037859	58.61625233	Male	28	1	0	0	0	0	0	Former smoker	1	Moderately differentiated	Unresected	0	0	28	Multifocal liver disease	11.82783923	0:LIVING														
+P-0037881	71.0656007	Male	28.2	0	0	0	0	0	0	Never smoked	1	Moderately differentiated	Unresected	1	1	111	Metastatic disease	11.46643303	0:LIVING														
+P-0037916	53.47168985	Male	31.4	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	0	1	1232	Metastatic disease	5.026831672	1:DECEASED														
+P-0037962	71.72817873	Male	31.8	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	0	0	38	Metastatic disease	10.87504107	0:LIVING														
+P-0038537	69.31332822	Female	22.1	0	0	0	0	0	0	Never smoked	0	Moderately differentiated	Unresected	1	1	834	Metastatic disease	2.628408718	1:DECEASED														
+P-0038547	69.17095608	Female	21.8	0	0	0	0	0	0	Current smoker	0	Poorly differentiated	Unresected	1	1	2686.4	Multifocal liver disease	12.22210054	0:LIVING														
+P-0039269	62.61909977	Male	23.5	0	0	0	0	0	0	Never smoked	0	Poorly differentiated	Unresected	1	1	299	Solitary liver tumor	9.462271383	0:LIVING														
+P-0039329	77.01237542	Female	30.5	0	0	0	0	0	0	Former smoker	0	Moderately differentiated	Unresected	1	1	137	Multifocal liver disease	13.1748987	0:LIVING														

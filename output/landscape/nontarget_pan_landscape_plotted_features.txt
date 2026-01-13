@@ -1,0 +1,666 @@
+patient_id	pw.1052.tgs	pw.11.tgs	pw.1114	pw.1121	pw.1211	pw.1320	pw.1364.tgs	pw.1438.tgs	pw.1455.tgs	pw.1551	pw.1563	pw.1622	pw.164.tgs	pw.167	pw.1716	pw.1750.tgs	pw.1779.tgs	pw.185	pw.1866	pw.1900.tgs	pw.195	pw.2062	pw.2146.tgs	pw.2179.tgs	pw.2227.tgs	pw.2237.tgs	pw.2310.tgs	pw.2499.tgs	pw.2642	pw.2698.tgs	pw.2753.tgs	pw.2808.tgs	pw.3059	pw.3070	pw.3294.tgs	pw.3365	pw.444	pw.457.tgs	pw.686	pw.735	cca_type	age	tmb	true_tmb	metastatic_disease	kit	seq_type	fgfr2_fusion	other_fusion	surv_month	surv_status	cca_subtype	cluster_id	x	y
+TCGA-ZH-A8Y8						SBS		SBS	SBS							Indel														Indel											IHC	73.2210814510609	0.489500158440148	0.489500158440148	Absent	SeqCap_v3	WXS				0	Intrahepatic	1	1	1
+nakamura_BD112								SBS											SBS	Indel										Indel				SBS							PHC		1.86176970693615	1.86176970693615	Absent	SureSelect_V5_UTR	WXS		Other fusion	41.1991786447639		Perihilar	1	2	1
+zou_80													Indel						Indel											Indel											IHC	59	0.836887367655737	0.836887367655737	Absent	SeqCap_v3	WXS			20	1	Intrahepatic	1	3	1
+nakamura_BD38																											SBS			SBS				SBS							IHC		0.810176994251027	0.810176994251027	Absent	SureSelect_V4_UTR	WXS			23.3921971252567		Intrahepatic	1	4	1
+nakamura_BD5													Indel														SBS			SBS										SBS	IHC		0.696467942426321	0.696467942426321	Unknown	SureSelect_V4_UTR	WXS					Intrahepatic	1	5	1
+nakamura_BD29																		Indel							SBS		SBS			SBS		SBS					SBS				IHC		1.30765409598411	1.30765409598411	Absent	SureSelect_V4_UTR	WXS			1.74127310061602		Intrahepatic	1	6	1
+zou_108		SBS							SBS																SBS		SBS			SBS											IHC	57	1.21585523225456	1.21585523225456	Absent	SeqCap_v3	WXS			8	1	Intrahepatic	1	7	1
+yale_d6	Indel					SBS + Indel																		SBS	SBS					SBS			SBS								DCC	77	4.70795863971976	4.70795863971976	Unknown	SeqCap_v2	WXS					Distal	1	8	1
+zhang_LD8k4471						Indel																								SBS											PHC		1.42112949224559	1.42112949224559	Unknown	SeqCap_v3	WXS					Perihilar	1	9	1
+gao_P9678T	SBS + Indel	Indel	SBS		SBS	SBS	SBS			SBS + Indel	SBS				SBS + Indel	SBS	SBS	Indel	SBS	Indel	SBS + Indel		SBS		SBS	Indel			SBS	SBS	Indel	SBS		SBS	Indel				SBS	SBS	IHC	54	10	45.0373628028187	Absent	TruSeq_EE	WXS					Intrahepatic	1	10	1
+zou_66						SBS											Indel			SBS					SBS					SBS	Indel										IHC	63	0.552661469206619	0.552661469206619	Absent	SeqCap_v3	WXS			11	1	Intrahepatic	1	11	1
+zhang_D70036-85						SBS																			SBS	SBS				SBS	SBS										IHC		1.84746833991927	1.84746833991927	Unknown	SeqCap_v3	WXS					Intrahepatic	1	12	1
+nakamura_BD236	SBS + Indel		SBS + Indel	SBS	Indel	SBS	Indel	SBS		SBS				SBS		SBS	SBS	SBS			SBS		SBS	SBS		Indel				SBS		SBS	SBS	SBS		SBS			SBS	SBS + Indel	PHC		10	29.9758316843389	Absent	SureSelect_V5_UTR	WXS			78.8501026694045		Perihilar	1	13	1
+nakamura_BD114	SBS	SBS	SBS		SBS	SBS	SBS	SBS	SBS	SBS	SBS		SBS	SBS	SBS			SBS	SBS	SBS	SBS	SBS	SBS + Indel	SBS	SBS	SBS		SBS		SBS		SBS		SBS	SBS	SBS	SBS	SBS	SBS	SBS	IHC		10	33.9404635782461	Absent	SureSelect_V5_UTR	WXS			5.94661190965092		Intrahepatic	1	14	1
+nakamura_BD37					SBS	SBS	SBS	SBS + Indel	SBS					SBS			SBS	Indel	SBS					SBS + Indel	SBS			SBS		SBS		SBS						SBS			DCC		5.33011180428307	5.33011180428307	Absent	SureSelect_V4_UTR	WXS			12.7802874743327		Distal	1	15	1
+nakamura_BD79	SBS					SBS							SBS																	SBS		SBS								SBS	IHC		0.857217706790746	0.857217706790746	Absent	SureSelect_V5_UTR	WXS			56.5749486652977		Intrahepatic	1	16	1
+wardell_HK10						SBS									SBS										Indel					SBS		SBS									IHC	76	3.75088854231998	3.75088854231998	Absent	Nextera_RC	WXS					Intrahepatic	1	17	1
+jusakul_CCA_TH_14	SBS		SBS	SBS	SBS																									SBS	Indel									Indel	IHC	64	3.37740482398704	3.37740482398704	Absent	genome	WGS		Other fusion	3.84394250513347	1	Intrahepatic	1	18	1
+jusakul_CCA_IT_3				SBS																					SBS			SBS		SBS	Indel										IHC	53	1.39069610399467	1.39069610399467	Absent	genome	WGS		Other fusion	9.72484599589322	1	Intrahepatic	1	19	1
+yale_p1																														SBS	Indel								SBS		PHC	80	1.47646040180561	1.47646040180561	Unknown	SeqCap_v2	WXS					Perihilar	1	20	1
+zhang_D70036-13	SBS		SBS														SBS								SBS	SBS				SBS	Indel		SBS		SBS						PHC		3.77388831829663	3.77388831829663	Unknown	SeqCap_v3	WXS					Perihilar	1	21	1
+nakamura_BD230																														SBS	Indel	SBS	SBS								IHC		1.2456444801803	1.2456444801803	Absent	SureSelect_V5_UTR	WXS			15.9671457905544		Intrahepatic	1	22	1
+nakamura_BD123														SBS		SBS									SBS				SBS	SBS	SBS										PHC		1.4867369602152	1.4867369602152	Absent	SureSelect_V5_UTR	WXS			44.2874743326489		Perihilar	1	23	1
+nakamura_BD157		SBS			SBS				SBS					SBS																SBS	SBS	SBS									IHC		1.00455200014541	1.00455200014541	Absent	SureSelect_V5_UTR	WXS			15.5071868583162		Intrahepatic	1	24	1
+nakamura_BD84				SBS																			SBS						SBS	SBS	SBS			SBS							IHC		0.964369920139589	0.964369920139589	Absent	SureSelect_V5_UTR	WXS			60.2874743326489		Intrahepatic	1	25	1
+zou_133			SBS									Indel						SBS	SBS											SBS	SBS				SBS	SBS		Indel			IHC	66	2.21064587682648	2.21064587682648	Absent	SeqCap_v3	WXS			26	1	Intrahepatic	1	26	1
+jusakul_CCA_RO_4												SBS									SBS				Indel			SBS		SBS	SBS										IHC	53	2.086044155992	2.086044155992	Unknown	genome	WGS		Other fusion	30.9158110882957	1	Intrahepatic	1	27	1
+zou_03		SBS																		SBS					Indel					SBS	SBS										IHC	59	0.773726056889266	0.773726056889266	Absent	SeqCap_v3	WXS			11	1	Intrahepatic	1	28	1
+nakamura_BD243																									Indel					SBS	SBS							SBS			IHC		1.15188629350007	1.15188629350007	Absent	SureSelect_V5_UTR	WXS		Other fusion	10.9733059548255		Intrahepatic	1	29	1
+nepal_Patient11	SBS															SBS									SBS					SBS	SBS				SBS	SBS					IHC		1.12287688676897	1.12287688676897	Unknown	SureSelect_V4	WXS					Intrahepatic	1	30	1
+jusakul_CCA_TH_17								SBS																	SBS					SBS	SBS					SBS					IHC	66	2.44613511149062	2.44613511149062	Absent	genome	WGS		Other fusion	2.10266940451745	1	Intrahepatic	1	31	1
+jusakul_CCA_CH_7																SBS									SBS					SBS	SBS				SBS						IHC	71	1.89979021349271	1.89979021349271	Absent	genome	WGS		Other fusion	2.26694045174538	1	Intrahepatic	1	32	1
+wardell_HK40																									SBS					SBS	SBS										PHC	57	0.755574670395392	0.755574670395392	Absent	Nextera_RC	WXS					Perihilar	1	33	1
+wardell_RK194	SBS																											SBS		SBS	SBS						SBS				IHC	67	0.94446833799424	0.94446833799424	Absent	Nextera_RC	WXS					Intrahepatic	1	34	1
+zou_29																						SBS								SBS	SBS										IHC	74	0.315806553832354	0.315806553832354	Absent	SeqCap_v3	WXS			4	1	Intrahepatic	1	35	1
+nakamura_BD10															SBS						SBS									SBS	SBS										IHC		1.67720851441441	1.67720851441441	Absent	SureSelect_V4_UTR	WXS			37.8809034907598		Intrahepatic	1	36	1
+nakamura_BD148	SBS	SBS		SBS										SBS		Indel														SBS											IHC		0.602731200087243	0.602731200087243	Absent	SureSelect_V5_UTR	WXS			8.6735112936345		Intrahepatic	1	37	1
+nakamura_BD118														SBS				SBS											SBS	SBS					Indel		SBS				IHC		1.01794602681401	1.01794602681401	Absent	SureSelect_V5_UTR	WXS			27.958932238193		Intrahepatic	1	38	1
+nakamura_BD234		SBS								SBS				SBS		SBS							SBS		Indel					SBS										SBS	IHC		0.9911579734768	0.9911579734768	Absent	SureSelect_V5_UTR	WXS			7.16221765913758		Intrahepatic	1	39	1
+nakamura_BD166														SBS																SBS											PHC		0.683095360098876	0.683095360098876	Absent	SureSelect_V5_UTR	WXS		Other fusion	10.776180698152		Perihilar	1	40	1
+zhang_D70036-113	SBS				Indel										SBS										SBS					SBS		SBS		SBS							IHC		1.80009735684442	1.80009735684442	Unknown	SeqCap_v3	WXS					Intrahepatic	1	41	1
+zou_134	SBS											SBS													SBS					SBS				SBS							IHC	59	0.963209989188678	0.963209989188678	Absent	SeqCap_v3	WXS			12	1	Intrahepatic	1	42	1
+zou_46							SBS						Indel																	SBS				SBS							IHC	52	0.236854915374265	0.236854915374265	Absent	SeqCap_v3	WXS			21	1	Intrahepatic	1	43	1
+zhang_D70036-57								SBS																						SBS				SBS							PHC		0.915839006113825	0.915839006113825	Unknown	SeqCap_v3	WXS					Perihilar	1	44	1
+zhang_D70036-83																														SBS				SBS							IHC		0.963209989188678	0.963209989188678	Unknown	SeqCap_v3	WXS					Intrahepatic	1	45	1
+nakamura_BD213		Indel		Indel																					SBS			SBS		SBS											IHC		1.36619072019775	1.36619072019775	Absent	SureSelect_V5_UTR	WXS			6.83367556468173		Intrahepatic	1	46	1
+chan-on_00990196T		Indel		SBS			SBS																		Indel					SBS		SBS									EHC	77	1.50664493667735	1.50664493667735	Unknown	SureSelect_V4_UTR	WXS					Extrahepatic	1	47	1
+yale_d7				SBS																					SBS					SBS											DCC	73	1.61574911895708	1.61574911895708	Unknown	SeqCap_v2	WXS					Distal	1	48	1
+jusakul_CCA_TH_13		SBS									SBS		Indel					SBS	Indel									Indel		SBS											PHC	57	3.77474656798552	3.77474656798552	Absent	genome	WGS		Other fusion	33.741273100616	0	Perihilar	1	49	1
+zou_137			SBS								SBS									SBS										SBS											IHC	58	0.568451796898236	0.568451796898236	Absent	SeqCap_v3	WXS			4	1	Intrahepatic	1	50	1
+nakamura_BD30															SBS														SBS	SBS			SBS								IHC		0.824390625729115	0.824390625729115	Absent	SureSelect_V4_UTR	WXS			85.6837782340863		Intrahepatic	1	51	1
+nakamura_BD59							SBS																	SBS					SBS	SBS											DCC		1.84837568026755	1.84837568026755	Absent	SureSelect_V5_UTR	WXS			96.2299794661191		Distal	1	52	1
+nakamura_BD233																														SBS									SBS	SBS	IHC		1.15188629350007	1.15188629350007	Absent	SureSelect_V5_UTR	WXS			6.4394250513347		Intrahepatic	1	53	1
+zhang_D70036-67	SBS									SBS					SBS										Indel					SBS									SBS		PHC		1.73693604607794	1.73693604607794	Unknown	SeqCap_v3	WXS					Perihilar	1	54	1
+jusakul_CCA_RO_2			SBS						SBS																SBS					SBS									SBS		PHC	49	2.66963984248976	2.66963984248976	Present	genome	WGS		Other fusion	19.8110882956879	1	Perihilar	1	55	1
+zou_129																									SBS					SBS									SBS		IHC	68	1.10532293841324	1.10532293841324	Absent	SeqCap_v3	WXS			42	0	Intrahepatic	1	56	1
+yale_d4																									SBS					SBS									SBS		DCC	70	2.03361527041149	2.03361527041149	Unknown	SeqCap_v2	WXS					Distal	1	57	1
+jusakul_CCA_JP_10												SBS					SBS													SBS					SBS				SBS		IHC	31	1.67628548249357	1.67628548249357	Absent	genome	WGS		Other fusion	12.6817248459959	1	Intrahepatic	1	58	1
+TCGA-W5-AA2M																				SBS						SBS				SBS									SBS		EHC	49.2511978097194	0.67898409073956	0.67898409073956	Present	SeqCap_v3	WXS			17.741273100616	1	Extrahepatic	1	59	1
+nakamura_BD221																	SBS						SBS							SBS									SBS		IHC		0.937581866802379	0.937581866802379	Absent	SureSelect_V5_UTR	WXS			33.2813141683778		Intrahepatic	1	60	1
+nakamura_BD66																														SBS									SBS		IHC		0.668040679470145	0.668040679470145	Absent	SureSelect_V4_UTR	WXS			5.35523613963039		Intrahepatic	1	61	1
+wardell_HK54								SBS				SBS					SBS		SBS						SBS					SBS											DCC	80	1.29527086353496	1.29527086353496	Absent	Nextera_RC	WXS					Distal	1	62	1
+nepal_Patient8										SBS									SBS									SBS		SBS											IHC		0.241631735127499	0.241631735127499	Unknown	SureSelect_V4	WXS					Intrahepatic	1	63	1
+zou_59																	SBS	Indel							Indel					SBS							SBS			SBS	IHC	60	0.600032452281472	0.600032452281472	Present	SeqCap_v3	WXS			4	1	Intrahepatic	1	64	1
+nakamura_BD61																									SBS					SBS								SBS		SBS	DCC		0.724895205382498	0.724895205382498	Absent	SureSelect_V4_UTR	WXS			98.0698151950719		Distal	1	65	1
+nepal_Patient12		Indel																												SBS										SBS	IHC		0.511690733211175	0.511690733211175	Unknown	SureSelect_V4	WXS					Intrahepatic	1	66	1
+jusakul_CCA_JP_8		Indel	SBS		Indel																									SBS						SBS					IHC	66	1.564533116994	1.564533116994	Absent	genome	WGS		Other fusion	5.51950718685832	1	Intrahepatic	1	67	1
+jusakul_CCA_IT_2					Indel																									SBS								Indel			IHC	76	2.868310714489	2.868310714489	Absent	genome	WGS		Other fusion	26.5133470225873	0	Intrahepatic	1	68	1
+nakamura_BD154		SBS			SBS											Indel									SBS	SBS				SBS											IHC		0.763459520110508	0.763459520110508	Absent	SureSelect_V5_UTR	WXS			4.435318275154		Intrahepatic	1	69	1
+nakamura_BD86					SBS			SBS															SBS		SBS					SBS											IHC		0.696489386767481	0.696489386767481	Absent	SureSelect_V5_UTR	WXS			5.71663244353183		Intrahepatic	1	70	1
+wardell_HK98					SBS		SBS																							SBS											PHC	61	2.02386072427337	2.02386072427337	Absent	Nextera_RC	WXS					Perihilar	1	71	1
+nakamura_BD88																									Indel					SBS											IHC		0.81703562678493	0.81703562678493	Absent	SureSelect_V5_UTR	WXS			5.74948665297741		Intrahepatic	1	72	1
+nakamura_BD205			SBS															SBS					SBS		SBS			SBS		SBS											DCC		1.75461749358731	1.75461749358731	Absent	SureSelect_V5_UTR	WXS		Other fusion	2.72689938398357		Distal	1	73	1
+jusakul_CCA_TH_16			SBS														SBS						SBS		SBS					SBS						SBS					IHC		2.71930756048957	2.71930756048957	Absent	genome	WGS		Other fusion		1	Intrahepatic	1	74	1
+zou_17															SBS										SBS					SBS											IHC	55	0.615822779973089	0.615822779973089	Present	SeqCap_v3	WXS			6	1	Intrahepatic	1	75	1
+jusakul_CCA_CH_8																SBS									SBS					SBS			SBS								IHC	60	1.44036382199447	1.44036382199447	Absent	genome	WGS		Other fusion	17.4784394250513	1	Intrahepatic	1	76	1
+nakamura_BD74																									SBS					SBS			SBS								IHC		0.966526940509997	0.966526940509997	Absent	SureSelect_V4_UTR	WXS			53.4537987679672		Intrahepatic	1	77	1
+jusakul_CCA_JP_9									SBS	SBS															SBS			SBS		SBS											IHC	60	3.34015403548719	3.34015403548719	Absent	genome	WGS		Other fusion	2.95687885010267	1	Intrahepatic	1	78	1
+TCGA-3X-AAVB							SBS			SBS															SBS					SBS											IHC	70.6885694729637	0.394758192290442	0.394758192290442	Present	SeqCap_v3	WXS				0	Intrahepatic	1	79	1
+yale_d1													SBS												SBS					SBS					SBS						DCC		2.06147301384179	2.06147301384179	Absent	SeqCap_v2	WXS					Distal	1	80	1
+nakamura_BD211													SBS												SBS					SBS		SBS						Indel			IHC		0.950975893470984	0.950975893470984	Absent	SureSelect_V5_UTR	WXS			11.2032854209446		Intrahepatic	1	81	1
+nakamura_BD143																	SBS								SBS			SBS		SBS											IHC		0.81703562678493	0.81703562678493	Absent	SureSelect_V5_UTR	WXS			5.32238193018481		Intrahepatic	1	82	1
+jusakul_CCA_RO_1																	SBS								SBS					SBS											IHC	45	1.31619452699495	1.31619452699495	Unknown	genome	WGS		Other fusion		1	Intrahepatic	1	83	1
+nakamura_BD229																								SBS	SBS					SBS											IHC		1.07152213348843	1.07152213348843	Absent	SureSelect_V5_UTR	WXS			4.73100616016427		Intrahepatic	1	84	1
+nakamura_BD34	SBS								SBS																SBS					SBS											PHC		2.5300264030997	2.5300264030997	Absent	SureSelect_V4_UTR	WXS			11.6632443531828		Perihilar	1	85	1
+wardell_OS01																									SBS					SBS											IHC	74	0.593665812453522	0.593665812453522	Absent	Nextera_RC	WXS					Intrahepatic	1	86	1
+nakamura_BD18																									SBS					SBS											IHC		0.966526940509997	0.966526940509997	Absent	SureSelect_V4_UTR	WXS			9.82340862422998		Intrahepatic	1	87	1
+nakamura_BD25																									SBS					SBS											IHC		0.767536099816762	0.767536099816762	Absent	SureSelect_V4_UTR	WXS			13.2073921971253		Intrahepatic	1	88	1
+nakamura_BD218												SBS												SBS						SBS											IHC		1.03134005348262	1.03134005348262	Absent	SureSelect_V5_UTR	WXS			19.7453798767967		Intrahepatic	1	89	1
+zhang_D70036-39			SBS																			SBS								SBS											PHC		0.726355073814413	0.726355073814413	Unknown	SeqCap_v3	WXS					Perihilar	1	90	1
+jiao_CHOL13			SBS																											SBS											IHC		0.521267836319293	0.521267836319293	Unknown	SureSelect_V2	WXS					Intrahepatic	1	91	1
+nakamura_BD28										SBS			SBS																	SBS											IHC		0.525904364689263	0.525904364689263	Absent	SureSelect_V4_UTR	WXS			72.4106776180698		Intrahepatic	1	92	1
+zhang_D70036-33										SBS																				SBS											PHC		0.836887367655737	0.836887367655737	Unknown	SeqCap_v3	WXS					Perihilar	1	93	1
+jiao_CHOL01													SBS													Indel				SBS											IHC		0.369231384059499	0.369231384059499	Unknown	SureSelect_V2	WXS					Intrahepatic	1	94	1
+TCGA-W5-AA31													SBS																	SBS											IHC	71.564681724846	0.584242124589854	0.584242124589854	Absent	SeqCap_v3	WXS		Other fusion		0	Intrahepatic	1	95	1
+jusakul_CCA_SG_5																				SBS										SBS								SBS			IHC	78	1.70111934149347	1.70111934149347	Absent	genome	WGS		Other fusion	17.1827515400411	0	Intrahepatic	1	96	1
+zhang_D70036-31																				SBS										SBS											PHC		0.852677695347355	0.852677695347355	Unknown	SeqCap_v3	WXS					Perihilar	1	97	1
+yale_d9																	SBS							Indel						SBS											DCC		1.0028787634906	1.0028787634906	Absent	SeqCap_v2	WXS					Distal	1	98	1
+zou_111		SBS															SBS							SBS						SBS											IHC	85	0.821097039964119	0.821097039964119	Absent	SeqCap_v3	WXS			10	1	Intrahepatic	1	99	1
+nakamura_BD47																	SBS													SBS								SBS			IHC		0.78174973129485	0.78174973129485	Absent	SureSelect_V4_UTR	WXS			95.7371663244353		Intrahepatic	1	100	1
+borad_1							SBS																							SBS		SBS									IHC	64	0.724963220415047	0.724963220415047	Absent	SureSelect_V1	WXS			14.5	0	Intrahepatic	1	101	1
+TCGA-4G-AAZR							SBS																	SBS						SBS											IHC	74.3353867214237	0.442129175365295	0.442129175365295	Absent	SeqCap_v3	WXS			0.919917864476386	1	Intrahepatic	1	102	1
+zhang_LD8k4447	SBS	Indel														SBS														SBS											PHC		1.23164555994618	1.23164555994618	Unknown	SeqCap_v3	WXS					Perihilar	1	103	1
+zou_107	SBS																													SBS											IHC	65	0.457919503056913	0.457919503056913	Absent	SeqCap_v3	WXS			21	1	Intrahepatic	1	104	1
+nakamura_BD95	SBS																													SBS											IHC		0.442002880063979	0.442002880063979	Absent	SureSelect_V5_UTR	WXS			70.1108829568789		Intrahepatic	1	105	1
+nakamura_BD15																										Indel				SBS											IHC		0.895458783119556	0.895458783119556	Absent	SureSelect_V4_UTR	WXS			5.94661190965092		Intrahepatic	1	106	1
+nakamura_BD127																										SBS				SBS											IHC		0.388426773389557	0.388426773389557	Absent	SureSelect_V5_UTR	WXS			21.1252566735113		Intrahepatic	1	107	1
+wardell_RK146																SBS														SBS											IHC	57	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Intrahepatic	1	108	1
+zhang_D70036-53								Indel																						SBS											PHC		0.710564746122796	0.710564746122796	Unknown	SeqCap_v3	WXS					Perihilar	1	109	1
+zhang_D70036-75								SBS																						SBS											IHC		1.54745211377853	1.54745211377853	Unknown	SeqCap_v3	WXS					Intrahepatic	1	110	1
+zou_33																														SBS											IHC	38	0.378967864598824	0.378967864598824	Absent	SeqCap_v3	WXS			5	1	Intrahepatic	1	111	1
+zou_120																														SBS											IHC	51	0.41054851998206	0.41054851998206	Present	SeqCap_v3	WXS			22	1	Intrahepatic	1	112	1
+wardell_RK316																														SBS											IHC	54	0.566681002796544	0.566681002796544	Absent	Nextera_RC	WXS					Intrahepatic	1	113	1
+jusakul_CCA_SG_8																														SBS											IHC	57	0.881601994496618	0.881601994496618	Absent	genome	WGS		Other fusion	70.6365503080082	0	Intrahepatic	1	114	1
+wardell_HK110																														SBS											DCC	60	1.05240757662215	1.05240757662215	Absent	Nextera_RC	WXS					Distal	1	115	1
+zou_07																														SBS											IHC	61	0.157903276916177	0.157903276916177	Absent	SeqCap_v3	WXS			23	1	Intrahepatic	1	116	1
+zou_144																														SBS											IHC	62	0.663193763047943	0.663193763047943	Absent	SeqCap_v3	WXS			18	1	Intrahepatic	1	117	1
+nakamura_BD153																														SBS											IHC		0.14733429335466	0.14733429335466	Absent	SureSelect_V5_UTR	WXS			20.5010266940452		Intrahepatic	1	118	1
+nakamura_BD247																														SBS											IHC		0.415214826726768	0.415214826726768	Unknown	SureSelect_V5_UTR	WXS			1.67556468172485		Intrahepatic	1	119	1
+nepal_Patient10																														SBS											IHC		0.1	0.0568545259123528	Unknown	SureSelect_V4	WXS					Intrahepatic	1	120	1
+nepal_Patient7																														SBS											IHC		0.1	0.0710681573904409	Unknown	SureSelect_V4	WXS					Intrahepatic	1	121	1
+nepal_Patient9																														SBS											IHC		0.1	0.0710681573904409	Unknown	SureSelect_V4	WXS					Intrahepatic	1	122	1
+yale_i3																														SBS											IHC		1.08645199378148	1.08645199378148	Unknown	SeqCap_v2	WXS					Intrahepatic	1	123	1
+zhang_D70036-01																														SBS											PHC		0.836887367655737	0.836887367655737	Unknown	SeqCap_v3	WXS					Perihilar	1	124	1
+jusakul_CCA_SG_7	SBS + Indel	Indel	SBS + Indel		SBS	SBS	Indel	SBS + Indel	Indel	SBS + Indel	Indel	SBS			SBS + Indel	SBS + Indel	Indel	Indel	SBS + Indel	SBS + Indel	SBS		Indel	SBS		SBS + Indel	Indel		SBS + Indel		SBS	SBS	SBS + Indel	SBS	SBS	SBS + Indel			SBS + Indel	Indel	EHC	68	10	50.9342448088046	Absent	genome	WGS		Other fusion	29.5030800821355	0	Extrahepatic	2	125	1
+nakamura_BD165		Indel	SBS		SBS			SBS		SBS	SBS		SBS			Indel	SBS	Indel	SBS	SBS + Indel	Indel						Indel		SBS			SBS + Indel		SBS	SBS		SBS		SBS		IHC		10	10.929525761582	Absent	SureSelect_V5_UTR	WXS			11.7618069815195		Intrahepatic	2	126	1
+nakamura_BD142	SBS							SBS										SBS					SBS				Indel														IHC		1.4867369602152	1.4867369602152	Absent	SureSelect_V5_UTR	WXS		Other fusion	35.088295687885		Intrahepatic	2	127	1
+nakamura_BD124	SBS	SBS + Indel	SBS	SBS + Indel	SBS + Indel	SBS + Indel	SBS + Indel	SBS	SBS	SBS + Indel	SBS + Indel	SBS	Indel		SBS	Indel		SBS + Indel	SBS	Indel	SBS	Indel	SBS	SBS	SBS	SBS	SBS		SBS + Indel		Indel	SBS	SBS	SBS	SBS			SBS	SBS	SBS + Indel	IHC		10	52.986769501003	Absent	SureSelect_V5_UTR	WXS		Other fusion	41.5934291581109		Intrahepatic	2	128	1
+nakamura_BD121	SBS			SBS	SBS	SBS	SBS	SBS	SBS	SBS				SBS				SBS		SBS		SBS				SBS	SBS	SBS	SBS		SBS	SBS			SBS	SBS	SBS				IHC		10	20.8678935496872	Absent	SureSelect_V5_UTR	WXS			43.8603696098563		Intrahepatic	2	129	1
+wardell_HK64					SBS	SBS							SBS								SBS						SBS				SBS	SBS	SBS			SBS	SBS				DCC	72	5.26203788311076	5.26203788311076	Absent	Nextera_RC	WXS					Distal	2	130	1
+nakamura_BD135	SBS	Indel				SBS	Indel					Indel		SBS								SBS			SBS	SBS + Indel	SBS					SBS + Indel	SBS	SBS		Indel	SBS				IHC		10	13.407420695274	Absent	SureSelect_V5_UTR	WXS			62.7843942505134		Intrahepatic	2	131	1
+zhang_D70036-87	Indel			SBS	SBS + Indel	SBS	SBS + Indel	SBS			SBS	SBS	SBS + Indel						Indel	Indel	SBS	Indel			SBS	SBS + Indel	SBS	SBS				SBS	SBS	SBS				SBS	SBS	Indel	IHC		10	23.6065398989684	Unknown	SeqCap_v3	WXS					Intrahepatic	2	132	1
+nakamura_BD131	SBS					SBS	SBS																				SBS														PHC		0.924187840133773	0.924187840133773	Absent	SureSelect_V5_UTR	WXS			45.9301848049281		Perihilar	2	133	1
+zhang_LD8k4455	SBS	Indel					SBS	SBS			Indel		SBS		SBS + Indel	SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS				SBS	SBS	SBS		Indel	Indel	SBS			SBS				SBS	IHC		10	27.301476578807	Unknown	SeqCap_v3	WXS					Intrahepatic	2	134	1
+nakamura_BD169		SBS											Indel								SBS						SBS		SBS		SBS			SBS							IHC		0.803641600116325	0.803641600116325	Absent	SureSelect_V5_UTR	WXS			4.79671457905544		Intrahepatic	2	135	1
+nakamura_BD13	SBS				SBS																				SBS		SBS				SBS				SBS						DCC		2.44474461423117	2.44474461423117	Absent	SureSelect_V4_UTR	WXS			94.6858316221766		Distal	2	136	1
+nakamura_BD208		SBS																							SBS		SBS				SBS										PHC		1.15188629350007	1.15188629350007	Unknown	SureSelect_V5_UTR	WXS					Perihilar	2	137	1
+jusakul_CCA_TH_1																											SBS				SBS										IHC	49	1.87495635449281	1.87495635449281	Absent	genome	WGS		Other fusion	5.48665297741273	1	Intrahepatic	2	138	1
+nakamura_BD14	Indel						SBS					SBS		SBS						SBS							SBS							SBS	Indel						IHC		3.52498060656587	3.52498060656587	Absent	SureSelect_V4_UTR	WXS			53.3552361396304		Intrahepatic	2	139	1
+nakamura_BD130		SBS	SBS					SBS		SBS				SBS	SBS							SBS			SBS	SBS	SBS								SBS					SBS	IHC		2.57165312037224	2.57165312037224	Absent	SureSelect_V5_UTR	WXS			12.9445585215606		Intrahepatic	2	140	1
+wardell_HK51														SBS						SBS							SBS									SBS					DCC	71	1.88893667598848	1.88893667598848	Absent	Nextera_RC	WXS					Distal	2	141	1
+zhang_D70036-123	SBS			SBS	SBS			SBS	SBS		SBS					SBS	SBS + Indel	SBS		SBS		Indel	SBS		SBS	SBS	SBS		SBS				SBS	SBS	SBS			SBS			IHC		10	19.0115545407077	Unknown	SeqCap_v3	WXS					Intrahepatic	2	142	1
+TCGA-ZH-A8Y7	Indel	SBS + Indel						Indel					SBS							SBS	SBS + Indel				SBS		SBS	Indel				Indel	SBS	SBS	SBS	SBS	SBS	Indel	SBS	SBS	IHC	59.9041752224504	10	14.0376013178481	Present	SeqCap_v3	WXS				0	Intrahepatic	2	143	1
+zou_16																Indel											SBS						SBS	SBS							IHC	63	1.18427457687133	1.18427457687133	Absent	SeqCap_v3	WXS			5	1	Intrahepatic	2	144	1
+nepal_Patient2										SBS			SBS														SBS							SBS							IHC		0.412195312864557	0.412195312864557	Unknown	SureSelect_V4	WXS					Intrahepatic	2	145	1
+jusakul_CCA_JP_5													SBS														SBS	SBS						SBS							IHC	62	1.11752365499571	1.11752365499571	Absent	genome	WGS		Other fusion	14.8501026694045	1	Intrahepatic	2	146	1
+nakamura_BD222				SBS																SBS							SBS														IHC		0.857217706790746	0.857217706790746	Absent	SureSelect_V5_UTR	WXS		Other fusion	31.0800821355236		Intrahepatic	2	147	1
+wardell_HK02	SBS									SBS	SBS														SBS		SBS										SBS				IHC	69	2.26672401118618	2.26672401118618	Absent	Nextera_RC	WXS					Intrahepatic	2	148	1
+yale_i2		Indel									SBS		Indel		SBS					SBS							SBS														IHC		2.20076173099326	2.20076173099326	Unknown	SeqCap_v2	WXS					Intrahepatic	2	149	1
+nakamura_BD224											SBS																SBS														IHC		0.910793813465168	0.910793813465168	Absent	SureSelect_V5_UTR	WXS			26.8747433264887		Intrahepatic	2	150	1
+zou_69																					SBS					SBS	SBS		SBS												IHC	50	0.615822779973089	0.615822779973089	Absent	SeqCap_v3	WXS			23	1	Intrahepatic	2	151	1
+TCGA-ZH-A8Y1							Indel						SBS						SBS				SBS				SBS												SBS		IHC	74.6858316221766	0.67898409073956	0.67898409073956	Absent	SeqCap_v3	WXS	FGFR2 fusion	Other fusion	12.6488706365503	1	Intrahepatic	2	152	1
+gao_P7251T	SBS							SBS																		SBS	SBS									SBS			SBS	SBS	IHC	42	4.47956596035191	4.47956596035191	Absent	TruSeq_EE	WXS					Intrahepatic	2	153	1
+zhang_D70036-41					SBS															Indel							SBS								SBS					SBS	PHC		2.49487177527559	2.49487177527559	Unknown	SeqCap_v3	WXS					Perihilar	2	154	1
+TCGA-4G-AAZT		Indel								SBS			SBS														SBS													SBS	IHC	62.3600273785079	0.600032452281472	0.600032452281472	Absent	SeqCap_v3	WXS				0	Intrahepatic	2	155	1
+jiao_CHOL24		SBS			SBS																						SBS														IHC		0.673304288579087	0.673304288579087	Unknown	SureSelect_V2	WXS					Intrahepatic	2	156	1
+zou_20																									SBS		SBS					SBS				SBS					IHC	44	0.963209989188678	0.963209989188678	Absent	SeqCap_v3	WXS			16	1	Intrahepatic	2	157	1
+jiao_CHOL42													SBS							SBS							SBS	SBS													IHC		0.499548343139323	0.499548343139323	Unknown	SureSelect_V2	WXS					Intrahepatic	2	158	1
+jusakul_CCA_SG_19								SBS																			SBS	SBS													IHC	75	1.88737328399276	1.88737328399276	Absent	genome	WGS		Other fusion	18.2012320328542	0	Intrahepatic	2	159	1
+wardell_RK303																				SBS							SBS											SBS			IHC	76	0.188893667598848	0.188893667598848	Absent	Nextera_RC	WXS					Intrahepatic	2	160	1
+wardell_RK138		SBS																									SBS														IHC	75	1.16034681525007	1.16034681525007	Absent	Nextera_RC	WXS					Intrahepatic	2	161	1
+zhang_D70036-45																											SBS														PHC		1.67377473531147	1.67377473531147	Unknown	SeqCap_v3	WXS					Perihilar	2	162	1
+zou_109																											SBS														IHC		0.47370983074853	0.47370983074853	Unknown	SeqCap_v3	WXS					Intrahepatic	2	163	1
+nakamura_BD72	SBS + Indel	Indel	SBS + Indel	SBS	SBS	SBS + Indel	SBS + Indel	SBS + Indel	SBS	SBS	SBS	SBS	Indel			SBS		Indel		Indel	SBS	SBS + Indel	SBS		SBS	SBS + Indel		SBS + Indel	SBS		SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS + Indel	IHC		10	41.6554229393628	Absent	SureSelect_V5_UTR	WXS			15.5728952772074		Intrahepatic	3	164	1
+TCGA-W5-AA39	SBS + Indel		SBS	SBS	SBS	SBS + Indel	SBS	SBS	SBS	SBS	SBS	SBS	SBS + Indel	SBS	SBS	SBS	SBS		SBS + Indel			SBS + Indel	SBS	SBS + Indel				SBS				SBS	SBS	SBS	SBS	SBS				SBS + Indel	IHC	81.0239561943874	10	11.7322134748719	Absent	SeqCap_v3	WXS		Other fusion	5.58521560574949	1	Intrahepatic	3	165	1
+nakamura_BD105						Indel							Indel																												IHC		0.763459520110508	0.763459520110508	Absent	SureSelect_V5_UTR	WXS		Other fusion	65.0841889117043		Intrahepatic	3	166	1
+zou_81						SBS		SBS									SBS														SBS + Indel	SBS									IHC	38	0.505290486131766	0.505290486131766	Absent	SeqCap_v3	WXS			22	1	Intrahepatic	3	167	1
+jusakul_CCA_TH_10					SBS	SBS	SBS		SBS			Indel		SBS											SBS			SBS			Indel									SBS	IHC	69	3.62574341398609	3.62574341398609	Absent	genome	WGS		Other fusion	38.3737166324435	0	Intrahepatic	3	168	1
+wardell_RK308	SBS		SBS	SBS	SBS	SBS	SBS	SBS		SBS	SBS			SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS			SBS		SBS		SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS	IHC	70	10	58.9348242908406	Absent	Nextera_RC	WXS					Intrahepatic	3	169	1
+nakamura_BD55						SBS								SBS						SBS					SBS	SBS			SBS		SBS	SBS		SBS	SBS	SBS				SBS	DCC		4.47360490731421	4.47360490731421	Absent	SureSelect_V5_UTR	WXS			89.5277207392197		Distal	3	170	1
+nakamura_BD6	SBS + Indel	Indel				SBS		Indel	SBS	SBS			SBS + Indel	SBS	SBS	SBS								SBS + Indel	SBS	SBS					SBS		SBS			SBS			SBS	SBS	IHC		10	12.2957164817798	Absent	SureSelect_V5_UTR	WXS			25.7577002053388		Intrahepatic	3	171	1
+nakamura_BD223						SBS					SBS							SBS	SBS	SBS	SBS										SBS			SBS	SBS		SBS				IHC		3.62978122719207	3.62978122719207	Absent	SureSelect_V5_UTR	WXS			23.7207392197125		Intrahepatic	3	172	1
+jusakul_CCA_TH_7	Indel					SBS				SBS										SBS			SBS		SBS						SBS										PHC	61	3.6754111319859	3.6754111319859	Absent	genome	WGS		Other fusion	14.9815195071869	1	Perihilar	3	173	1
+jusakul_CCA_IT_4						SBS	SBS		SBS			SBS	SBS			SBS										SBS					SBS										IHC	73	2.43371818199066	2.43371818199066	Absent	genome	WGS		Other fusion	5.51950718685832	0	Intrahepatic	3	174	1
+TCGA-ZU-A8S4		Indel				SBS	SBS	SBS	SBS																						SBS										IHC	52.7419575633128	0.584242124589854	0.584242124589854	Absent	SeqCap_v3	WXS			3.21971252566735	1	Intrahepatic	3	175	1
+zou_119	SBS		SBS		SBS	SBS		SBS		SBS	SBS	SBS		SBS		SBS	SBS		SBS	SBS		Indel		SBS	SBS	SBS			SBS			SBS	SBS	SBS			SBS	SBS	SBS	SBS	IHC	44	10	19.8958128914383	Absent	SeqCap_v3	WXS			32	0	Intrahepatic	3	176	1
+zhang_D70036-37				SBS		SBS		SBS	SBS					SBS					SBS		SBS + Indel					SBS + Indel							SBS		SBS					SBS	PHC		10	10.326874310318	Unknown	SeqCap_v3	WXS					Perihilar	3	177	1
+zhang_D70036-99	Indel				SBS	SBS				SBS	SBS	SBS		SBS				Indel				Indel			SBS			SBS								SBS + Indel		SBS		SBS	IHC		10	14.5902627870547	Unknown	SeqCap_v3	WXS					Intrahepatic	3	178	1
+wardell_RK420			SBS			SBS	SBS			SBS		SBS		SBS										SBS	SBS				SBS										SBS		DCC	67	5.61284040865148	5.61284040865148	Absent	Nextera_RC	WXS					Distal	3	179	1
+TCGA-YR-A95A		Indel				SBS						SBS																						SBS							EHC	52.8186173853525	0.457919503056913	0.457919503056913	Present	SeqCap_v3	WXS			0.854209445585216	1	Extrahepatic	3	180	1
+wardell_HK109				SBS		SBS	SBS											SBS		SBS					SBS	SBS									SBS						PHC	60	3.69691892300602	3.69691892300602	Absent	Nextera_RC	WXS					Perihilar	3	181	1
+zou_90						SBS					SBS	SBS			SBS				SBS						SBS										SBS		SBS				IHC	56	3.94758192290442	3.94758192290442	Absent	SeqCap_v3	WXS			7	1	Intrahepatic	3	182	1
+zhang_D70036-95					SBS	SBS		SBS	SBS	Indel	SBS														SBS							SBS				SBS	SBS			SBS	IHC		7.54777663659325	7.54777663659325	Unknown	SeqCap_v3	WXS					Intrahepatic	3	183	1
+wardell_RK272		Indel				SBS					SBS									SBS				SBS																	IHC	78	0.863513909023305	0.863513909023305	Absent	Nextera_RC	WXS					Intrahepatic	3	184	1
+nakamura_BD244						SBS						SBS							SBS						SBS				SBS				SBS			SBS					IHC		4.88881973404097	4.88881973404097	Absent	SureSelect_V5_UTR	WXS			32.0657084188912		Intrahepatic	3	185	1
+nepal_Patient14						SBS												SBS											SBS												IHC		1.42136314780882	1.42136314780882	Unknown	SureSelect_V4	WXS					Intrahepatic	3	186	1
+zou_01	SBS					SBS													SBS																						IHC	61	0.457919503056913	0.457919503056913	Absent	SeqCap_v3	WXS			51	0	Intrahepatic	3	187	1
+nakamura_BD132			SBS		SBS	SBS																	SBS			SBS		SBS													IHC		3.02705002710482	3.02705002710482	Absent	SureSelect_V5_UTR	WXS			14.6201232032854		Intrahepatic	3	188	1
+jusakul_CCA_TH_18						SBS	SBS								SBS						Indel		Indel		Indel							SBS									IHC	56	4.94193794098104	4.94193794098104	Absent	genome	WGS		Other fusion	5.15811088295688	1	Intrahepatic	3	189	1
+zou_145	SBS					SBS																			SBS										Indel		SBS				IHC	65	2.14748456606	2.14748456606	Absent	SeqCap_v3	WXS			4	1	Intrahepatic	3	190	1
+nakamura_BD220						SBS						SBS	Indel												SBS																IHC		0.964369920139589	0.964369920139589	Absent	SureSelect_V5_UTR	WXS		Other fusion	15.047227926078		Intrahepatic	3	191	1
+nakamura_BD207						SBS										SBS						SBS		SBS	SBS										SBS						DCC		1.16528032016867	1.16528032016867	Absent	SureSelect_V5_UTR	WXS			2.23408624229979		Distal	3	192	1
+zhang_D70036-51						SBS							Indel				SBS								SBS																PHC		2.52645243065883	2.52645243065883	Unknown	SeqCap_v3	WXS					Perihilar	3	193	1
+zou_02	SBS					SBS																															SBS				IHC	44	0.378967864598824	0.378967864598824	Absent	SeqCap_v3	WXS			11	1	Intrahepatic	3	194	1
+wardell_RK298	SBS					SBS	SBS					SBS					SBS	SBS															SBS		SBS						IHC	68	1.91592148564546	1.91592148564546	Absent	Nextera_RC	WXS					Intrahepatic	3	195	1
+zhang_D70036-65						SBS															SBS														SBS						PHC		1.92641997837736	1.92641997837736	Unknown	SeqCap_v3	WXS					Perihilar	3	196	1
+nakamura_BD109		Indel				SBS																						SBS													IHC		1.32600864019194	1.32600864019194	Absent	SureSelect_V5_UTR	WXS			12.4845995893224		Intrahepatic	3	197	1
+nakamura_BD46	SBS					SBS	SBS		SBS																																IHC		0.852817888685291	0.852817888685291	Absent	SureSelect_V4_UTR	WXS			35.9425051334702		Intrahepatic	3	198	1
+jusakul_CCA_CH_3						SBS																																Indel			PHC	46	3.02973079798838	3.02973079798838	Absent	genome	WGS		Other fusion	11.3675564681725	1	Perihilar	3	199	1
+nakamura_BD152																				SBS + Indel		SBS							SBS		Indel			SBS							IHC		5.75943146750033	5.75943146750033	Absent	SureSelect_V5_UTR	WXS		Other fusion	25.1991786447639		Intrahepatic	4	200	1
+zhang_D70036-61	SBS				SBS		Indel				SBS											Indel			Indel	SBS					Indel				SBS	SBS					PHC		4.45287240903619	4.45287240903619	Unknown	SeqCap_v3	WXS					Perihilar	4	201	1
+jusakul_CCA_TH_5		SBS																							SBS						Indel										PHC	60	3.26565245848747	3.26565245848747	Absent	genome	WGS		Other fusion	11.8275154004107	1	Perihilar	4	202	1
+wardell_HK26																															Indel										PHC	74	0.269848096569783	0.269848096569783	Absent	Nextera_RC	WXS					Perihilar	4	203	1
+wardell_HK101	SBS + Indel		SBS	SBS	SBS + Indel		SBS	SBS	SBS	SBS	SBS	SBS		SBS	SBS	SBS		SBS + Indel	SBS	SBS		SBS	SBS		Indel	SBS					SBS	SBS	SBS			Indel		SBS	SBS	SBS	IHC	73	10	34.9992981251008	Absent	Nextera_RC	WXS					Intrahepatic	4	204	1
+nakamura_BD239	SBS									SBS	Indel											SBS	SBS						SBS		SBS			SBS			SBS			SBS	IHC		5.39779274744798	5.39779274744798	Absent	SureSelect_V5_UTR	WXS			37.0595482546201		Intrahepatic	4	205	1
+zhang_D70036-23	SBS				SBS			SBS		Indel	SBS	SBS	SBS												SBS	SBS			SBS		SBS			SBS		Indel	SBS			SBS	PHC		10	11.4795682318061	Unknown	SeqCap_v3	WXS					Perihilar	4	206	1
+jusakul_CCA_RO_5		SBS																													SBS			SBS					SBS		IHC	69	1.55211618749405	1.55211618749405	Unknown	genome	WGS		Other fusion	0.295687885010267	1	Intrahepatic	4	207	1
+zou_97								Indel	SBS			SBS									Indel				SBS						SBS			SBS						SBS	IHC	52	0.868468023038972	0.868468023038972	Absent	SeqCap_v3	WXS			27	1	Intrahepatic	4	208	1
+wardell_RK424				SBS												SBS									SBS						SBS							SBS			DCC	69	2.482602488442	2.482602488442	Absent	Nextera_RC	WXS					Distal	4	209	1
+wardell_HK35				SBS																											SBS										PHC	66	0.728589860738413	0.728589860738413	Absent	Nextera_RC	WXS					Perihilar	4	210	1
+zhang_D70036-25			SBS				SBS	SBS	SBS	SBS	SBS						SBS	SBS		SBS		SBS				SBS					SBS		SBS		SBS		SBS			SBS	PHC		10	13.7849560747822	Unknown	SeqCap_v3	WXS					Perihilar	4	211	1
+nakamura_BD111											SBS														SBS						SBS				Indel						IHC		0.93809967755382	0.93809967755382	Absent	SureSelect_V4_UTR	WXS			22.3737166324435		Intrahepatic	4	212	1
+jusakul_CCA_SG_18	SBS		SBS																SBS					SBS	SBS						SBS								SBS		EHC	71	1.86253942499286	1.86253942499286	Absent	genome	WGS		Other fusion	4.23819301848049	0	Extrahepatic	4	213	1
+nakamura_BD240	SBS															SBS					SBS				Indel						SBS				SBS				SBS	SBS	DCC		3.01365600043622	3.01365600043622	Absent	SureSelect_V5_UTR	WXS			57.7577002053388		Distal	4	214	1
+nakamura_BD58		SBS																													SBS	SBS	SBS		SBS				SBS		IHC		0.964369920139589	0.964369920139589	Absent	SureSelect_V5_UTR	WXS			13.5359342915811		Intrahepatic	4	215	1
+nakamura_BD210																															SBS								SBS		IHC		1.64746528023847	1.64746528023847	Unknown	SureSelect_V5_UTR	WXS		Other fusion			Intrahepatic	4	216	1
+zou_135					SBS												SBS		SBS			SBS			SBS						SBS	SBS									IHC	68	3.07911389986545	3.07911389986545	Absent	SeqCap_v3	WXS			3	1	Intrahepatic	4	217	1
+jusakul_CCA_TH_11																			SBS												SBS	Indel									IHC	79	1.61420083499381	1.61420083499381	Absent	genome	WGS		Other fusion	7.49075975359343	1	Intrahepatic	4	218	1
+sia_ICC14					SBS																	SBS									SBS				SBS					SBS	IHC		1.42112949224559	1.42112949224559	Unknown	SeqCap_v3	WXS		Other fusion			Intrahepatic	4	219	1
+nakamura_BD122																									SBS	SBS					SBS	SBS						Indel		SBS	DCC		0.9911579734768	0.9911579734768	Absent	SureSelect_V5_UTR	WXS			29.1416837782341		Distal	4	220	1
+yale_d3										SBS													SBS								SBS	SBS			SBS	SBS				SBS	DCC		4.34580797512593	4.34580797512593	Absent	SeqCap_v2	WXS					Distal	4	221	1
+nepal_Patient15		Indel			SBS		SBS										SBS						SBS	SBS							SBS		SBS								IHC		0.86703152016338	0.86703152016338	Unknown	SureSelect_V4	WXS					Intrahepatic	4	222	1
+jusakul_CCA_TH_9										SBS					SBS										Indel						SBS										IHC	48	3.29048631748738	3.29048631748738	Absent	genome	WGS		Other fusion	12.2546201232033	0	Intrahepatic	4	223	1
+zhang_D70036-17			SBS					SBS	SBS																SBS						SBS										PHC		1.53166178608691	1.53166178608691	Unknown	SeqCap_v3	WXS					Perihilar	4	224	1
+nakamura_BD214							Indel														SBS				SBS			SBS			SBS		SBS								IHC		1.21885642684309	1.21885642684309	Absent	SureSelect_V5_UTR	WXS			4.10677618069815		Intrahepatic	4	225	1
+jusakul_CCA_CH_4								Indel												SBS					SBS						SBS										EHC	46	2.66963984248976	2.66963984248976	Absent	genome	WGS		Other fusion	15.9671457905544	0	Extrahepatic	4	226	1
+zou_34																				SBS					SBS						SBS										IHC	52	0.489500158440148	0.489500158440148	Absent	SeqCap_v3	WXS			6	1	Intrahepatic	4	227	1
+jusakul_CCA_JP_7										SBS																					SBS				SBS						IHC	67	2.39646739349081	2.39646739349081	Absent	genome	WGS		Other fusion	14.0616016427105	1	Intrahepatic	4	228	1
+zhang_LD8k0723													SBS				SBS														SBS										PHC		1.73693604607794	1.73693604607794	Unknown	SeqCap_v3	WXS					Perihilar	4	229	1
+nakamura_BD151																								SBS							SBS										IHC		0.355340786952205	0.355340786952205	Absent	SureSelect_V4_UTR	WXS			13.7659137577002		Intrahepatic	4	230	1
+nakamura_BD162																SBS															SBS							SBS + Indel			PHC		0.857217706790746	0.857217706790746	Absent	SureSelect_V5_UTR	WXS			10.3162217659138		Perihilar	4	231	1
+zhang_D70036-09																															SBS							SBS			PHC		0.821097039964119	0.821097039964119	Unknown	SeqCap_v3	WXS					Perihilar	4	232	1
+zou_19																															SBS										IHC	56	0.442129175365295	0.442129175365295	Absent	SeqCap_v3	WXS			49	0	Intrahepatic	4	233	1
+wardell_HK41																															SBS										PHC	64	0.890498718680283	0.890498718680283	Absent	Nextera_RC	WXS					Perihilar	4	234	1
+nakamura_BD16																															SBS										DCC		0.753322468338674	0.753322468338674	Absent	SureSelect_V4_UTR	WXS			16.0657084188912		Distal	4	235	1
+nakamura_BD52																															SBS										PHC		0.348244693383741	0.348244693383741	Absent	SureSelect_V5_UTR	WXS			91.2032854209446		Perihilar	4	236	1
+jusakul_CCA_IT_1				SBS	SBS			SBS	SBS	Indel				Indel				Indel	Indel					SBS	SBS			SBS	Indel				SBS					SBS		Indel	IHC	69	10	16.1171744909382	Absent	genome	WGS		Other fusion	35.1868583162218	0	Intrahepatic	5	237	1
+jusakul_CCA_TH_19	Indel								Indel			Indel	Indel	Indel	Indel	Indel									Indel				Indel			SBS + Indel			Indel	Indel			Indel	SBS	IHC	65	9.31269712496428	9.31269712496428	Absent	genome	WGS		Other fusion	5.81519507186858	1	Intrahepatic	5	238	1
+jusakul_CCA_RO_3	SBS	SBS	Indel					SBS	SBS	SBS + Indel			SBS	SBS	SBS	Indel						SBS	SBS + Indel	Indel	SBS	SBS								SBS	SBS	Indel			SBS		PHC	46	10	15.0120677654424	Absent	genome	WGS		Other fusion	3.05544147843943	1	Perihilar	5	239	1
+jusakul_CCA_TH_20		SBS												SBS							SBS													SBS					SBS		IHC	63	2.6323890539899	2.6323890539899	Absent	genome	WGS		Other fusion	18.299794661191	1	Intrahepatic	5	240	1
+jusakul_CCA_JP_3		SBS										SBS	Indel	SBS								SBS												SBS							IHC	60	1.26652680899514	1.26652680899514	Absent	genome	WGS		Other fusion	57.6919917864476	0	Intrahepatic	5	241	1
+wardell_RK312														SBS																				SBS	SBS			SBS			IHC	66	0.728589860738413	0.728589860738413	Absent	Nextera_RC	WXS					Intrahepatic	5	242	1
+yale_d5				SBS						SBS	SBS			SBS					SBS	SBS					SBS	SBS		SBS	SBS + Indel							SBS	SBS			SBS	DCC		10	11.0873818852572	Absent	SeqCap_v2	WXS					Distal	5	243	1
+zou_141		SBS		SBS										SBS											SBS												SBS				IHC	62	1.68956506300309	1.68956506300309	Absent	SeqCap_v3	WXS			9	1	Intrahepatic	5	244	1
+nakamura_BD158				SBS					SBS	SBS				SBS																						SBS					DCC		1.88855776027336	1.88855776027336	Absent	SureSelect_V5_UTR	WXS		Other fusion	15.6714579055441		Distal	5	245	1
+nakamura_BD149				SBS										SBS																		SBS									IHC		1.05812810681983	1.05812810681983	Absent	SureSelect_V5_UTR	WXS		Other fusion	13.2402464065708		Intrahepatic	5	246	1
+gao_P4139T			SBS								SBS			SBS						SBS					SBS															SBS	IHC	44	2.78764356525497	2.78764356525497	Absent	TruSeq_EE	WXS					Intrahepatic	5	247	1
+wardell_HK69											SBS			SBS											Indel																DCC	72	0.78255948005237	0.78255948005237	Absent	Nextera_RC	WXS					Distal	5	248	1
+jusakul_CCA_SG_4											SBS		Indel	SBS																											IHC	61	1.42794689249452	1.42794689249452	Absent	genome	WGS		Other fusion	93.5687885010267	0	Intrahepatic	5	249	1
+wardell_HK63											SBS			SBS						SBS															SBS						DCC	54	1.75401262770359	1.75401262770359	Absent	Nextera_RC	WXS					Distal	5	250	1
+zou_52									SBS					SBS															SBS												IHC	49	0.963209989188678	0.963209989188678	Absent	SeqCap_v3	WXS			7	1	Intrahepatic	5	251	1
+sia_ICC22			SBS											SBS				SBS																					SBS	SBS	IHC		3.00016226140736	3.00016226140736	Unknown	SeqCap_v3	WXS					Intrahepatic	5	252	1
+wardell_RK421										SBS				SBS						SBS																SBS			SBS		DCC	77	2.29370882084315	2.29370882084315	Absent	Nextera_RC	WXS					Distal	5	253	1
+jusakul_CCA_TH_4							Indel					SBS		SBS																					Indel						PHC	53	1.3286114564949	1.3286114564949	Present	genome	WGS		Other fusion	0.985626283367557	1	Perihilar	5	254	1
+nakamura_BD73		SBS											SBS	SBS			SBS																								DCC		0.562549120081427	0.562549120081427	Absent	SureSelect_V5_UTR	WXS			75.6960985626283		Distal	5	255	1
+zhang_D70036-21														SBS												SBS									SBS						PHC		1.02637129995515	1.02637129995515	Unknown	SeqCap_v3	WXS					Perihilar	5	256	1
+jusakul_CCA_JP_1		SBS																															SBS	Indel							IHC	64	1.12994058449567	1.12994058449567	Absent	genome	WGS		Other fusion	62.5872689938398		Intrahepatic	6	257	1
+wardell_HK67	SBS			SBS					SBS	SBS	SBS					SBS				SBS	SBS	SBS											SBS	SBS	SBS	SBS	SBS	SBS	SBS	SBS	DCC	78	10	20.1846376234197	Absent	Nextera_RC	WXS					Distal	6	258	1
+wardell_HK59	SBS						SBS	SBS			SBS	SBS							SBS							SBS			SBS					SBS		SBS		SBS			DCC	75	4.85726573825609	4.85726573825609	Absent	Nextera_RC	WXS					Distal	6	259	1
+nakamura_BD35	SBS + Indel										SBS	SBS						Indel		Indel					SBS	SBS						SBS		SBS		SBS		SBS		SBS + Indel	DCC		3.68133055282484	3.68133055282484	Absent	SureSelect_V4_UTR	WXS			22.0780287474333		Distal	6	260	1
+nakamura_BD8			SBS								SBS		Indel				SBS																	SBS							IHC		0.668040679470145	0.668040679470145	Absent	SureSelect_V4_UTR	WXS			96.394250513347		Intrahepatic	6	261	1
+jiao_CHOL44											SBS													Indel										SBS							IHC		0.847060234018851	0.847060234018851	Unknown	SureSelect_V2	WXS					Intrahepatic	6	262	1
+zou_42	SBS										SBS																							SBS							IHC	43	0.284225898449118	0.284225898449118	Absent	SeqCap_v3	WXS			48	0	Intrahepatic	6	263	1
+nakamura_BD32			Indel		SBS		SBS	Indel		SBS		SBS	SBS		SBS								Indel	Indel					Indel					SBS	Indel	Indel		SBS			IHC		9.69727530807032	9.69727530807032	Absent	SureSelect_V5_UTR	WXS			24.6078028747433		Intrahepatic	6	264	1
+nakamura_BD212																			SBS										SBS					SBS				SBS			IHC		0.895458783119556	0.895458783119556	Absent	SureSelect_V4_UTR	WXS			22.8008213552361		Intrahepatic	6	265	1
+wardell_HK08			SBS		SBS		SBS	SBS + Indel	SBS						SBS	SBS	Indel	SBS	SBS	SBS		SBS	SBS	SBS		SBS								SBS	SBS	SBS			SBS	SBS	IHC	50	10	21.102121151757	Absent	Nextera_RC	WXS					Intrahepatic	6	266	1
+yale_d2																		SBS							SBS									SBS					SBS		DCC	64	2.59077013901738	2.59077013901738	Absent	SeqCap_v2	WXS					Distal	6	267	1
+jiao_CHOL09							Indel						SBS															SBS						SBS					SBS		IHC		0.542987329499264	0.542987329499264	Unknown	SureSelect_V2	WXS					Intrahepatic	6	268	1
+zou_8_6																																		SBS					SBS		IHC	66	0.600032452281472	0.600032452281472	Absent	SeqCap_v3	WXS			31	0	Intrahepatic	6	269	1
+zou_51							SBS			SBS		SBS							SBS						SBS									SBS							IHC	52	1.05795195533838	1.05795195533838	Absent	SeqCap_v3	WXS			22	1	Intrahepatic	6	270	1
+nepal_Patient1					SBS								SBS									SBS				SBS								SBS							IHC		1.02338146642235	1.02338146642235	Unknown	SureSelect_V4	WXS					Intrahepatic	6	271	1
+jiao_CHOL15		SBS			SBS																													SBS		SBS					IHC		0.760182261298969	0.760182261298969	Unknown	SureSelect_V2	WXS					Intrahepatic	6	272	1
+TCGA-W5-AA36					SBS																							SBS						SBS							IHC	51.6960985626283	0.789516384580884	0.789516384580884	Present	SeqCap_v3	WXS			46.0616016427105	1	Intrahepatic	6	273	1
+nakamura_BD93		Indel																SBS		SBS + Indel					SBS									SBS							PHC		1.31261461352333	1.31261461352333	Absent	SureSelect_V5_UTR	WXS			7.39219712525667		Perihilar	6	274	1
+zou_08	SBS								SBS																SBS									SBS							IHC	45	1.54745211377853	1.54745211377853	Absent	SeqCap_v3	WXS			49	0	Intrahepatic	6	275	1
+zou_85																																		SBS			SBS				IHC	57	0.868468023038972	0.868468023038972	Absent	SeqCap_v3	WXS			5	1	Intrahepatic	6	276	1
+zou_132																																		SBS			SBS				IHC	70	0.41054851998206	0.41054851998206	Absent	SeqCap_v3	WXS			1	1	Intrahepatic	6	277	1
+TCGA-W5-AA2G							Indel					SBS																						SBS							IHC	62.7871321013005	0.663193763047943	0.663193763047943	Absent	SeqCap_v3	WXS		Other fusion		0	Intrahepatic	6	278	1
+zou_50												SBS																						SBS							IHC	65	0.426338847673677	0.426338847673677	Absent	SeqCap_v3	WXS			47	0	Intrahepatic	6	279	1
+TCGA-3X-AAV9							SBS		SBS									SBS																SBS		SBS					IHC	72.1396303901437	0.694774418431178	0.694774418431178	Absent	SeqCap_v3	WXS			11.1375770020534	1	Intrahepatic	6	280	1
+zou_86	SBS																					SBS												SBS							IHC	66	0.489500158440148	0.489500158440148	Absent	SeqCap_v3	WXS			35	0	Intrahepatic	6	281	1
+jusakul_CCA_JP_2													Indel		Indel					SBS														SBS							IHC	65	1.03060514849605	1.03060514849605	Absent	genome	WGS		Other fusion	52.6981519507187	0	Intrahepatic	6	282	1
+jusakul_CCA_SG_15								SBS							SBS													SBS						SBS		SBS					IHC	53	1.03060514849605	1.03060514849605	Absent	genome	WGS		Other fusion	32.5256673511294	0	Intrahepatic	6	283	1
+jusakul_CCA_JP_4		Indel											Indel																			Indel		SBS							IHC	72	0.956103571496332	0.956103571496332	Absent	genome	WGS		Other fusion	4.40246406570842	0	Intrahepatic	6	284	1
+nepal_Patient3		Indel											Indel																					SBS				SBS			IHC		0.454836207298822	0.454836207298822	Unknown	SureSelect_V4	WXS					Intrahepatic	6	285	1
+yale_i6													Indel																					SBS							IHC	57	1.33717168465413	1.33717168465413	Unknown	SeqCap_v2	WXS					Intrahepatic	6	286	1
+nakamura_BD245													Indel																					SBS							IHC		0.81703562678493	0.81703562678493	Absent	SureSelect_V5_UTR	WXS			21.1252566735113		Intrahepatic	6	287	1
+TCGA-W5-AA2O																												Indel						SBS							IHC	57.8179329226557	0.394758192290442	0.394758192290442	Absent	SeqCap_v3	WXS			21.0266940451745	1	Intrahepatic	6	288	1
+TCGA-W5-AA34																												SBS						SBS							IHC	75.3867214236824	0.521080813823383	0.521080813823383	Absent	SeqCap_v3	WXS			18.2340862422998	1	Intrahepatic	6	289	1
+jiao_CHOL07																												SBS						SBS							IHC		0.651584795399116	0.651584795399116	Unknown	SureSelect_V2	WXS					Intrahepatic	6	290	1
+wardell_RK310																																SBS		SBS							IHC	62	0.539696193139565	0.539696193139565	Absent	Nextera_RC	WXS					Intrahepatic	6	291	1
+jusakul_CCA_SG_3		Indel																																SBS							IHC	51	1.39069610399467	1.39069610399467	Absent	genome	WGS		Other fusion	28.1889117043121	0	Intrahepatic	6	292	1
+zou_122																										SBS								SBS							IHC	49	0.584242124589854	0.584242124589854	Absent	SeqCap_v3	WXS			32	0	Intrahepatic	6	293	1
+zou_110																																		SBS							IHC	51	0.331596881523971	0.331596881523971	Absent	SeqCap_v3	WXS			4	1	Intrahepatic	6	294	1
+wardell_HK22																																		SBS							IHC	68	0.431756954511652	0.431756954511652	Absent	Nextera_RC	WXS					Intrahepatic	6	295	1
+nakamura_BD200																																		SBS							IHC		0.750065493441903	0.750065493441903	Absent	SureSelect_V5_UTR	WXS			74.217659137577		Intrahepatic	6	296	1
+nepal_Patient4																																		SBS							IHC		0.397981681386469	0.397981681386469	Unknown	SureSelect_V4	WXS					Intrahepatic	6	297	1
+zhang_D70036-89																																		SBS							IHC		1.26322621532941	1.26322621532941	Unknown	SeqCap_v3	WXS					Intrahepatic	6	298	1
+nakamura_BD57	Indel	Indel	SBS	Indel	SBS		Indel	SBS	SBS	Indel	SBS		SBS		SBS	SBS + Indel	SBS + Indel	SBS			SBS	SBS	SBS	SBS		SBS + Indel			SBS				SBS		SBS	SBS			SBS	SBS	IHC		10	26.3996265638213	Absent	SureSelect_V5_UTR	WXS			90.5462012320329		Intrahepatic	7	299	1
+TCGA-W7-A93O	Indel			SBS							SBS														Indel							SBS									EHC		1.80009735684442	1.80009735684442	Absent	SeqCap_v3	WXS				0	Extrahepatic	7	300	1
+zhang_D70036-73	SBS			SBS			SBS				SBS										SBS	SBS													SBS		SBS				IHC		3.23701717678162	3.23701717678162	Unknown	SeqCap_v3	WXS					Intrahepatic	7	301	1
+chan-on_0715T				SBS	SBS			SBS									Indel		SBS		SBS				SBS										SBS						EHC	64	2.69272053297018	2.69272053297018	Unknown	SureSelect_V1	WXS					Extrahepatic	7	302	1
+nakamura_BD120		Indel		SBS													SBS						SBS		SBS															Indel	IHC		1.55370709355823	1.55370709355823	Absent	SureSelect_V5_UTR	WXS			10.0862422997947		Intrahepatic	7	303	1
+zou_58				SBS	SBS																				SBS												SBS				IHC	41	1.38954883686236	1.38954883686236	Absent	SeqCap_v3	WXS			6	1	Intrahepatic	7	304	1
+zou_99				SBS	SBS													SBS				Indel			SBS																IHC	65	2.92121062294927	2.92121062294927	Absent	SeqCap_v3	WXS			35	0	Intrahepatic	7	305	1
+nakamura_BD235				SBS	SBS																				SBS																DCC		1.76801152025591	1.76801152025591	Absent	SureSelect_V5_UTR	WXS			14.3901437371663		Distal	7	306	1
+gao_P7913T				SBS								SBS			SBS																										IHC	47	1.06349407691808	1.06349407691808	Absent	TruSeq_EE	WXS					Intrahepatic	7	307	1
+nakamura_BD48			SBS	SBS												SBS																									DCC		0.884005760127957	0.884005760127957	Absent	SureSelect_V5_UTR	WXS			95.9342915811088		Distal	7	308	1
+nakamura_BD70				SBS			SBS																										Indel		SBS			SBS			IHC		1.0802359923347	1.0802359923347	Absent	SureSelect_V4_UTR	WXS			15.9671457905544		Intrahepatic	7	309	1
+nakamura_BD31				SBS					Indel				SBS																												IHC		0.483263470254998	0.483263470254998	Absent	SureSelect_V4_UTR	WXS			28.9774127310062		Intrahepatic	7	310	1
+jusakul_CCA_SG_14	SBS			SBS																																		Indel			IHC	61	1.44036382199447	1.44036382199447	Unknown	genome	WGS		Other fusion	36.5995893223819	0	Intrahepatic	7	311	1
+nakamura_BD209				SBS																																					PHC		0.468790933401189	0.468790933401189	Unknown	SureSelect_V5_UTR	WXS					Perihilar	7	312	1
+jusakul_CCA_TH_2											Indel									SBS																					PHC	46	1.11752365499571	1.11752365499571	Absent	genome	WGS		Other fusion	20.5338809034908	1	Perihilar	8	313	1
+jusakul_CCA_TH_22											Indel						SBS															Indel									IHC	56	3.60090955498619	3.60090955498619	Absent	genome	WGS		Other fusion	68.9609856262834	0	Intrahepatic	8	314	1
+TCGA-W5-AA2X								SBS + Indel			Indel																											Indel			EHC	67.8904859685147	0.789516384580884	0.789516384580884	Present	SeqCap_v3	WXS		Other fusion	8.90349075975359	1	Extrahepatic	8	315	1
+zhang_LD8k4467								Indel			Indel																														PHC		1.29480687071265	1.29480687071265	Unknown	SeqCap_v3	WXS					Perihilar	8	316	1
+nakamura_BD7											SBS								Indel										Indel				SBS								DCC		1.00916783494426	1.00916783494426	Absent	SureSelect_V4_UTR	WXS			102.702258726899		Distal	8	317	1
+gao_P0872T			SBS + Indel		SBS						SBS		SBS					SBS	SBS	SBS	SBS				SBS							SBS	SBS					SBS	SBS	SBS	IHC	63	10	11.9723651386384	Absent	TruSeq_EE	WXS					Intrahepatic	8	318	1
+sia_ICC8					SBS					SBS	SBS							SBS			SBS	SBS																			IHC		1.89483932299412	1.89483932299412	Unknown	SeqCap_v3	WXS		Other fusion			Intrahepatic	8	319	1
+nakamura_BD19					SBS						SBS																														IHC		0.776853546779114	0.776853546779114	Absent	SureSelect_V5_UTR	WXS			78.258726899384		Intrahepatic	8	320	1
+nakamura_BD108							SBS				SBS														Indel																DCC		1.09831018682564	1.09831018682564	Absent	SureSelect_V5_UTR	WXS			29.5359342915811		Distal	8	321	1
+zou_44	SBS										SBS				SBS			Indel																	Indel	SBS					IHC	73	1.57903276916177	1.57903276916177	Absent	SeqCap_v3	WXS			0	1	Intrahepatic	8	322	1
+jusakul_CCA_SG_10	SBS							SBS			SBS																									SBS					IHC	74	2.88072764398895	2.88072764398895	Absent	genome	WGS	FGFR2 fusion	Other fusion	27.6303901437372	0	Intrahepatic	8	323	1
+wardell_HK39											SBS																									SBS					PHC	76	0.377787335197696	0.377787335197696	Absent	Nextera_RC	WXS					Perihilar	8	324	1
+zhang_D70036-05	SBS							Indel	Indel	Indel	SBS					Indel				SBS				Indel		Indel							SBS		SBS						PHC		7.43724434275193	7.43724434275193	Unknown	SeqCap_v3	WXS					Perihilar	8	325	1
+nakamura_BD40							SBS				SBS																						SBS								IHC		1.19394504415941	1.19394504415941	Absent	SureSelect_V4_UTR	WXS			58.8418891170431		Intrahepatic	8	326	1
+TCGA-3X-AAVE											SBS																						SBS					SBS			IHC	60.0766598220397	0.663193763047943	0.663193763047943	Absent	SeqCap_v3	WXS				0	Intrahepatic	8	327	1
+nakamura_BD228									SBS		SBS															SBS							SBS								IHC		0.924187840133773	0.924187840133773	Absent	SureSelect_V5_UTR	WXS			26.0533880903491		Intrahepatic	8	328	1
+TCGA-4G-AAZO		Indel									SBS		Indel																						Indel						IHC	71.1540041067762	0.694774418431178	0.694774418431178	Absent	SeqCap_v3	WXS		Other fusion		0	Intrahepatic	8	329	1
+nakamura_BD219											SBS																					SBS									IHC		1.07152213348843	1.07152213348843	Absent	SureSelect_V5_UTR	WXS			42.0862422997947		Intrahepatic	8	330	1
+zhang_D70036-93											SBS													SBS + Indel																	IHC		1.16848424917971	1.16848424917971	Unknown	SeqCap_v3	WXS					Intrahepatic	8	331	1
+nakamura_BD146											SBS																														IHC		0.696489386767481	0.696489386767481	Absent	SureSelect_V5_UTR	WXS			22.0123203285421		Intrahepatic	8	332	1
+zou_09					SBS																								SBS + Indel												IHC	62	0.979000316880296	0.979000316880296	Absent	SeqCap_v3	WXS			18	1	Intrahepatic	9	333	1
+zhang_D70036-69			SBS												SBS							SBS		SBS	SBS				Indel									SBS		SBS	IHC		5.02132420593442	5.02132420593442	Unknown	SeqCap_v3	WXS					Intrahepatic	9	334	1
+zou_94	SBS							Indel				SBS						SBS							SBS				Indel			SBS + Indel			SBS						IHC	51	1.53166178608691	1.53166178608691	Absent	SeqCap_v3	WXS			34	0	Intrahepatic	9	335	1
+yale_d10			SBS														SBS					SBS	SBS		SBS				Indel			Indel				SBS		Indel			DCC	74	2.08933075727208	2.08933075727208	Unknown	SeqCap_v2	WXS					Distal	9	336	1
+nakamura_BD64																													Indel												PHC		0.540117996167351	0.540117996167351	Absent	SureSelect_V4_UTR	WXS			13.3388090349076		Perihilar	9	337	1
+zhang_D70036-15																									SBS				SBS										Indel		PHC		1.10532293841324	1.10532293841324	Unknown	SeqCap_v3	WXS					Perihilar	9	338	1
+wardell_RK422					SBS																								SBS						SBS	SBS			SBS		DCC	70	2.32069363050013	2.32069363050013	Absent	Nextera_RC	WXS					Distal	9	339	1
+jiao_CHOL12															SBS				SBS	SBS	SBS	Indel	SBS		SBS			SBS	SBS			SBS								SBS	IHC		5.9728606244919	5.9728606244919	Unknown	SureSelect_V2	WXS					Intrahepatic	9	340	1
+nakamura_BD136								SBS											SBS										SBS												PHC		0.897399786796562	0.897399786796562	Absent	SureSelect_V5_UTR	WXS			43.170431211499		Perihilar	9	341	1
+zhang_LD8k4451									SBS																Indel				SBS						SBS	SBS					PHC		4.1054851998206	4.1054851998206	Unknown	SeqCap_v3	WXS					Perihilar	9	342	1
+zou_123										SBS												Indel			SBS	Indel			SBS												IHC	64	1.56324244147015	1.56324244147015	Absent	SeqCap_v3	WXS			9	1	Intrahepatic	9	343	1
+nakamura_BD98																									SBS				SBS			Indel				SBS					DCC		1.62067722690125	1.62067722690125	Absent	SureSelect_V5_UTR	WXS			67.9096509240247		Distal	9	344	1
+zou_10		SBS						SBS					SBS																SBS								SBS				IHC	46	0.757935729197649	0.757935729197649	Absent	SeqCap_v3	WXS			38	1	Intrahepatic	9	345	1
+nakamura_BD99												SBS																	SBS							SBS					PHC		0.294668586709319	0.294668586709319	Absent	SureSelect_V5_UTR	WXS			28.7145790554415		Perihilar	9	346	1
+zhang_LD8k4461																													SBS												IHC		0.442129175365295	0.442129175365295	Unknown	SeqCap_v3	WXS					Intrahepatic	9	347	1
+TCGA-W5-AA33																																							Indel		IHC	60.4791238877481	0.47370983074853	0.47370983074853	Absent	SeqCap_v3	WXS				0	Intrahepatic	10	348	1
+nakamura_BD49	SBS				SBS		Indel		SBS + Indel	SBS + Indel			SBS		SBS				Indel	SBS		SBS	SBS		SBS	SBS + Indel									SBS		SBS	SBS	SBS	SBS	PHC		10	15.2959784555474	Absent	SureSelect_V5_UTR	WXS			94.5872689938398		Perihilar	10	349	1
+zou_8_2			SBS		SBS													SBS	SBS														SBS						SBS	SBS	IHC	48	5.16343715515898	5.16343715515898	Absent	SeqCap_v3	WXS			24	1	Intrahepatic	10	350	1
+zhang_LD8k0719	SBS		SBS		SBS										SBS		SBS								SBS														SBS	SBS + Indel	PHC		3.47387209215589	3.47387209215589	Unknown	SeqCap_v3	WXS					Perihilar	10	351	1
+jusakul_CCA_TH_15		SBS			SBS		SBS			SBS															SBS														SBS	SBS	PHC	37	3.16631702248785	3.16631702248785	Absent	genome	WGS		Other fusion	15.605749486653	1	Perihilar	10	352	1
+zou_63																									SBS	SBS													SBS	SBS	IHC	52	1.26322621532941	1.26322621532941	Absent	SeqCap_v3	WXS			12	1	Intrahepatic	10	353	1
+zou_71	SBS		SBS		SBS							SBS										SBS			SBS														SBS		IHC	59	2.87383963987442	2.87383963987442	Absent	SeqCap_v3	WXS			46	0	Intrahepatic	10	354	1
+yale_i5					SBS								SBS									SBS																	SBS		IHC		3.23149823791416	3.23149823791416	Unknown	SeqCap_v2	WXS					Intrahepatic	10	355	1
+zou_131	SBS		SBS																						SBS												SBS	SBS	SBS		IHC	48	3.31596881523971	3.31596881523971	Absent	SeqCap_v3	WXS			3	1	Intrahepatic	10	356	1
+zou_8_1			SBS									SBS	SBS							SBS																			SBS		IHC	60	0.584242124589854	0.584242124589854	Absent	SeqCap_v3	WXS			31	0	Intrahepatic	10	357	1
+TCGA-4G-AAZG		Indel							SBS									SBS										SBS				SBS							SBS		IHC	75.2635181382615	1.27901654302103	1.27901654302103	Absent	SeqCap_v3	WXS				0	Intrahepatic	10	358	1
+TCGA-W5-AA2U																	SBS	SBS					SBS																SBS		IHC	78.1711156741958	1.08953261072162	1.08953261072162	Absent	SeqCap_v3	WXS			20.5995893223819	1	Intrahepatic	10	359	1
+wardell_HK15		SBS					Indel		SBS				SBS		SBS	SBS	SBS				SBS																		SBS		IHC	71	10	11.0098023400471	Absent	Nextera_RC	WXS					Intrahepatic	10	360	1
+nakamura_BD145																					SBS																		SBS		IHC		0.924187840133773	0.924187840133773	Absent	SureSelect_V5_UTR	WXS			31.4414784394251		Intrahepatic	10	361	1
+TCGA-ZH-A8Y2								SBS					SBS			Indel				SBS				SBS															SBS		IHC	59.5290896646133	0.773726056889266	0.773726056889266	Absent	SeqCap_v3	WXS			23.0308008213552	1	Intrahepatic	10	362	1
+jusakul_CCA_TH_6																							SBS					Indel											SBS		IHC	51	0.881601994496618	0.881601994496618	Absent	genome	WGS		Other fusion	5.05954825462012	1	Intrahepatic	10	363	1
+nakamura_BD101																																							SBS		IHC		0.64291328009306	0.64291328009306	Absent	SureSelect_V5_UTR	WXS		Other fusion	60.0903490759754		Intrahepatic	10	364	1
+zhang_D70036-81																																							SBS		IHC		1.15269392148809	1.15269392148809	Unknown	SeqCap_v3	WXS					Intrahepatic	10	365	1
+TCGA-ZH-A8Y4													SBS + Indel						Indel					SBS												SBS					IHC	58.8720054757016	0.868468023038972	0.868468023038972	Absent	SeqCap_v3	WXS			24.3449691991787	1	Intrahepatic	11	366	1
+jusakul_CCA_RO_7																			Indel																						DCC	68	1.40311303349462	1.40311303349462	Absent	genome	WGS		Other fusion	75.6960985626283	1	Distal	11	367	1
+zou_13	SBS																		SBS			SBS			SBS																IHC	47	2.74751701834148	2.74751701834148	Absent	SeqCap_v3	WXS			50	0	Intrahepatic	11	368	1
+nakamura_BD227																			SBS						SBS																IHC		1.50013098688381	1.50013098688381	Absent	SureSelect_V5_UTR	WXS			9.10061601642711		Intrahepatic	11	369	1
+zou_18																			SBS																		SBS				IHC	50	0.521080813823383	0.521080813823383	Absent	SeqCap_v3	WXS			4	1	Intrahepatic	11	370	1
+nakamura_BD163	SBS											SBS			SBS				SBS													SBS						SBS + Indel			PHC		2.7323814403955	2.7323814403955	Absent	SureSelect_V5_UTR	WXS		Other fusion	8.77207392197125		Perihilar	11	371	1
+jiao_CHOL40																			SBS			SBS																			IHC		0.564706822679234	0.564706822679234	Unknown	SureSelect_V2	WXS					Intrahepatic	11	372	1
+nakamura_BD44	SBS														SBS		SBS		SBS				SBS													SBS					DCC		3.97981681386469	3.97981681386469	Absent	SureSelect_V4_UTR	WXS			16.4599589322382		Distal	11	373	1
+nakamura_BD232							SBS												SBS																	SBS					IHC		1.66085930690707	1.66085930690707	Absent	SureSelect_V5_UTR	WXS			46.9158110882957		Intrahepatic	11	374	1
+zhang_D70036-35																			SBS														SBS								PHC		0.615822779973089	0.615822779973089	Unknown	SeqCap_v3	WXS					Perihilar	11	375	1
+nakamura_BD107																	SBS		SBS																						PHC		0.127922683302794	0.127922683302794	Absent	SureSelect_V4_UTR	WXS			65.1498973305955		Perihilar	11	376	1
+jiao_CHOL02																			SBS				Indel																		IHC		0.738462768118998	0.738462768118998	Unknown	SureSelect_V2	WXS					Intrahepatic	11	377	1
+zou_128					SBS								SBS												SBS															SBS	IHC	63	2.13169423836839	2.13169423836839	Absent	SeqCap_v3	WXS			7	1	Intrahepatic	12	378	1
+zou_140												SBS			SBS					SBS		SBS			SBS												SBS			SBS	IHC	59	1.70535539069471	1.70535539069471	Absent	SeqCap_v3	WXS			11	1	Intrahepatic	12	379	1
+nakamura_BD22									Indel													SBS	SBS		SBS										SBS					SBS	DCC		1.62035398850205	1.62035398850205	Absent	SureSelect_V4_UTR	WXS			76.1889117043121		Distal	12	380	1
+zou_05																									SBS															SBS	IHC	43	0.600032452281472	0.600032452281472	Absent	SeqCap_v3	WXS			51	0	Intrahepatic	12	381	1
+zhang_D70036-107																						SBS						SBS									SBS			SBS	IHC		2.02116194452706	2.02116194452706	Unknown	SeqCap_v3	WXS					Intrahepatic	12	382	1
+jusakul_CCA_JP_6		SBS										Indel	SBS + Indel																											SBS	IHC	65	1.10510672549576	1.10510672549576	Absent	genome	WGS	FGFR2 fusion	Other fusion	18.8583162217659	1	Intrahepatic	12	383	1
+wardell_RK137												SBS										SBS											SBS							SBS	IHC	74	1.59210376976172	1.59210376976172	Absent	Nextera_RC	WXS					Intrahepatic	12	384	1
+TCGA-W5-AA38													SBS									Indel																		SBS	IHC	55.5373032169747	0.426338847673677	0.426338847673677	Absent	SeqCap_v3	WXS				0	Intrahepatic	12	385	1
+nakamura_BD242	SBS															SBS	SBS					SBS																		SBS	IHC		3.81729760055254	3.81729760055254	Absent	SureSelect_V5_UTR	WXS			69.8809034907598		Intrahepatic	12	386	1
+jiao_CHOL27																																SBS				SBS				SBS	IHC		0.629865302219146	0.629865302219146	Unknown	SureSelect_V2	WXS					Intrahepatic	12	387	1
+jusakul_CCA_TH_21																																SBS						Indel		SBS	IHC	40	1.71353627099343	1.71353627099343	Absent	genome	WGS		Other fusion	74.0862422997947	0	Intrahepatic	12	388	1
+nakamura_BD36																																								SBS	IHC		0.668040679470145	0.668040679470145	Absent	SureSelect_V4_UTR	WXS			73.3963039014374		Intrahepatic	12	389	1
+nakamura_BD75																																								SBS	IHC		0.763459520110508	0.763459520110508	Absent	SureSelect_V5_UTR	WXS			59.958932238193		Intrahepatic	12	390	1
+TCGA-W7-A93P	SBS				Indel																														SBS						EHC		1.3421778537875	1.3421778537875	Absent	SeqCap_v3	WXS				0	Extrahepatic	13	391	1
+zou_8_4			SBS		SBS											Indel									SBS											SBS					IHC	52	1.54745211377853	1.54745211377853	Absent	SeqCap_v3	WXS			3	1	Intrahepatic	13	392	1
+nakamura_BD231					SBS			SBS		SBS												SBS			SBS							SBS									IHC		1.99570997362221	1.99570997362221	Absent	SureSelect_V5_UTR	WXS			21.2895277207392		Intrahepatic	13	393	1
+jusakul_CCA_CH_1					SBS		SBS										SBS			SBS					SBS			SBS					SBS		SBS	SBS					PHC	49	8.33175969446804	8.33175969446804	Absent	genome	WGS		Other fusion	13.9630390143737	1	Perihilar	13	394	1
+zou_95					SBS				SBS																SBS																IHC	48	0.647403435356325	0.647403435356325	Absent	SeqCap_v3	WXS			9	1	Intrahepatic	13	395	1
+nakamura_BD117					SBS																											SBS					SBS				IHC		0.870611733459352	0.870611733459352	Absent	SureSelect_V5_UTR	WXS		Other fusion	29.3716632443532		Intrahepatic	13	396	1
+nakamura_BD12					SBS							SBS	Indel		SBS											SBS															IHC		1.29344046450603	1.29344046450603	Absent	SureSelect_V4_UTR	WXS			17.4784394250513		Intrahepatic	13	397	1
+jiao_CHOL48					SBS								SBS																												IHC		0.78190175447894	0.78190175447894	Unknown	SureSelect_V2	WXS					Intrahepatic	13	398	1
+yale_i1	SBS				SBS												SBS						SBS																		IHC	75	2.03361527041149	2.03361527041149	Unknown	SeqCap_v2	WXS					Intrahepatic	13	399	1
+zou_06					SBS																		SBS																		IHC	48	0.252645243065883	0.252645243065883	Absent	SeqCap_v3	WXS			51	0	Intrahepatic	13	400	1
+zhang_D70036-115		SBS					SBS																		Indel																IHC		1.610613424545	1.610613424545	Unknown	SeqCap_v3	WXS					Intrahepatic	14	401	1
+nakamura_BD60												SBS													SBS												SBS				PHC		0.522367040075611	0.522367040075611	Absent	SureSelect_V5_UTR	WXS			10.8090349075975		Perihilar	14	402	1
+zou_143												SBS													SBS	SBS						SBS									IHC	54	0.931629333805443	0.931629333805443	Absent	SeqCap_v3	WXS			5	1	Intrahepatic	14	403	1
+borad_2												SBS													SBS							SBS									IHC	66	1.18733162490704	1.18733162490704	Absent	Nextera_RC	WXS			8.8	1	Intrahepatic	14	404	1
+zhang_D70036-11												SBS													SBS																PHC		0.900048678422208	0.900048678422208	Unknown	SeqCap_v3	WXS					Perihilar	14	405	1
+jusakul_CCA_TH_3			SBS				SBS + Indel															SBS	Indel		SBS													SBS + Indel			PHC	76	3.35257096498714	3.35257096498714	Absent	genome	WGS		Other fusion	14.4558521560575	1	Perihilar	14	406	1
+zou_113			SBS																						SBS							SBS			SBS						IHC	40	0.694774418431178	0.694774418431178	Absent	SeqCap_v3	WXS			31	1	Intrahepatic	14	407	1
+zou_121								SBS										SBS							SBS								SBS								IHC	48	0.900048678422208	0.900048678422208	Absent	SeqCap_v3	WXS			15	1	Intrahepatic	14	408	1
+TCGA-W5-AA2I													Indel									Indel			SBS																IHC	66.7707049965777	0.710564746122796	0.710564746122796	Absent	SeqCap_v3	WXS			63.7043121149897	1	Intrahepatic	14	409	1
+zou_130													SBS									SBS			SBS								SBS			SBS					IHC	54	2.13169423836839	2.13169423836839	Absent	SeqCap_v3	WXS			7	1	Intrahepatic	14	410	1
+borad_5																						SBS			SBS																IHC	50	1.59524111537712	1.59524111537712	Present	TruSeq_EE	WXS	FGFR2 fusion		4.1	1	Intrahepatic	14	411	1
+zou_26							SBS																		SBS							SBS				SBS					IHC	49	3.15806553832354	3.15806553832354	Absent	SeqCap_v3	WXS			33	1	Intrahepatic	14	412	1
+jusakul_CCA_SG_1	SBS							SBS		SBS															SBS																IHC	73	3.72507884998571	3.72507884998571	Absent	genome	WGS		Other fusion	7.62217659137577	0	Intrahepatic	14	413	1
+zou_28		Indel								SBS						SBS									SBS																IHC	48	2.84225898449118	2.84225898449118	Present	SeqCap_v3	WXS			1	1	Intrahepatic	14	414	1
+zhang_D70036-19													Indel											Indel	SBS																PHC		1.23164555994618	1.23164555994618	Unknown	SeqCap_v3	WXS					Perihilar	14	415	1
+jiao_CHOL08		SBS											Indel												SBS																IHC		0.282353411339617	0.282353411339617	Unknown	SureSelect_V2	WXS					Intrahepatic	14	416	1
+nakamura_BD144									SBS				Indel												SBS																DCC		1.52691904022102	1.52691904022102	Absent	SureSelect_V5_UTR	WXS			20.9281314168378		Distal	14	417	1
+yale_d8																				Indel					SBS	SBS		SBS				SBS						SBS			DCC	69	3.31507146820504	3.31507146820504	Absent	SeqCap_v2	WXS					Distal	14	418	1
+zou_41	SBS							SBS																	SBS										SBS						IHC	36	0.900048678422208	0.900048678422208	Absent	SeqCap_v3	WXS			18	1	Intrahepatic	14	419	1
+nakamura_BD65																SBS									SBS										SBS						DCC		0.696467942426321	0.696467942426321	Absent	SureSelect_V4_UTR	WXS			29.6344969199179		Distal	14	420	1
+zou_127																									SBS										SBS						IHC	40	0.726355073814413	0.726355073814413	Absent	SeqCap_v3	WXS			2	1	Intrahepatic	14	421	1
+jusakul_CCA_TH_12	SBS	SBS																							SBS							SBS									PHC	52	1.20444216149538	1.20444216149538	Absent	genome	WGS		Other fusion	10.0862422997947	1	Perihilar	14	422	1
+zou_87	Indel																								SBS																IHC	53	0.647403435356325	0.647403435356325	Absent	SeqCap_v3	WXS			12	1	Intrahepatic	14	423	1
+zou_125	SBS							SBS	SBS																SBS																IHC	35	1.12111326610486	1.12111326610486	Absent	SeqCap_v3	WXS			14	1	Intrahepatic	14	424	1
+wardell_HK43																									SBS	SBS												SBS			PHC	65	1.40321010216287	1.40321010216287	Absent	Nextera_RC	WXS					Perihilar	14	425	1
+nakamura_BD23		SBS																							SBS																IHC		1.13709051824706	1.13709051824706	Absent	SureSelect_V4_UTR	WXS			10.4804928131417		Intrahepatic	14	426	1
+nakamura_BD140																							SBS		SBS																IHC		0.843823680122141	0.843823680122141	Absent	SureSelect_V5_UTR	WXS		Other fusion	8.6735112936345		Intrahepatic	14	427	1
+wardell_HK115																									SBS																DCC	52	0.134924048284891	0.134924048284891	Absent	Nextera_RC	WXS					Distal	14	428	1
+jusakul_CCA_TH_8																									SBS																IHC	53	1.71353627099343	1.71353627099343	Absent	genome	WGS		Other fusion	8.73921971252567	1	Intrahepatic	14	429	1
+zou_101																									SBS																IHC	54	0.300016226140736	0.300016226140736	Absent	SeqCap_v3	WXS			34	0	Intrahepatic	14	430	1
+jusakul_CCA_SG_13																									SBS																IHC	60	3.46432333048671	3.46432333048671	Absent	genome	WGS		Other fusion	32.2628336755647	0	Intrahepatic	14	431	1
+wardell_RK182																									SBS																IHC	65	1.67305819873265	1.67305819873265	Absent	Nextera_RC	WXS					Intrahepatic	14	432	1
+wardell_HK65																									SBS																DCC	74	0.16190885794187	0.16190885794187	Absent	Nextera_RC	WXS					Distal	14	433	1
+nakamura_BD203																									SBS																IHC		0.910793813465168	0.910793813465168	Absent	SureSelect_V5_UTR	WXS			4.30390143737166		Intrahepatic	14	434	1
+nakamura_BD237		SBS										SBS											SBS														SBS				IHC		1.20546240017449	1.20546240017449	Absent	SureSelect_V5_UTR	WXS			118.603696098563		Intrahepatic	15	435	1
+nakamura_BD138																SBS																				SBS	SBS				IHC		2.16983232031408	2.16983232031408	Absent	SureSelect_V5_UTR	WXS		Other fusion	0.131416837782341		Intrahepatic	15	436	1
+jusakul_CCA_SG_6		SBS											SBS + Indel																								SBS				IHC	51	1.11752365499571	1.11752365499571	Absent	genome	WGS		Other fusion	45.3716632443532	1	Intrahepatic	15	437	1
+jiao_CHOL47	Indel																																				SBS				IHC		0.369231384059499	0.369231384059499	Unknown	SureSelect_V2	WXS					Intrahepatic	15	438	1
+wardell_RK419																																					SBS				DCC	71	0.971453147651218	0.971453147651218	Absent	Nextera_RC	WXS					Distal	15	439	1
+zhang_D70036-47																																					SBS				PHC		2.17906522144324	2.17906522144324	Unknown	SeqCap_v3	WXS					Perihilar	15	440	1
+chan-on_77071507T								SBS		SBS		SBS																SBS													IHC	49	2.41631735127499	2.41631735127499	Unknown	SureSelect_V4_UTR	WXS					Intrahepatic	16	441	1
+zhang_D70036-29												SBS												SBS																	PHC		1.29480687071265	1.29480687071265	Unknown	SeqCap_v3	WXS					Perihilar	16	442	1
+zhang_D70036-103												SBS																													IHC		1.01058097226353	1.01058097226353	Unknown	SeqCap_v3	WXS					Intrahepatic	16	443	1
+sia_ICC12			Indel																																						IHC		0.1	0.0631613107664707	Unknown	SeqCap_v3	WXS		Other fusion			Intrahepatic	17	444	1
+zou_25			SBS															SBS																							IHC	52	1.65798440761986	1.65798440761986	Absent	SeqCap_v3	WXS			51	0	Intrahepatic	17	445	1
+nakamura_BD110		Indel	SBS					SBS													Indel			SBS											SBS	SBS					PHC		4.80845557402934	4.80845557402934	Absent	SureSelect_V5_UTR	WXS			23.0636550308008		Perihilar	17	446	1
+borad_4			SBS										SBS										SBS									SBS									IHC	62	0.757336691138632	0.757336691138632	Present	TruSeq_EE	WXS	FGFR2 fusion		9.3	0	Intrahepatic	17	447	1
+nakamura_BD147			SBS										SBS																			SBS									IHC		0.9911579734768	0.9911579734768	Absent	SureSelect_V5_UTR	WXS		Other fusion	2.72689938398357		Intrahepatic	17	448	1
+borad_6			SBS										SBS																												IHC	43	0.355340786952205	0.355340786952205	Present	SureSelect_V4_UTR	WXS	FGFR2 fusion		5.5	0	Intrahepatic	17	449	1
+TCGA-ZH-A8Y6			SBS				SBS																																		IHC	41.0020533880904	0.726355073814413	0.726355073814413	Absent	SeqCap_v3	WXS				0	Intrahepatic	17	450	1
+nakamura_BD45			SBS																																						IHC		0.511690733211175	0.511690733211175	Absent	SureSelect_V4_UTR	WXS			64.952772073922		Intrahepatic	17	451	1
+wardell_RK307															SBS		SBS	SBS										SBS													IHC	61	0.890498718680283	0.890498718680283	Absent	Nextera_RC	WXS					Intrahepatic	18	452	1
+TCGA-W5-AA2R															SBS			SBS																	SBS						IHC	77.6646132785763	0.284225898449118	0.284225898449118	Absent	SeqCap_v3	WXS				0	Intrahepatic	18	453	1
+yale_i7		SBS						SBS								SBS		SBS															SBS								IHC		6.15656129809507	6.15656129809507	Unknown	SeqCap_v2	WXS					Intrahepatic	18	454	1
+zou_56		SBS																				Indel																			IHC	38	0.378967864598824	0.378967864598824	Present	SeqCap_v3	WXS			4	1	Intrahepatic	19	455	1
+zou_88																						Indel																			IHC	56	0.457919503056913	0.457919503056913	Absent	SeqCap_v3	WXS			35	0	Intrahepatic	19	456	1
+wardell_RK109																						Indel																			IHC	84	1.43019491181985	1.43019491181985	Absent	Nextera_RC	WXS					Intrahepatic	19	457	1
+nakamura_BD199										SBS			Indel							Indel		SBS	SBS																		IHC		0.803641600116325	0.803641600116325	Absent	SureSelect_V5_UTR	WXS			7.3264887063655		Intrahepatic	19	458	1
+TCGA-W5-AA2Q	SBS																					SBS										SBS									IHC	68.6351813826147	0.663193763047943	0.663193763047943	Absent	SeqCap_v3	WXS	FGFR2 fusion			0	Intrahepatic	19	459	1
+TCGA-3X-AAVA																						SBS				Indel						SBS									IHC	50.1108829568789	0.631613107664707	0.631613107664707	Absent	SeqCap_v3	WXS			14.6201232032854	1	Intrahepatic	19	460	1
+TCGA-W5-AA2T																						SBS																			IHC	64.5037645448323	0.600032452281472	0.600032452281472	Absent	SeqCap_v3	WXS			40.082135523614	1	Intrahepatic	19	461	1
+nakamura_BD9																						SBS																			PHC		0.810176994251027	0.810176994251027	Absent	SureSelect_V4_UTR	WXS			34.0698151950719		Perihilar	19	462	1
+nakamura_BD94																						SBS																			PHC		0.388426773389557	0.388426773389557	Absent	SureSelect_V5_UTR	WXS			55.3264887063655		Perihilar	19	463	1
+TCGA-W6-AA0S															SBS																	SBS									IHC	46.4093086926763	0.584242124589854	0.584242124589854	Absent	SeqCap_v3	WXS				0	Intrahepatic	20	464	1
+nakamura_BD156															SBS									SBS																	IHC		0.776853546779114	0.776853546779114	Absent	SureSelect_V5_UTR	WXS			14.0616016427105		Intrahepatic	20	465	1
+wardell_HK114															SBS								Indel																		PHC	75	0.755574670395392	0.755574670395392	Absent	Nextera_RC	WXS					Perihilar	20	466	1
+wardell_HK70															SBS																										DCC	71	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Distal	20	467	1
+nakamura_BD53															SBS																										PHC		0.64291328009306	0.64291328009306	Absent	SureSelect_V5_UTR	WXS			43.8275154004107		Perihilar	20	468	1
+zhang_LD8k4465																																				Indel					PHC		0.300016226140736	0.300016226140736	Unknown	SeqCap_v3	WXS					Perihilar	21	469	1
+wardell_RK208																					SBS											SBS				SBS					IHC	60	0.917483528337261	0.917483528337261	Absent	Nextera_RC	WXS					Intrahepatic	21	470	1
+nakamura_BD238								SBS	SBS	SBS																										SBS					IHC		1.2322504535117	1.2322504535117	Absent	SureSelect_V5_UTR	WXS			28.3860369609856		Intrahepatic	21	471	1
+nakamura_BD119		SBS						SBS																											SBS	SBS		SBS			DCC		1.66085930690707	1.66085930690707	Absent	SureSelect_V5_UTR	WXS			9.13347022587269		Distal	21	472	1
+zhang_D70036-49		SBS																					SBS												SBS	SBS					PHC		1.32638752609589	1.32638752609589	Unknown	SeqCap_v3	WXS					Perihilar	21	473	1
+zou_139																																				SBS					IHC	65	0.584242124589854	0.584242124589854	Absent	SeqCap_v3	WXS			9	1	Intrahepatic	21	474	1
+jiao_CHOL53																																				SBS					IHC		0.434389863599411	0.434389863599411	Unknown	SureSelect_V2	WXS					Intrahepatic	21	475	1
+wardell_RK309	SBS																				SBS																				IHC	56	1.21431643456402	1.21431643456402	Absent	Nextera_RC	WXS					Intrahepatic	22	476	1
+chan-on_17231203T		SBS																			SBS																				IHC	61	0.569613958897537	0.569613958897537	Unknown	SureSelect_V1	WXS					Intrahepatic	22	477	1
+yale_i4																					SBS																				IHC	60	0.947163276630011	0.947163276630011	Unknown	SeqCap_v2	WXS					Intrahepatic	22	478	1
+nakamura_BD137									SBS	SBS																SBS							SBS								IHC		0.870611733459352	0.870611733459352	Absent	SureSelect_V5_UTR	WXS			37.782340862423		Intrahepatic	23	479	1
+zhang_D70036-91										SBS																							SBS								IHC		1.7843070291528	1.7843070291528	Unknown	SeqCap_v3	WXS					Intrahepatic	23	480	1
+nakamura_BD78		SBS														SBS																	SBS		SBS						IHC		0.790247573447719	0.790247573447719	Absent	SureSelect_V5_UTR	WXS			5.12525667351129		Intrahepatic	23	481	1
+TCGA-W6-AA0T										SBS			SBS													SBS															IHC	62.9815195071869	0.67898409073956	0.67898409073956	Absent	SeqCap_v3	WXS				0	Intrahepatic	24	482	1
+wardell_HK24	SBS							SBS		SBS																															IHC	66	0.755574670395392	0.755574670395392	Absent	Nextera_RC	WXS					Intrahepatic	24	483	1
+wardell_HK05										SBS																															IHC	62	0.863513909023305	0.863513909023305	Absent	Nextera_RC	WXS					Intrahepatic	24	484	1
+wardell_RK269										SBS																															IHC	74	0.674620241424457	0.674620241424457	Absent	Nextera_RC	WXS					Intrahepatic	24	485	1
+nakamura_BD27										SBS																															IHC		0.355340786952205	0.355340786952205	Absent	SureSelect_V4_UTR	WXS			60.7474332648871		Intrahepatic	24	486	1
+zhang_D70036-79										SBS																															IHC		0.900048678422208	0.900048678422208	Unknown	SeqCap_v3	WXS					Intrahepatic	24	487	1
+jiao_CHOL52													Indel																			SBS			SBS						IHC		0.41267037041944	0.41267037041944	Unknown	SureSelect_V2	WXS					Intrahepatic	25	488	1
+TCGA-ZH-A8Y3													Indel																			SBS									IHC	61.4264202600958	0.584242124589854	0.584242124589854	Absent	SeqCap_v3	WXS			18.4312114989733	1	Intrahepatic	25	489	1
+jiao_CHOL04													Indel																									SBS			IHC		0.41267037041944	0.41267037041944	Unknown	SureSelect_V2	WXS					Intrahepatic	25	490	1
+jiao_CHOL18		SBS											Indel																												IHC		0.521267836319293	0.521267836319293	Unknown	SureSelect_V2	WXS					Intrahepatic	25	491	1
+nakamura_BD50													Indel													SBS															IHC		0.482184960069795	0.482184960069795	Absent	SureSelect_V5_UTR	WXS			55.0636550308008		Intrahepatic	25	492	1
+nakamura_BD197								SBS					Indel																												IHC		1.22237230711558	1.22237230711558	Absent	SureSelect_V4_UTR	WXS	FGFR2 fusion		16.4599589322382		Intrahepatic	25	493	1
+jusakul_CCA_SG_2													Indel																												IHC	67	1.39069610399467	1.39069610399467	Absent	genome	WGS		Other fusion	37.9137577002053	0	Intrahepatic	25	494	1
+jiao_CHOL20													Indel																												IHC		0.521267836319293	0.521267836319293	Unknown	SureSelect_V2	WXS					Intrahepatic	25	495	1
+jiao_CHOL26													Indel																												IHC		0.716743274939028	0.716743274939028	Unknown	SureSelect_V2	WXS					Intrahepatic	25	496	1
+jiao_CHOL54													Indel																												IHC		0.260633918159647	0.260633918159647	Unknown	SureSelect_V2	WXS					Intrahepatic	25	497	1
+nakamura_BD226													Indel																												IHC		0.656307306761665	0.656307306761665	Absent	SureSelect_V5_UTR	WXS		Other fusion	25.9548254620123		Intrahepatic	25	498	1
+nakamura_BD92													Indel																												IHC		0.522367040075611	0.522367040075611	Absent	SureSelect_V5_UTR	WXS			71.3593429158111		Intrahepatic	25	499	1
+TCGA-4G-AAZF													SBS															Indel													IHC	74.2203969883641	0.67898409073956	0.67898409073956	Absent	SeqCap_v3	WXS				0	Intrahepatic	25	500	1
+TCGA-W5-AA30													SBS							SBS																					IHC	82.2422997946612	0.915839006113825	0.915839006113825	Absent	SeqCap_v3	WXS				0	Intrahepatic	25	501	1
+wardell_RK279													SBS																									SBS			IHC	69	0.485726573825609	0.485726573825609	Absent	Nextera_RC	WXS	FGFR2 fusion				Intrahepatic	25	502	1
+jiao_CHOL37		Indel											SBS																												IHC		0.542987329499264	0.542987329499264	Unknown	SureSelect_V2	WXS					Intrahepatic	25	503	1
+TCGA-W5-AA2W													SBS																												IHC	31.315537303217	0.315806553832354	0.315806553832354	Absent	SeqCap_v3	WXS	FGFR2 fusion		30.3572895277207	1	Intrahepatic	25	504	1
+TCGA-W5-AA2J													SBS																												IHC	66.0917180013689	0.426338847673677	0.426338847673677	Absent	SeqCap_v3	WXS				0	Intrahepatic	25	505	1
+nakamura_BD155													SBS																												PHC		0.522367040075611	0.522367040075611	Absent	SureSelect_V5_UTR	WXS			6.8993839835729		Perihilar	25	506	1
+zhang_D70036-97													SBS																												IHC		1.29480687071265	1.29480687071265	Unknown	SeqCap_v3	WXS					Intrahepatic	25	507	1
+jiao_CHOL28																												Indel													IHC		0.586426315859205	0.586426315859205	Unknown	SureSelect_V2	WXS					Intrahepatic	26	508	1
+jusakul_CCA_SG_9		Indel																								SBS		SBS							SBS						IHC	60	2.49580282949043	2.49580282949043	Present	genome	WGS		Other fusion	2.98973305954825	1	Intrahepatic	26	509	1
+nakamura_BD241																												SBS													PHC		1.2456444801803	1.2456444801803	Absent	SureSelect_V5_UTR	WXS		Other fusion	69.5852156057495		Perihilar	26	510	1
+jusakul_CCA_SG_11																																			Indel						IHC	69	1.81287170699305	1.81287170699305	Absent	genome	WGS		Other fusion	16.9856262833676	0	Intrahepatic	27	511	1
+wardell_HK80																Indel	SBS																		SBS						PHC	68	0.539696193139565	0.539696193139565	Absent	Nextera_RC	WXS					Perihilar	27	512	1
+zhang_D70036-59																																SBS			SBS						PHC		0.931629333805443	0.931629333805443	Unknown	SeqCap_v3	WXS					Perihilar	27	513	1
+sia_ICC18																																			SBS						IHC		0.394758192290442	0.394758192290442	Unknown	SeqCap_v3	WXS					Intrahepatic	27	514	1
+nakamura_BD225																	SBS			SBS																					IHC		0.653827047992057	0.653827047992057	Absent	SureSelect_V4_UTR	WXS			4.50102669404517		Intrahepatic	28	515	1
+nakamura_BD160							SBS													SBS																					DCC		0.17412234669187	0.17412234669187	Absent	SureSelect_V5_UTR	WXS			1.1170431211499		Distal	28	516	1
+wardell_RK226	SBS															SBS				SBS				SBS																	IHC	59	0.242863286912804	0.242863286912804	Absent	Nextera_RC	WXS					Intrahepatic	28	517	1
+wardell_HK03		SBS																		SBS				SBS		SBS															IHC	55	1.241301244221	1.241301244221	Absent	Nextera_RC	WXS					Intrahepatic	28	518	1
+zou_70								SBS												SBS																					IHC	54	0.568451796898236	0.568451796898236	Absent	SeqCap_v3	WXS			9	1	Intrahepatic	28	519	1
+jiao_CHOL06																				SBS																					IHC		0.80362124765891	0.80362124765891	Unknown	SureSelect_V2	WXS					Intrahepatic	28	520	1
+nakamura_BD204																				SBS																					PHC		0.32145664004653	0.32145664004653	Absent	SureSelect_V5_UTR	WXS			3.48254620123203		Perihilar	28	521	1
+nakamura_BD54																				SBS																					IHC		2.21001440031989	2.21001440031989	Absent	SureSelect_V5_UTR	WXS			21.2238193018481		Intrahepatic	28	522	1
+wardell_HK141																	SBS							SBS																	PHC	60	1.29527086353496	1.29527086353496	Absent	Nextera_RC	WXS					Perihilar	29	523	1
+nakamura_BD71								SBS								SBS	SBS																					Indel			DCC		1.09444962381279	1.09444962381279	Absent	SureSelect_V4_UTR	WXS			60.8788501026694		Distal	29	524	1
+nakamura_BD20								SBS									SBS																								PHC		1.00916783494426	1.00916783494426	Absent	SureSelect_V4_UTR	WXS			79.605749486653		Perihilar	29	525	1
+wardell_HK11																	SBS																								IHC	61	0.242863286912804	0.242863286912804	Absent	Nextera_RC	WXS					Intrahepatic	29	526	1
+jusakul_CCA_CH_5	SBS						Indel																																		IHC	75	2.13571187399181	2.13571187399181	Absent	genome	WGS		Other fusion	20.4681724845996	0	Intrahepatic	30	527	1
+wardell_HK66							Indel																																		DCC	51	0.1	0.0809544289709348	Absent	Nextera_RC	WXS					Distal	30	528	1
+zou_74							SBS																									SBS									IHC	38	0.505290486131766	0.505290486131766	Absent	SeqCap_v3	WXS			41	0	Intrahepatic	30	529	1
+sia_ICC24							SBS																SBS																		IHC		0.631613107664707	0.631613107664707	Unknown	SeqCap_v3	WXS	FGFR2 fusion	Other fusion			Intrahepatic	30	530	1
+jusakul_CCA_SG_20																																SBS + Indel									IHC	56	1.19202523199543	1.19202523199543	Absent	genome	WGS			12.517453798768	0	Intrahepatic	31	531	1
+jiao_CHOL14	Indel	SBS																														SBS									IHC		0.999096686278645	0.999096686278645	Unknown	SureSelect_V2	WXS					Intrahepatic	31	532	1
+TCGA-W5-AA2K																																SBS									IHC	75.8877481177276	0.647403435356325	0.647403435356325	Absent	SeqCap_v3	WXS			27.3675564681725	1	Intrahepatic	31	533	1
+nakamura_BD80																																SBS									IHC		0.334850666715135	0.334850666715135	Absent	SureSelect_V5_UTR	WXS			5.94661190965092		Intrahepatic	31	534	1
+zou_91																								Indel																	IHC	65	0.268435570757501	0.268435570757501	Absent	SeqCap_v3	WXS			39	0	Intrahepatic	32	535	1
+nakamura_BD217									SBS															SBS														Indel			IHC		2.08946816030244	2.08946816030244	Absent	SureSelect_V5_UTR	WXS			30.6201232032854		Intrahepatic	32	536	1
+wardell_RK204																SBS								SBS																	IHC	83	0.539696193139565	0.539696193139565	Absent	Nextera_RC	WXS					Intrahepatic	32	537	1
+jiao_CHOL35																								SBS																	IHC		0.499548343139323	0.499548343139323	Unknown	SureSelect_V2	WXS					Intrahepatic	32	538	1
+jusakul_CCA_SG_17	Indel																						SBS																		IHC		2.88072764398895	2.88072764398895	Absent	genome	WGS		Other fusion		1	Intrahepatic	33	539	1
+jusakul_CCA_RO_6	Indel																																								IHC		1.42794689249452	1.42794689249452	Unknown	genome	WGS	FGFR2 fusion	Other fusion	1.60985626283368	1	Intrahepatic	33	540	1
+TCGA-ZD-A8I3	SBS	Indel																																				SBS			IHC	73.2484599589323	0.600032452281472	0.600032452281472	Absent	SeqCap_v3	WXS			5.5523613963039	1	Intrahepatic	33	541	1
+zhang_D70036-03	SBS								SBS																																PHC		2.47908144758398	2.47908144758398	Unknown	SeqCap_v3	WXS					Perihilar	33	542	1
+TCGA-ZH-A8Y5	SBS																																								IHC	69.180013689254	0.363177536907207	0.363177536907207	Present	SeqCap_v3	WXS	FGFR2 fusion			0	Intrahepatic	33	543	1
+wardell_HK50	SBS																																								PHC	76	1.05240757662215	1.05240757662215	Absent	Nextera_RC	WXS					Perihilar	33	544	1
+jiao_CHOL19	SBS																																								IHC		0.434389863599411	0.434389863599411	Unknown	SureSelect_V2	WXS					Intrahepatic	33	545	1
+nakamura_BD96	SBS																																								PHC		0.696489386767481	0.696489386767481	Absent	SureSelect_V5_UTR	WXS			29.5359342915811		Perihilar	33	546	1
+jusakul_CCA_CH_2																																						Indel			PHC	61	1.46519768099438	1.46519768099438	Absent	genome	WGS		Other fusion			Perihilar	34	547	1
+wardell_HK13																																						Indel			IHC	71	0.404772144854674	0.404772144854674	Absent	Nextera_RC	WXS					Intrahepatic	34	548	1
+nakamura_BD63																										SBS												SBS			PHC		1.09444962381279	1.09444962381279	Absent	SureSelect_V4_UTR	WXS			25.1334702258727		Perihilar	34	549	1
+nakamura_BD69		Indel																																							IHC		0.696467942426321	0.696467942426321	Absent	SureSelect_V4_UTR	WXS			91.5975359342916		Intrahepatic	35	550	1
+zou_53		SBS																								SBS															IHC	69	0.584242124589854	0.584242124589854	Absent	SeqCap_v3	WXS			48	0	Intrahepatic	35	551	1
+nakamura_BD41								SBS								SBS										SBS															IHC		0.810176994251027	0.810176994251027	Absent	SureSelect_V4_UTR	WXS			21.4866529774127		Intrahepatic	36	552	1
+zou_64									SBS																	SBS															IHC	51	0.694774418431178	0.694774418431178	Absent	SeqCap_v3	WXS			2	1	Intrahepatic	36	553	1
+wardell_RK423																										SBS															DCC	75	0.539696193139565	0.539696193139565	Absent	Nextera_RC	WXS					Distal	36	554	1
+wardell_HK25																							SBS																		IHC	80	0.593665812453522	0.593665812453522	Absent	Nextera_RC	WXS					Intrahepatic	37	555	1
+nakamura_BD62																SBS																									PHC		0.852817888685291	0.852817888685291	Absent	SureSelect_V4_UTR	WXS			15.6714579055441		Perihilar	38	556	1
+zhang_D70036-27								SBS																																	PHC		0.947419661497061	0.947419661497061	Unknown	SeqCap_v3	WXS					Perihilar	39	557	1
+TCGA-W5-AA2Z																																									IHC	30	0.41054851998206	0.41054851998206	Absent	SeqCap_v3	WXS	FGFR2 fusion			0	Intrahepatic	40	558	1
+zou_100																																									IHC	38	0.426338847673677	0.426338847673677	Absent	SeqCap_v3	WXS			34	0	Intrahepatic	40	559	1
+zou_61																																									IHC	39	0.189483932299412	0.189483932299412	Absent	SeqCap_v3	WXS			8	1	Intrahepatic	40	560	1
+zou_112																																									IHC	41	0.1	0.047370983074853	Absent	SeqCap_v3	WXS			3	1	Intrahepatic	40	561	1
+zou_118																																									IHC	43	0.347387209215589	0.347387209215589	Absent	SeqCap_v3	WXS			16	1	Intrahepatic	40	562	1
+zou_79																																									IHC	43	0.252645243065883	0.252645243065883	Absent	SeqCap_v3	WXS			35	0	Intrahepatic	40	563	1
+zou_82																																									IHC	43	0.126322621532941	0.126322621532941	Absent	SeqCap_v3	WXS			34	1	Intrahepatic	40	564	1
+wardell_HK44																																									PHC	44	0.16190885794187	0.16190885794187	Absent	Nextera_RC	WXS					Perihilar	40	565	1
+wardell_HK55																																									DCC	47	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Distal	40	566	1
+zou_147																																									IHC	48	0.331596881523971	0.331596881523971	Absent	SeqCap_v3	WXS			28	0	Intrahepatic	40	567	1
+borad_3																																									IHC	50	0.699071676828796	0.699071676828796	Present	SureSelect_V1	WXS			9	1	Intrahepatic	40	568	1
+zou_115																																									IHC	51	0.284225898449118	0.284225898449118	Absent	SeqCap_v3	WXS			5	1	Intrahepatic	40	569	1
+wardell_HK30																																									PHC	52	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Perihilar	40	570	1
+zou_142																																									IHC	52	0.300016226140736	0.300016226140736	Absent	SeqCap_v3	WXS			8	1	Intrahepatic	40	571	1
+wardell_HK21																																									IHC	53	0.107939238627913	0.107939238627913	Absent	Nextera_RC	WXS					Intrahepatic	40	572	1
+zou_116																																									IHC	53	0.110532293841324	0.110532293841324	Absent	SeqCap_v3	WXS			32	0	Intrahepatic	40	573	1
+jusakul_CCA_SG_16																																									IHC	55	1.29136066799505	1.29136066799505	Absent	genome	WGS		Other fusion	28.4845995893224	0	Intrahepatic	40	574	1
+wardell_HK14																																									IHC	55	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Intrahepatic	40	575	1
+wardell_HK16																																									IHC	55	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Intrahepatic	40	576	1
+wardell_HK46																																									DCC	55	0.1	0.0269848096569783	Absent	Nextera_RC	WXS					Distal	40	577	1
+zou_24																																									IHC	55	0.1	0.0157903276916177	Absent	SeqCap_v3	WXS			6	1	Intrahepatic	40	578	1
+zou_60																																									IHC	55	0.173693604607794	0.173693604607794	Absent	SeqCap_v3	WXS			45	0	Intrahepatic	40	579	1
+wardell_HK28																																									PHC	56	0.107939238627913	0.107939238627913	Absent	Nextera_RC	WXS					Perihilar	40	580	1
+zou_48																																									IHC	56	0.88425835073059	0.88425835073059	Absent	SeqCap_v3	WXS			49	0	Intrahepatic	40	581	1
+wardell_RK142																																									IHC	57	0.242863286912804	0.242863286912804	Absent	Nextera_RC	WXS					Intrahepatic	40	582	1
+wardell_HK09																																									IHC	58	0.215878477255826	0.215878477255826	Absent	Nextera_RC	WXS					Intrahepatic	40	583	1
+jusakul_CCA_CH_6																																									IHC	59	0.956103571496332	0.956103571496332	Absent	genome	WGS			19.9753593429158	0	Intrahepatic	40	584	1
+zou_146																																									IHC	60	0.1	0.0631613107664707	Absent	SeqCap_v3	WXS			6	1	Intrahepatic	40	585	1
+jusakul_CCA_SG_12																																									IHC	61	1.83770556599295	1.83770556599295	Absent	genome	WGS	FGFR2 fusion	Other fusion	50.5954825462012	0	Intrahepatic	40	586	1
+wardell_HK103																																									IHC	61	0.107939238627913	0.107939238627913	Absent	Nextera_RC	WXS					Intrahepatic	40	587	1
+wardell_HK34																																									PHC	61	0.1	0.0269848096569783	Absent	Nextera_RC	WXS					Perihilar	40	588	1
+wardell_RK073																																									IHC	62	0.296832906226761	0.296832906226761	Absent	Nextera_RC	WXS					Intrahepatic	40	589	1
+wardell_HK129																																									DCC	63	0.215878477255826	0.215878477255826	Absent	Nextera_RC	WXS					Distal	40	590	1
+zou_98																																									IHC	63	0.536871141515001	0.536871141515001	Absent	SeqCap_v3	WXS			5	1	Intrahepatic	40	591	1
+wardell_HK100																																									IHC	64	0.107939238627913	0.107939238627913	Absent	Nextera_RC	WXS					Intrahepatic	40	592	1
+wardell_HK113																																									PHC	64	0.1	0.0269848096569783	Absent	Nextera_RC	WXS					Perihilar	40	593	1
+zou_89																																									IHC	64	0.110532293841324	0.110532293841324	Absent	SeqCap_v3	WXS			31	1	Intrahepatic	40	594	1
+wardell_HK31																																									PHC	65	0.1	0.0269848096569783	Absent	Nextera_RC	WXS					Perihilar	40	595	1
+wardell_HK27																																									PHC	66	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Perihilar	40	596	1
+zou_67																																									IHC	66	0.1	0.0947419661497061	Absent	SeqCap_v3	WXS			46	0	Intrahepatic	40	597	1
+wardell_HK33																																									PHC	67	0.16190885794187	0.16190885794187	Absent	Nextera_RC	WXS					Perihilar	40	598	1
+gao_P5549T																																									IHC	68	0.386725118879302	0.386725118879302	Absent	TruSeq_EE	WXS					Intrahepatic	40	599	1
+zou_39																																									IHC	69	0.1	0.0157903276916177	Absent	SeqCap_v3	WXS			47	0	Intrahepatic	40	600	1
+wardell_HK53																																									DCC	70	0.1	0.0269848096569783	Absent	Nextera_RC	WXS					Distal	40	601	1
+wardell_HK60																																									DCC	70	0.377787335197696	0.377787335197696	Absent	Nextera_RC	WXS					Distal	40	602	1
+TCGA-W5-AA2H																																									IHC	70.5681040383299	0.1	0.047370983074853	Absent	SeqCap_v3	WXS				0	Intrahepatic	40	603	1
+wardell_HK111																																									PHC	71	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Perihilar	40	604	1
+wardell_HK17																																									IHC	71	0.1	0.0809544289709348	Absent	Nextera_RC	WXS					Intrahepatic	40	605	1
+wardell_HK12																																									IHC	72	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Intrahepatic	40	606	1
+wardell_HK38																																									PHC	72	0.107939238627913	0.107939238627913	Absent	Nextera_RC	WXS					Perihilar	40	607	1
+wardell_HK47																																									DCC	72	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Distal	40	608	1
+zou_35																																									IHC	72	0.457919503056913	0.457919503056913	Absent	SeqCap_v3	WXS			28	1	Intrahepatic	40	609	1
+wardell_HK42																																									PHC	73	0.296832906226761	0.296832906226761	Absent	Nextera_RC	WXS					Perihilar	40	610	1
+wardell_HK61																																									DCC	73	0.107939238627913	0.107939238627913	Absent	Nextera_RC	WXS					Distal	40	611	1
+wardell_RK317																																									IHC	73	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Intrahepatic	40	612	1
+wardell_HK102																																									PHC	75	0.1	0.0269848096569783	Absent	Nextera_RC	WXS					Perihilar	40	613	1
+wardell_HK57																																									DCC	76	0.1	0.0539696193139565	Absent	Nextera_RC	WXS					Distal	40	614	1
+wardell_HK62																																									DCC	78	0.94446833799424	0.94446833799424	Absent	Nextera_RC	WXS					Distal	40	615	1
+wardell_HK68																																									DCC	78	0.1	0.0269848096569783	Absent	Nextera_RC	WXS					Distal	40	616	1
+TCGA-W7-A93N																																									EHC		0.1	0.0631613107664707	Absent	SeqCap_v3	WXS				0	Extrahepatic	40	617	1
+jiao_CHOL25																																									IHC		0.41267037041944	0.41267037041944	Unknown	SureSelect_V2	WXS					Intrahepatic	40	618	1
+jiao_CHOL49																																									IHC		0.695023781759057	0.695023781759057	Unknown	SureSelect_V2	WXS					Intrahepatic	40	619	1
+jiao_CHOL50																																									IHC		0.41267037041944	0.41267037041944	Unknown	SureSelect_V2	WXS					Intrahepatic	40	620	1
+nakamura_BD1																																									PHC		0.1	0	Absent	SureSelect_V4_UTR	WXS			9.23203285420944		Perihilar	40	621	1
+nakamura_BD102																																									IHC		0.127922683302794	0.127922683302794	Absent	SureSelect_V4_UTR	WXS			37.5195071868583		Intrahepatic	40	622	1
+nakamura_BD103																																									IHC		0.1	0.0401820800058162	Absent	SureSelect_V5_UTR	WXS			60.9774127310062		Intrahepatic	40	623	1
+nakamura_BD106																																									PHC		0.107152213348843	0.107152213348843	Absent	SureSelect_V5_UTR	WXS			20.0082135523614		Perihilar	40	624	1
+nakamura_BD11																																									PHC		0.1	0	Absent	SureSelect_V4_UTR	WXS			19.1540041067762		Perihilar	40	625	1
+nakamura_BD113																																									PHC		0.1	0.0401820800058162	Absent	SureSelect_V5_UTR	WXS			3.61396303901437		Perihilar	40	626	1
+nakamura_BD116																																									PHC		0.113709051824706	0.113709051824706	Absent	SureSelect_V4_UTR	WXS			54.3080082135524		Perihilar	40	627	1
+nakamura_BD125																																									IHC		0.1	0.0710681573904409	Absent	SureSelect_V4_UTR	WXS			33.4127310061602		Intrahepatic	40	628	1
+nakamura_BD126																																									IHC		0.1	0.0267880533372108	Absent	SureSelect_V5_UTR	WXS			38.1108829568789		Intrahepatic	40	629	1
+nakamura_BD128																																									DCC		0.1	0.066970133343027	Absent	SureSelect_V5_UTR	WXS			47.1786447638604		Distal	40	630	1
+nakamura_BD133																																									IHC		0.1	0.0267880533372108	Absent	SureSelect_V5_UTR	WXS			37.2895277207392		Intrahepatic	40	631	1
+nakamura_BD150																																									IHC		0.884005760127957	0.884005760127957	Absent	SureSelect_V5_UTR	WXS			19.1211498973306		Intrahepatic	40	632	1
+nakamura_BD159																																									IHC		0.709883413436087	0.709883413436087	Absent	SureSelect_V5_UTR	WXS			16.5256673511294		Intrahepatic	40	633	1
+nakamura_BD161																																									DCC		0.1	0.0710681573904409	Absent	SureSelect_V4_UTR	WXS		Other fusion	12.7474332648871		Distal	40	634	1
+nakamura_BD164																																									PHC		0.508973013407006	0.508973013407006	Absent	SureSelect_V5_UTR	WXS			12.4517453798768		Perihilar	40	635	1
+nakamura_BD168																																									IHC		0.361638720052346	0.361638720052346	Absent	SureSelect_V5_UTR	WXS		Other fusion	7.22792607802875		Intrahepatic	40	636	1
+nakamura_BD2																																									PHC		0.1	0.0284272629561764	Absent	SureSelect_V4_UTR	WXS			7.49075975359343		Perihilar	40	637	1
+nakamura_BD201																																									IHC		0.1	0.0710681573904409	Absent	SureSelect_V4_UTR	WXS		Other fusion	46.7843942505134		Intrahepatic	40	638	1
+nakamura_BD24																																									IHC		0.1	0.0426408944342646	Absent	SureSelect_V4_UTR	WXS			75.0390143737166		Intrahepatic	40	639	1
+nakamura_BD26																																									IHC		0.611186153557792	0.611186153557792	Absent	SureSelect_V4_UTR	WXS			73.0349075975359		Intrahepatic	40	640	1
+nakamura_BD3																																									IHC		0.1	0.0142136314780882	Absent	SureSelect_V4_UTR	WXS			5.45379876796715		Intrahepatic	40	641	1
+nakamura_BD39																																									PHC		0.1	0.0284272629561764	Absent	SureSelect_V4_UTR	WXS			109.634496919918		Perihilar	40	642	1
+nakamura_BD4																																									DCC		0.1	0.0284272629561764	Absent	SureSelect_V4_UTR	WXS			25.7577002053388		Distal	40	643	1
+nakamura_BD42																																									IHC		0.1	0.0284272629561764	Absent	SureSelect_V4_UTR	WXS			101.223819301848		Intrahepatic	40	644	1
+nakamura_BD43																																									PHC		0.1	0	Absent	SureSelect_V4_UTR	WXS			75.170431211499		Perihilar	40	645	1
+nakamura_BD51																																									PHC		0.241092480034897	0.241092480034897	Absent	SureSelect_V5_UTR	WXS			56.6406570841889		Perihilar	40	646	1
+nakamura_BD56																																									IHC		0.267880533372108	0.267880533372108	Absent	SureSelect_V5_UTR	WXS			45.3388090349076		Intrahepatic	40	647	1
+nakamura_BD67																																									PHC		0.142136314780882	0.142136314780882	Absent	SureSelect_V4_UTR	WXS			70.4065708418891		Perihilar	40	648	1
+nakamura_BD68																																									PHC		0.31269989251794	0.31269989251794	Absent	SureSelect_V4_UTR	WXS			80.9199178644764		Perihilar	40	649	1
+nakamura_BD76																																									PHC		0.1	0.0133940266686054	Absent	SureSelect_V5_UTR	WXS			16.4271047227926		Perihilar	40	650	1
+nakamura_BD77																																									PHC		0.1	0.0142136314780882	Absent	SureSelect_V4_UTR	WXS			27.7289527720739		Perihilar	40	651	1
+nakamura_BD83																																									IHC		0.1	0.0401820800058162	Absent	SureSelect_V5_UTR	WXS			44.4188911704312		Intrahepatic	40	652	1
+nakamura_BD85																																									DCC		0.1	0.0267880533372108	Absent	SureSelect_V5_UTR	WXS			24.8049281314168		Distal	40	653	1
+nakamura_BD91																																									PHC		0.1	0.0267880533372108	Absent	SureSelect_V5_UTR	WXS			2.95687885010267		Perihilar	40	654	1
+sia_ICC10																																									IHC		0.126322621532941	0.126322621532941	Unknown	SeqCap_v3	WXS		Other fusion			Intrahepatic	40	655	1
+sia_ICC16																																									IHC		0.615822779973089	0.615822779973089	Unknown	SeqCap_v3	WXS		Other fusion			Intrahepatic	40	656	1
+zhang_D70036-07																																									PHC		0.173693604607794	0.173693604607794	Unknown	SeqCap_v3	WXS					Perihilar	40	657	1
+zhang_D70036-119																																									IHC		0.315806553832354	0.315806553832354	Unknown	SeqCap_v3	WXS					Intrahepatic	40	658	1
+zhang_D70036-43																																									PHC		0.836887367655737	0.836887367655737	Unknown	SeqCap_v3	WXS					Perihilar	40	659	1
+zhang_D70036-55																																									PHC		0.284225898449118	0.284225898449118	Unknown	SeqCap_v3	WXS					Perihilar	40	660	1
+zhang_D70036-63																																									PHC		0.742145401506031	0.742145401506031	Unknown	SeqCap_v3	WXS					Perihilar	40	661	1
+zhang_D70036-71																																									IHC		1.02637129995515	1.02637129995515	Unknown	SeqCap_v3	WXS					Intrahepatic	40	662	1
+zhang_D70036-77																																									IHC		0.900048678422208	0.900048678422208	Unknown	SeqCap_v3	WXS					Intrahepatic	40	663	1
+zhang_LD8k0721																																									PHC		1.20006490456294	1.20006490456294	Unknown	SeqCap_v3	WXS					Perihilar	40	664	1
+zhang_LD8k4474																																									PHC		0.647403435356325	0.647403435356325	Unknown	SeqCap_v3	WXS					Perihilar	40	665	1

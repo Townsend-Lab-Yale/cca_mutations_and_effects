@@ -1,0 +1,61 @@
+PATIENT_ID	START_DATE	STOP_DATE	EVENT_TYPE	Treatment_TYPE	SUBTYPE	AGENT	OTHER_SAMPLE_ID	OTHER_PATIENT_ID	CHEMO_CYCLES	COMMENTS	Treatment_BEST_RESPONSE	OVERALL_RESPONSE	REASON_FOR_TX_DISCONTINUATION	NOTE	Surgery_DETAILS	SOURCE	SAMPLE_ID	Status	SPECIMEN_TYPE	Treatment_DETAILS	SOURCE_LAB	Surgery	EVENT_DETAILS	DOSAGE	KARNOFSKY_PERFORMANCE_SCORE	SPECIMEN_SITE	TYPE_OF_Surgery	DIAGNOSTIC_TYPE	DIAGNOSTIC_TYPE_DETAILED	CONCURRENT_CHEMO	MGMT_Status	EVENT_TYPE_DETAILED	HISTOLOGY	WHO_GRADE	SOURCE_PATHOLOGY
+P-0002119	19	109	Treatment	Medical Therapy	Chemotherapy	Cisplatin / gemcitabine																													
+P-0002119	141	183	Treatment	Medical Therapy	Adjuvant Systemic Therapy	Gemcitabine							Planned therapy ended								MSKCC														
+P-0002119	84	183	Treatment	Medical Therapy	Adjuvant Systemic Therapy	AC-Paclitaxel							Planned therapy ended								MSKCC														
+P-0002119	55		Surgery																			Breast Conservation													
+P-0002119	39198		Status															Time of recurrence																	
+P-0000114	388		Status															Progression of Disease (after First Line of Therapy)																	
+P-0000154	477		Status															Progression of Disease (after First Line of Therapy)																	
+P-0000189	561		Status															Progression of Disease (after First Line of Therapy)																	
+P-0000303	366		Status															Progression of Disease (after First Line of Therapy)																	
+P-0000327	298		Status															Progression of Disease (after First Line of Therapy)																	
+P-0000328	492		Status															Progression of Disease (after First Line of Therapy)																	
+P-0000362	85		Status															Progression of Disease (after First Line of Therapy)																	
+P-0000644	228		Status															Progression of Disease (after First Line of Therapy)																	
+P-0000713	252		Status															Progression of Disease (after First Line of Therapy)																	
+P-0000766	91		Status															Progression of Disease (after First Line of Therapy)																	
+P-0001001	357		Status															Progression of Disease (after First Line of Therapy)																	
+P-0001185	58		Status															Progression of Disease (after First Line of Therapy)																	
+P-0001292	303		Status															Progression of Disease (after First Line of Therapy)																	
+P-0001359	533		Status															Progression of Disease (after First Line of Therapy)																	
+P-0001496	98		Status															Progression of Disease (after First Line of Therapy)																	
+P-0001858	2070		Status															Progression of Disease (after First Line of Therapy)																	
+P-0002064	319		Status															Progression of Disease (after First Line of Therapy)																	
+P-0000192	356		Status															Progression of Disease (after First Line of Therapy)																	
+P-0002906	271		Status															Progression of Disease (after First Line of Therapy)																	
+P-0002937	338		Status															Progression of Disease (after First Line of Therapy)																	
+P-0000114	86		Treatment	Medical Therapy		gem/ox																													
+P-0000154	22		Treatment	Medical Therapy		gem/cis																													
+P-0000147	61		Treatment	Medical Therapy		gem																													
+P-0000189	100		Treatment	Medical Therapy		gem/ox																													
+P-0000298	67		Treatment	Medical Therapy		gem																													
+P-0000303	11		Treatment	Medical Therapy		gem/cis																													
+P-0000327	62		Treatment	Medical Therapy		gem/ox																													
+P-0000328	42		Treatment	Medical Therapy		gem/cap																													
+P-0000362	7		Treatment	Medical Therapy		gem/cis																													
+P-0000402	44		Treatment	Medical Therapy		gem/ox																													
+P-0000419	24		Treatment	Medical Therapy		gem/cis																													
+P-0000643	76		Treatment	Medical Therapy		gem/cap																													
+P-0000637	93		Treatment	Medical Therapy		gem/cap																													
+P-0000644	46		Treatment	Medical Therapy		gem/cis/MEK162																													
+P-0000713	23		Treatment	Medical Therapy		gem/cis																													
+P-0000766	7		Treatment	Medical Therapy		gem/ox																													
+P-0001001	43		Treatment	Medical Therapy		gem/ox																													
+P-0001185	23		Treatment	Medical Therapy		gem/cis/MEK162																													
+P-0001292	37		Treatment	Medical Therapy		gem/cis																													
+P-0001359	432		Treatment	Medical Therapy		gem/cis																													
+P-0001403	76		Treatment	Medical Therapy		gem/cis																													
+P-0001496	38		Treatment	Medical Therapy		gem/cis																													
+P-0001539	115		Treatment	Medical Therapy		gem/ox																													
+P-0001858	1665		Treatment	Medical Therapy		gemcitabine, cisplatin																													
+P-0002064	122		Treatment	Medical Therapy		irinotecan																													
+P-0002059	589		Treatment	Medical Therapy		gem/cis																													
+P-0002135	67		Treatment	Medical Therapy		gem/ox																													
+P-0002143	70		Treatment	Medical Therapy		gem/cis																													
+P-0002213	34		Treatment	Medical Therapy		gem/cis																													
+P-0003946	69		Treatment	Medical Therapy		gem/ox																													
+P-0000192	22		Treatment	Medical Therapy		gem/cis																													
+P-0002906	216		Treatment	Medical Therapy		gem/cis/MEK162																													
+P-0002937	247		Treatment	Medical Therapy		FOLFOX																													
+P-0003177	20		Treatment	Medical Therapy		gem/cis																													
+P-0003187	67		Treatment	Medical Therapy		gem/ox																													
