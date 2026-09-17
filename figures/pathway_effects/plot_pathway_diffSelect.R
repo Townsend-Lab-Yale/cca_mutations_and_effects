@@ -48,9 +48,9 @@ fp = unique(fp, by = c('display_pair', 'path_id', 'cca_type'))
 
 curr_signif = for_signif[display_pair %like% "iCCA"]
 gg = plot_effects(fp, color_by = 'subtype_color', group_by = 'path_display_name', color_label = 'subtype_label', legend_color_name = 'Subtype',
-                  x_title = 'Pathway cancer effects', y_title = 'Pathway', order_by_effect = FALSE,
+                  x_title = 'Subpath cancer effects', y_title = 'Subpath', order_by_effect = FALSE,
                   label_individual_variants = FALSE) + 
-  scale_size_continuous(name = 'Frequency of\npathway mutation', 
+  scale_size_continuous(name = 'Frequency of\nsubpath mutation', 
                         labels = scales::label_percent(accuracy = 1), 
                         range = c(1, 5),
                         guide = guide_legend(order = 2, ncol = 2, byrow = TRUE)) +

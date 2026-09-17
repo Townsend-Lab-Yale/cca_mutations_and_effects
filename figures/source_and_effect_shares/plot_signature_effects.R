@@ -9,6 +9,10 @@ source('figures/source_and_effect_shares/plot_signature_effects_helper.R') # plo
 
 # Load in signature attributions
 effect_list = readRDS(file = 'output/cca_signature_effects.rds') # from analyis/signature_effect_analysis.R
+pan_effects = readRDS(file = 'output/cca_signature_effects_panCCA_only.rds')
+effect_list[['panCCA']] = pan_effects
+
+
 
 # Panels D and E were prepared in plot_variant_sources.R
 other_stuff = readRDS('figures/source_and_effect_shares/for_signature_effects_figure.rds')
@@ -44,7 +48,7 @@ lower_panels = plot_grid(panel_d, panel_e, nrow = 2, label_size = 10,
          rel_heights = c(.22, .78), scale = .95)
 
 # Add top labels view cowplot since patchwork's tags wouldn't match up properly
-full_figure_no_legend = plot_grid(upper_panels, lower_panels, ncol = 1, rel_heights = c(.43, .57)) +
+full_figure_no_legend = plot_grid(upper_panels, lower_panels, ncol = 1, rel_heights = c(.47, .53)) +
   draw_label('A', .017, .933, size = 10, fontface = 'bold') +
   draw_label('B', .37, .933, size = 10, fontface = 'bold') + 
   draw_label('C', .78, .933, size = 10, fontface = 'bold')
@@ -75,7 +79,7 @@ our_legend = plot_grid(get_legend(for_legend), plot_spacer() + theme_void(), nco
 full_figure = plot_grid(full_figure_no_legend, our_legend, 
                         nrow = 1, rel_widths = c(.74, .26), scale = c(1, .95))
 
-ggsave('figures/prepped_figures/signature_effects.png', full_figure, width = 1325*2.5, height = 825*2.5, dpi = 'retina', 
+ggsave('figures/prepped_figures/signature_effects.png', full_figure, width = 1325*2.5, height = 900*2.5, dpi = 'retina', 
        units = 'px', bg = 'white')
 
 

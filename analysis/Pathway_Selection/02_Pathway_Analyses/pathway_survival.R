@@ -24,7 +24,8 @@ sample_key = fread('combined_sample_key.txt')
 setnames(sample_key, 'Unique_Patient_Identifier', 'patient_id')
 
 # Fit Cox models on given features/pathways and return formatted table. Adds pM (from sample key) to the feature table.
-run_cox = function(features, path_ids, signif_threshold = .1) {
+run_cox = function(features, path_ids, table_name = '', 
+                   caption = 'Cox model of patient survival', signif_threshold = .1) {
   stopifnot(is.data.table(features),
             all(path_ids %in% names(features)))
   all_samples = features$patient_id
@@ -67,6 +68,9 @@ run_cox = function(features, path_ids, signif_threshold = .1) {
   
   # Credit to https://stackoverflow.com/questions/65665465/grouping-rows-in-gtsummary
   # for how to get "Pathway mutation" as a group label
+  
+  table_name = paste0('<b>', table_name, '</b>')
+  caption = paste0(caption, '<br><br>')
   cox_table = tbl_regression(cox1, label = curr_table_labels, exponentiate = TRUE, 
                              include = cox1_coef$feature, 
                              pvalue_fun = function(x) {
@@ -89,7 +93,7 @@ run_cox = function(features, path_ids, signif_threshold = .1) {
         dplyr::relocate(c(num_affected), .before = estimate) |>
         dplyr::bind_rows(
           tibble::tibble(variable="mut_pw", var_label = "mut_pw", row_type="label",
-                         label="Pathway mutation in...")) |> 
+                         label="Subpath mutation in...")) |> 
         dplyr::arrange(factor(variable, levels=c('pM', 'mut_pw', ordered_path_ids)))
     ) |> 
     # add_significance_stars(pattern = '{p.value}{stars}', hide_se = T, hide_ci = F, hide_p = F) |>
@@ -115,7 +119,15 @@ run_cox = function(features, path_ids, signif_threshold = .1) {
     gt::tab_footnote(
       footnote = gt::html("*<i>P</i> < 0.05; **<i>P</i> < 0.01; ***<i>P</i> < 0.001"),
       locations = gt::cells_column_labels(columns = p.value)
-    )
+    ) |>
+    gt::tab_header(title = gt::html(table_name),
+                   subtitle = gt::html(caption)) |>
+    gt::opt_align_table_header(align = 'left') |>
+    gt::tab_options(heading.border.bottom.style = 'none',
+                    heading.title.font.size = '120%',
+                    heading.subtitle.font.size = '120%',
+                    heading.border.lr.style = 'none',
+                    table.border.top.style = 'none')
   return(list(gt = cox_table, fit = cox1))
 }
 
@@ -143,12 +155,16 @@ do_lasso = function(fm, seed = 12345, ...) {
   x = as.matrix(fm[, .SD, .SDcols = setdiff(names(fm), c('surv_month', 'surv_status', 'patient_id'))])
   y = as.matrix(fm[, .(time = surv_month, status = surv_status)])
   set.seed(seed)
-  cvfit <- cv.glmnet(x, y, family = "cox", type.measure = "C", ...)
+  cvfit <- cv.glmnet(x, y, family = "cox", type.measure = "C", cox.ties = 'breslow', ...)
   return(cvfit)
 }
 
 # Function to create a table for LASSO Cox regression results
-plot_lasso_table = function(lasso_fit, features_data, pathway_info, sample_key, lambda_choice = "lambda.1se") {
+plot_lasso_table = function(lasso_fit, features_data, pathway_info, sample_key, 
+                            table_name = 'Table A', caption = '', lambda_choice = "lambda.1se") {
+  
+  table_name = paste0('<b>', table_name, '</b>')
+  caption = paste0(caption, '<br><br>')
   
   # Extract coefficients at chosen lambda
   lasso_coef = as.data.table(
@@ -206,7 +222,7 @@ plot_lasso_table = function(lasso_fit, features_data, pathway_info, sample_key, 
       feature = "mut_pw",
       coefficient = NA_real_,
       hr = NA_real_,
-      label = "Pathway mutation in...",
+      label = "Supbath mutation in...",
       num_affected = "",
       hr_rounded = ""
     )
@@ -226,7 +242,7 @@ plot_lasso_table = function(lasso_fit, features_data, pathway_info, sample_key, 
   # Replace NAs with empty strings for display
   gt_input[is.na(num_affected), num_affected := ""]
   gt_input[is.na(hr), hr := ""]
-  # gt_input[label == "Pathway mutation in..." & hr_ci == "", hr_ci := ""]
+  # gt_input[label == "Subpath mutation in..." & hr_ci == "", hr_ci := ""]
   
   # Convert to data frame
   gt_df = as.data.frame(gt_input)
@@ -255,7 +271,7 @@ plot_lasso_table = function(lasso_fit, features_data, pathway_info, sample_key, 
       style = list(gt::cell_text(weight = "bold")),
       locations = gt::cells_body(
         columns = label,
-        rows = label == "Pathway mutation in..."
+        rows = label == "Subpath mutation in..."
       )
     ) |>
     # Indent pathway features
@@ -263,7 +279,7 @@ plot_lasso_table = function(lasso_fit, features_data, pathway_info, sample_key, 
       style = list(gt::cell_text(indent = gt::px(20))),
       locations = gt::cells_body(
         columns = label,
-        rows = !gt_df$label %in% c("Pathway mutation in...", "Presence of\nmetastatic disease") & gt_df$hr != ""
+        rows = !gt_df$label %in% c("Subpath mutation in...", "Presence of\nmetastatic disease") & gt_df$hr != ""
       )
     ) |>
     gt::tab_options(
@@ -273,7 +289,15 @@ plot_lasso_table = function(lasso_fit, features_data, pathway_info, sample_key, 
     gt::tab_footnote(
       footnote = gt::html(footer),
       locations = gt::cells_column_labels(columns = num_affected)
-    )
+    ) |>
+    gt::tab_header(title = gt::html(table_name),
+                   subtitle = gt::html(caption)) |>
+    gt::opt_align_table_header(align = 'left') |>
+    gt::tab_options(heading.border.bottom.style = 'none',
+                    heading.title.font.size = '120%',
+                    heading.subtitle.font.size = '120%',
+                    heading.border.lr.style = 'none',
+                    table.border.top.style = 'none')
   
   return(list(gt = gt_table, coefficients = lasso_coef))
 }
@@ -282,8 +306,10 @@ plot_lasso_table = function(lasso_fit, features_data, pathway_info, sample_key, 
 # Features are indel/SBS status (binarized to mutated/not mutated) in pathways, and pM status.
 features = fread('output/landscape/pan_landscape_pw_plotted_features.txt')
 cancer_pw = pw_info[is_cancer_gene_path == T, path_id]
-cancer_pw_cox = run_cox(features, cancer_pw)
-gtsave(cancer_pw_cox$gt, 'output/survival/cancer_gene_pw_cox.pdf')
+cancer_pw_cox = run_cox(features, cancer_pw, table_name = 'Table C', 
+                        caption = 'Cox model of pan-CCA patient survival using cancer-gene subpaths')
+
+gtsave(cancer_pw_cox$gt, 'output/survival/cancer_gene_pw_cox_(supp3C).pdf')
 
 summary(cancer_pw_cox$fit)$concordance
 # C     se(C) 
@@ -293,10 +319,10 @@ summary(cancer_pw_cox$fit)$concordance
 # Same model, using just the MSK samples.
 # Unlike all other feature tables, non-neutral CNA status is included and counts as mutated.
 ## Probably a supplementary table (if used).
-msk_features = fread('output/landscape/msk_landscape_plotted_features.txt')
-msk_cox = run_cox(msk_features, cancer_pw)
-gtsave(msk_cox$gt, 'output/survival/ihc_msk_cox.pdf')
-summary(msk_cox$fit)$concordance
+# msk_features = fread('output/landscape/msk_landscape_plotted_features.txt')
+# msk_cox = run_cox(msk_features, cancer_pw)
+# gtsave(msk_cox$gt, 'output/survival/ihc_msk_cox.pdf')
+# summary(msk_cox$fit)$concordance
 # C      se(C) 
 # 0.72057295 0.01555276 
 
@@ -341,9 +367,11 @@ wxs_table_result = plot_lasso_table(
   features_data = wxm,
   pathway_info = pw_info,
   sample_key = sample_key,
+  table_name = 'Table D',
+  caption = 'LASSO-regularized Cox model of pan-CCA patient survival using whole-exome and cancer-gene subpaths',
   lambda_choice = "lambda.1se"  # or "lambda.min"
 )
-gt::gtsave(wxs_table_result$gt, "./output/survival/wxs_pw_lasso_cox_table.pdf")
+gt::gtsave(wxs_table_result$gt, "./output/survival/wxs_pw_lasso_cox_table_(supp3D).pdf")
 
 # LASSO on cancer gene pathways (not currently in use)
 # for_cancer_pw_model = fread('output/landscape/pan_landscape_pw_plotted_features.txt')
@@ -383,6 +411,8 @@ as.data.table(as.matrix(coef(wxs_fit_ihc$glmnet.fit, s= wxs_fit_ihc$lambda.1se))
               keep.rownames = T)[`1` != 0][, .(predictor = rn, hr = exp(`1`))][pw_info, 
                                                                                pw_name := path_display_name,
                                                                                on = c(predictor = 'path_id')][]
+
+# 1se concordance ("Measure") stated in manuscript
 wxs_fit_ihc
 # Call:  cv.glmnet(x = x, y = y, type.measure = "C", family = "cox") 
 # 
@@ -392,7 +422,7 @@ wxs_fit_ihc
 # min 0.04967    14  0.5981 0.01453      19
 # 1se 0.07908     9  0.5895 0.01693      11
 
-pdf('output/survival/subtype_survival/wxs_pw_lasso_path_ihc.pdf')
+pdf('output/survival/wxs_pw_lasso_path_ihc.pdf')
 plot(wxs_fit_ihc)
 dev.off()
 
@@ -401,13 +431,28 @@ wxs_table_result_ihc = plot_lasso_table(
   features_data = wxm_ihc,
   pathway_info = pw_info,
   sample_key = sample_key,
+  table_name = 'Table B',
+  caption = 'LASSO-regularized Cox model of iCCA patient survival using whole-exome and cancer-gene subpaths',
   lambda_choice = "lambda.1se"
 )
-gt::gtsave(wxs_table_result_ihc$gt, "./output/survival/subtype_survival/wxs_pw_lasso_cox_table_ihc.pdf")
+gt::gtsave(wxs_table_result_ihc$gt, "./output/survival/wxs_pw_lasso_cox_table_ihc_(supp3B).pdf")
 
 
-cancer_pw_cox_ihc = run_cox(features[cca_subtype == 'Intrahepatic'], path_ids = cancer_pw)
-gtsave(cancer_pw_cox_ihc$gt, 'output/survival/cancer_gene_pw_cox_ihc.pdf')
+cancer_pw_cox_ihc = run_cox(features[cca_subtype == 'Intrahepatic'], path_ids = cancer_pw,
+                            table_name = 'Table A', caption = 'Cox model of iCCA patient survival using cancer-gene subpaths')
+gtsave(cancer_pw_cox_ihc$gt, 'output/survival/cancer_gene_pw_cox_ihc_(supp3A).pdf')
+
+# Concordance stated in manuscript
 summary(cancer_pw_cox_ihc$fit)$concordance
+# C     se(C) 
+# 0.6487932 0.0141930 
 
+
+model_tables = c('output/survival/cancer_gene_pw_cox_ihc_(supp3A).pdf',
+                 'output/survival/wxs_pw_lasso_cox_table_ihc_(supp3B).pdf',
+                 'output/survival/cancer_gene_pw_cox_(supp3C).pdf',
+                 'output/survival/wxs_pw_lasso_cox_table_(supp3D).pdf')
+
+# Make one PDF
+qpdf::pdf_combine(input = model_tables, output = 'output/survival/supp_survival_tables.pdf')
 

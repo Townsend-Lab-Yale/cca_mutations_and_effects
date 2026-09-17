@@ -33,8 +33,8 @@ single_color <- plasma_colors[50]  # Use middle color as default
 # Create the plot with manual color overrides in the size legend
 gg <- plot_effects(path_effects_modified, 
                    group_by = 'path_display_name', 
-                   x_title = 'Pathway cancer effect',
-                   y_title = 'Pathway', 
+                   x_title = 'Subpath cancer effect',
+                   y_title = 'Subpath', 
                    legend.position = c(.72, .28), 
                    color_by = "frequency",
                    legend_size_name = 'Frequency of\n',
@@ -43,7 +43,7 @@ gg <- plot_effects(path_effects_modified,
   
   # Override the size scale to include color information
   scale_size_continuous(
-    name = 'Frequency of\npathway mutation',
+    name = 'Frequency of\nsubpath mutation',
     labels = function(x) paste0(round(x * 100, 1), "%"),
     guide = guide_legend(
       title.position = 'top',

@@ -24,6 +24,10 @@ maf[, Tumor_Sample_Barcode := paste0('jiao_', `Tumor Sample`)]
 
 # Lift to hg38. A handful of records will get dropping for failing liftOver or no longer having correct reference allele.
 lifted = preload_maf(maf = maf, refset = 'ces.refset.hg38', chain_file = 'reference/chains/hg18ToHg38.over.chain')
+
+# ~0.35% of records had liftOver problems.
+stopifnot(lifted[, mean(! is.na(problem) & problem %in% c('failed_liftOver', 'reference_mismatch',
+                                                                      'not_variant', 'duplicate_record_after_liftOver'))] - .0035 < 1e-4)
 lifted = lifted[is.na(problem)]
 
 

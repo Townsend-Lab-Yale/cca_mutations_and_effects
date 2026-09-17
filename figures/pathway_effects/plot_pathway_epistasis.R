@@ -193,7 +193,7 @@ create_epistatic_trajectory_plot <- function(data) {
     # Color palette - use the legend_labels for the legend text
     scale_color_manual(values = colors,
                        labels = legend_labels,
-                       name = "Pathway") +
+                       name = "Subpath") +
     labs(
       x = "Somatic mutation context",
       y = "Scaled selection coefficient"

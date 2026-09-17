@@ -199,7 +199,7 @@ plot_landscape = function(features, sample_key, path_to_use = pw_info$path_id,
     subplots = c(subplots, lapply(names(pathway_descrip), function(x) make_row(dt, x, label = pathway_descrip[x], 
                                                                                color_map = curr_color_map,
                                                                                show_guide = x == names(pathway_descrip)[1],
-                                                                               legend_name = 'Pathway mutation')))
+                                                                               legend_name = 'Mutation type')))
   }
 
   

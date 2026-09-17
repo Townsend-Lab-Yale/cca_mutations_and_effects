@@ -11,6 +11,7 @@ library(cancereffectsizeR)
 chain_file = 'reference/chains/hg19ToHg38.over.chain' # licensed for non-commercial use
 maf_info = fread('maf_file_summary.txt')
 
+
 maf = rbindlist(lapply(1:nrow(maf_info), function(i) {
   genome_build = maf_info$input_build[i]
   stopifnot(genome_build %in% c('hg19', 'hg38'))
@@ -28,9 +29,17 @@ maf = rbindlist(lapply(1:nrow(maf_info), function(i) {
   curr_maf = maf_info$input_maf[i]
   preloaded = preload_maf(maf = curr_maf, refset = 'ces.refset.hg38', chain_file = curr_chain_file, 
                           coverage_intervals_to_check = curr_bed)
-  preloaded = preloaded[is.na(problem)]
+  #preloaded = preloaded[is.na(problem)]
 }), idcol = 'file', fill = TRUE)
 maf[, file := basename(maf_info$input_maf[file])] # Replace MAF file's row number in maf_info with file name
+
+# Some liftOver stats for reviewer (see prep_Jiao.R for equivalent hg18 stats).
+# <0.1% of records lost from liftOver issues
+hg19_maf_names = maf_info[input_build == 'hg19', input_maf]
+for_lift_check = maf[maf_info[file, input_maf] %in% hg19_maf_names]
+stopifnot(abs(for_lift_check[, mean(! is.na(problem) & problem %in% c('failed_liftOver', 'reference_mismatch',
+                                                                      'not_variant', 'duplicate_record_after_liftOver'))] - .00077) < 1e-5)
+maf = maf[is.na(problem)]
 
 # Verify that the targeted regions seem correct, and also determine whether we should pad intervals
 # (allow calls somewhat outside the intervals). It is common to call variants within 100bp of

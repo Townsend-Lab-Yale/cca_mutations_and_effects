@@ -1,0 +1,16 @@
+source	identifier	coverage	kits	num_samples_used	iCCA_used	pCCA_used	dCCA_used	unspecified_eCCA_used	MAF_aquisition_method
+Borad	10.1371/journal.pgen.1004135	exome	SureSelect_V1, Nextera_RC, TruSeq_EE, SureSelect_V4_UTR	6	6	0	0	0	Created MAF from somatic variants in publication's Table S1
+Chan-on	10.1038/ng.2806	exome	SureSelect_V4_UTR, SureSelect_V1	4	2	0	0	2	Performed variant calling pipeline from sequencing reads
+Gao	10.1053/j.gastro.2014.01.062	exome	TruSeq_EE	6	6	0	0	0	Performed variant calling pipeline from sequencing reads
+Jiao	10.1038/ng.2813	exome	SureSelect_V2	31	31	0	0	0	Created MAF from publication's Table S4
+Jusakul (TGS)	10.1158/2159-8290.CD-17-0368	targeted	Custom panel	166	95	61	6	4	Aquired TGS calls from publication's Table S3A
+Jusakul (WGS)	10.1158/2159-8290.CD-17-0368	genome	Not applicable	71	54	13	1	3	Obtained archived calls from UCSC Xena Browser
+MSK-IMPACT_iCCA	cBioPortal: ihch_msk_2021	targeted	MSK341, MSK410, MSK468	374	374	0	0	0	MAF file obtained from cBioPortal (cbioportal.org)
+Nakamura	10.1038/ng.3375	exome	SureSelect_V4_UTR, SureSelect_V5_UTR	197	124	44	29	0	Obtained archived calls from UCSC Xena Browser
+Nepal	10.1002/hep.29764	exome	SureSelect_V4	12	12	0	0	0	Created MAF by converting Excel file obtained from study authors
+Sia	10.1038/ncomms7087	exome	SeqCap_v3	8	8	0	0	0	Performed variant calling pipeline from sequencing reads
+TCGA-CHOL	Genomic Data Commons release 40.0	exome	SeqCap_v3	46	40	0	0	6	Assembled cohort MAF from sample MAFs (Aliquot Ensemble Somatic Variant Merging and Masking workflow)
+Wardell	10.1016/j.jhep.2018.01.009	exome	Nextera_RC	96	44	24	28	0	Created MAF from publication's Table S4
+Yale	(Current study)	exome	SeqCap_v2	18	7	1	10	0	Performed variant calling pipeline from sequencing reads
+Zhang	10.1038/s41467-022-30708-7	exome	SeqCap_v3	67	24	43	0	0	MAF file obtained from study authors
+Zou	10.1038/ncomms6696	exome	SeqCap_v3	103	103	0	0	0	Created MAF from publication's Table S4

@@ -1,0 +1,16 @@
+source	identifier	MAF_aquisition_method
+Borad	10.1371/journal.pgen.1004135	Created MAF from somatic variants in publication's Table S1
+Chan-on	10.1038/ng.2806	Performed variant calling pipeline from sequencing reads
+Gao	10.1053/j.gastro.2014.01.062	Performed variant calling pipeline from sequencing reads
+Jiao	10.1038/ng.2813	Created MAF from publication's Table S4
+Jusakul (WGS)	10.1158/2159-8290.CD-17-0368	Obtained archived calls from UCSC Xena Browser
+Jusakul (TGS)	10.1158/2159-8290.CD-17-0368	Aquired TGS calls from publication's Table S3A
+MSK-IMPACT_iCCA	cBioPortal: ihch_msk_2021	MAF file obtained from cBioPortal (cbioportal.org)
+Nepal	10.1002/hep.29764	Created MAF by converting Excel file obtained from study authors
+Sia	10.1038/ncomms7087	Performed variant calling pipeline from sequencing reads
+TCGA-CHOL	Genomic Data Commons release 40.0	Assembled cohort MAF from sample MAFs (Aliquot Ensemble Somatic Variant Merging and Masking workflow)
+Wardell	10.1016/j.jhep.2018.01.009	Created MAF from publication's Table S4
+Yale	(Current study)	Performed variant calling pipeline from sequencing reads
+Zhang	10.1038/s41467-022-30708-7	MAF file obtained from study authors
+Zou	10.1038/ncomms6696	Created MAF from publication's Table S4
+Nakamura	10.1038/ng.3375	Obtained archived calls from UCSC Xena Browser

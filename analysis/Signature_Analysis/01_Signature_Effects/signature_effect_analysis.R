@@ -28,6 +28,11 @@ dCCA_mut_effects = mutational_signature_effects(cesa, effects = cesa$selection$D
 pCCA_mut_effects = mutational_signature_effects(cesa, effects = cesa$selection$PHC, 
                                                 samples = intersect(eligible_samples, cesa$samples[cca_type == 'PHC', Unique_Patient_Identifier]))
 
+
+# Combined analysis of the above samples (iCCA, pCCA, dCCA), plus 7 unspecified eCCA samples.
+panCCA_mut_effects = mutational_signature_effects(cesa, effects = cesa$selection$all_effects, 
+                                                    samples = eligible_samples)
+
 # # eCCA combined
 # combined_EHC_mut_effects = mutational_signature_effects(
 #   cesa = cesa,
@@ -47,5 +52,9 @@ effect_list = list(iCCA = iCCA_mut_effects,
                    pCCA = pCCA_mut_effects,
                    dCCA = dCCA_mut_effects)
 
-saveRDS(effect_list, file = 'output/cca_signature_effects.rds')
+# Turns out xz compression is better.
+saveRDS(effect_list, file = 'output/cca_signature_effects.rds', compress = 'xz')
+
+# Save panCCA output separately because it isn't used downstream in the same way.
+saveRDS(panCCA_mut_effects, file = 'output/cca_signature_effects_panCCA_only.rds', compress = 'xz')
 
